@@ -5,3 +5,4 @@
 <div *ngFor="let product of products">
 </div>
 </textarea>
+<textarea class='code form-control' rows='5' id=' ' /><form> First name:<br> <input type="text" name="firstname"><br> Last name:<br> <input type="text" name="lastname"> </form></textarea>
