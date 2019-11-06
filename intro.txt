@@ -1,8 +1,1 @@
-<h5 class='one two' id='bot' >Getting Started with Angular</h5> <p class='one two' id='bot' >Welcome to Angular!</p> <div class='one two' id='bot'>There are many resources to complement the Angular docs. Mozilla's MDN docs include both HTML and JavaScript introductions. TypeScript's docs include a 5-minute tutorial. Various online course platforms, such as Udemy and Codecademy, also cover web development basics.</div> <h5 class='one two' id='bot' >Template syntax
-</h5> <div class='one two' id='bot'>Angular's template syntax extends HTML and JavaScript. This section introduces template syntax by enhancing the "Products" area.</div> <div class='alert alert-primary' id='bot'>To help you get going, the following steps use predefined product data and methods from the product-list.component.ts file.</div> <textarea class='form-control' rows='5'>
-<h2>Products</h2>
-
-<div *ngFor="let product of products">
-</div>
-</textarea>
-<textarea class='code form-control' rows='5' id=' ' /><form> First name:<br> <input type="text" name="firstname"><br> Last name:<br> <input type="text" name="lastname"> </form></textarea>
+<h2>Products</h2>  <div *ngFor="let product of products"> </div> <form>   First name:<br>   <input type="text" name="firstname"><br>   Last name:<br>   <input type="text" name="lastname"> </form>
