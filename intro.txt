@@ -1,0 +1,12 @@
+<h4 class='one two' id='bot'>Getting Started with Angular: Your First App</h4>
+<p class='one two' id='bot'>Welcome to Angular!</p>
+<div class='one two' id='bot'>This tutorial introduces you to the essentials of Angular by walking you through building a simple e-commerce site with a catalog, shopping cart, and check-out form. It uses the StackBlitz online development environment so you can get started right away.</div>
+<div class='alert alert-primary' id='bot'>This guide uses the StackBlitz Generator to show you a ready-made, simple application that you can examine and play with interactively. In actual development you will typically use the Angular CLI, a powerful command-line tool that lets you generate and modify applications. For more information, see the CLI Overview.</div>
+<h4 class='one two' id='bot'>Template syntax</h4>
+<p class='one two' id='bot'>Angular's template syntax extends HTML and JavaScript. This section introduces template syntax by enhancing the "Products" area.</p>
+<div class='alert alert-primary' id='bot'>To help you get going, the following steps use predefined product data and methods from the product-list.component.ts file.</div>
+<p class='one' id='bot'>In the product-list folder, open the template file product-list.component.html.</p>
+<p class='one' id='bot'>Modify the product list template to display a list of product names.Each product in the list displays the same way, one after another on the page. To iterate over the predefined list of products, put the *ngFor directive on a
+	<div>, as follows:</p>
+	<div class='alert alert-primary' id='bot'>*ngFor is a "structural directive". Structural directives shape or reshape the DOM's structure, typically by adding, removing, and manipulating the elements to which they are attached. Any directive with an asterisk, *, is a structural directive.</div>
+	<div class='one two' id='bot'>To display the names of the products, use the interpolation syntax {{ }}. Interpolation renders a property's value as text. Inside the</div>
