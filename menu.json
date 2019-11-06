@@ -1,1 +1,17 @@
-["Intro","Topic_1","Topic_two","Topic_3","Topic_4","Topic_5","Topic_6"]
+[{
+	"id": "#12345671",
+	"title": "Angular intro",
+	"version": "0.1"
+}, {
+	"id": "#12345672",
+	"title": "Angular routing",
+	"version": "0.1"
+}, {
+	"id": "#12345673",
+	"title": "Angular components",
+	"version": "0.1"
+}, {
+	"id": "#12345674",
+	"title": "Angular Sccss",
+	"version": "0.1"
+}]
