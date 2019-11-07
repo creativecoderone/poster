@@ -1,0 +1,14 @@
+<h4 class='one two' id='bot'>One framework forMobile & desktop</h4>
+<hr />
+<h6 class='one two' id='bot'>DEVELOP ACROSS ALL PLATFORMS</h6>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://angular.io/generated/images/marketing/home/responsive-framework.svg' class='center' id='' />
+<div class='one two' id='bot'>Learn one way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.</div>
+<h6 class='one two' id='bot'>SPEED & PERFORMANCE</h6>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://angular.io/generated/images/marketing/home/speed-performance.svg' class='center' id='' />
+<div class='one two' id='bot'>Achieve the maximum speed possible on the Web Platform today, and take it further, via Web Workers and server-side rendering.Angular puts you in control over scalability. Meet huge data requirements by building data models on RxJS, Immutable.js or another push-model.</div>
+<h6 class='one two' id='bot'>INCREDIBLE TOOLING</h6>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://angular.io/generated/images/marketing/home/joyful-development.svg' class='center' id='' />
+<div class='one two' id='bot'>Build features quickly with simple, declarative templates. Extend the template language with your own components and use a wide array of existing components. Get immediate Angular-specific help and feedback with nearly every IDE and editor. All this comes together so you can focus on building amazing apps rather than trying to make the code work.</div>
+<h6 class='one two' id='bot'>LOVED BY MILLIONS</h6>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://angular.io/generated/images/marketing/home/loved-by-millions.svg' class='center' id='' />
+<div class='one two' id='bot'>From prototype through global deployment, Angular delivers the productivity and scalable infrastructure that supports Google's largest applications.</div>
