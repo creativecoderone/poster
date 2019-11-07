@@ -1,0 +1,17 @@
+<h5 class='one two' id='bot'>Getting Started with Angular</h5>
+<div class='one two' id='bot'>This tutorial introduces you to the essentials of Angular by walking you through building a simple e-commerce site with a catalog, shopping cart, and check-out form. I</div>
+<br />
+<h5 class='one two' id='bot'>Template syntax</h5>
+<div class='one two' id='bot'>Angular's template syntax extends HTML and JavaScript. This section introduces template syntax by enhancing the "Products" area.</div>
+<br />
+<p class='alert alert-primary' id='bot'>To help you get going, the following steps use predefined product data and methods from the product-list.component.ts file.</p>
+<p class='' id='bot'>1.In the product-list folder, open the template file product-list.component.html</p>
+<p class='' id='bot'>2.Modify the product list template to display a list of product names.</p>
+<h6 class='' id='bot'>src/app/product-list/product-list.component.html</h6>
+<textarea class='code form-control' rows='2'></textarea>
+<h2>Products</h2>
+<div *ngFor="let product of products"></div>
+</textarea>
+<p class='' id='bot'>With *ngFor, the
+	<div>repeats for each product in the list.</p>
+	<p class='alert alert-primary' id='bot'>*ngFor is a "structural directive". Structural directives shape or reshape the DOM's structure, typically by adding, removing, and manipulating the elements to which they are attached. Any directive with an asterisk, *, is a structural directive.</p>
