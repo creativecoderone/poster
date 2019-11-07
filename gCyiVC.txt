@@ -8,7 +8,7 @@
 <p class='' id='bot'>1.In the product-list folder, open the template file product-list.component.html</p>
 <p class='' id='bot'>2.Modify the product list template to display a list of product names.</p>
 <h6 class='' id='bot'>src/app/product-list/product-list.component.html</h6>
-<textarea class='code form-control' rows='2'></textarea>
+<textarea class='code form-control' rows='2'> 
 <h2>Products</h2>
 <div *ngFor="let product of products"></div>
 </textarea>
