@@ -1,0 +1,33 @@
+<h5 class='one two' id='bot'>My first angular application.</h5>
+<div class='one two' id='bot'>These Angular docs help you learn and use the Angular platform and framework, from your first app to optimizing complex enterprise apps. Tutorials and guides include downloadable example to accelerate your projects.</div>
+<p class='one two' id='bot'>Before proceeding we need some things to be done.</p>
+<br />
+<div class='alert alert-primary' id='bot'>Pre requests: Node js 10.16.1 Node Package Manager NPM ,Angular,Code editor - VS code Recommanded</div>
+<p class='alert alert-primary' id='bot'>Download Node.JS (Stable version).</p>
+<p class='alert alert-primary' id='bot'>Set environment variable for npm. When you install node js it will automatically set.</p>
+<p class='alert alert-dark' id='bot'>npm install -g @angular/cli</p>
+<div class='' id='bot'>Great! You one step ahead. Now time to check whether you are going in correct way.Please excute below commands in your command prompt (Windows key + R)</div>
+<b>node -v,npm -v,ng version</b>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://github.com/creativecoderone/image/blob/master/c1.PNG?raw=true' class='center' id='' />
+<div class='' id='bot'>By default npm install -g @angular/cli will install latest angular cli only. ( @angular 8.0.6).</div>
+<h5 class='' id='bot'>Create new project</h5>
+<div class='' id='bot'>Enter project name: creative upto you
+	<br />Choose routing yes/no: Yes Recommanded
+	<br />Chooose SCSS Recommanded</div>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://github.com/creativecoderone/image/blob/master/c2.PNG?raw=true' class='center' id='' />
+<br />
+<h5 class='' id='bot'>Navigate into project folder</h5>
+<b>cd creative</b>
+<b>Folder structure is shown below.</b>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://github.com/creativecoderone/image/blob/master/c4.PNG?raw=true' class='center' id='' />
+<div class='' id='bot'>In the root project folder run code . to open folder in Visual studio code.We almose done. we are one step away to hit our own Angular application.</div>
+<p class='alert alert-dark' id='bot'>ng serve -o</p>
+<p class='' id='bot'>Angular cli will compile the project.</p>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://github.com/creativecoderone/image/blob/master/c5.PNG?raw=true' class='center' id='' />
+<p class='alert alert-primary' id='bot'>It will open in your default browser on http://localhost:4200.</p>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://github.com/creativecoderone/image/blob/master/c6.PNG?raw=true' class='center' id='' />
+<div class='alert alert-warning' id='bot'>
+	<b>Happy coding</b>
+</div>
