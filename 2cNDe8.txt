@@ -4,13 +4,13 @@
 <div class='one two' id='bot'>Before proceeding with this , you should have a basic understanding of JavaScript. As we are going to develop web-based applications using Node.js, it will be good if you have some understanding of other web technologies such as HTML, CSS, AJAX, etc.</div>
 <br />
 <h5 class='one two' id='bot'>What is Node.js?</h5>
-<div class='one two' id='bot'>Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js was developed by Ryan Dahl in 2009 and its latest version is v0.10.36.</div>
-<p class='one two alert alert-dark' id='bot'>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p>
+<div class='one two' id='bot'>Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js was developed by Ryan Dahl in 2009 and its latest version is v0.10.36.</div><br />
+<p class='one two alert alert-dark' id='bot'>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p><br />
 <div class='one two ' id='bot'>Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.</div>
 <div class='one two ' id='bot'>Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.</div>
 <p class='one two alert alert-dark' id='bot'>Node.js = Runtime Environment + JavaScript Library</p>
 <br />
-<h5 class='one two alert alert-dark' id='bot'>Features of Node.js</h5>
+<h5 class='one two al t-dark' id='bot'>Features of Node.js</h5>
 <h6 class='one two alet lert-dark' id='bot'>Asynchronous and Event Driven</h6>
 <p class='one two alert alert-info' id='bot'>All APIs of Node.js library are asynchronous, that is, non-blocking. It essentially means a Node.js based server never waits for an API to return data. The server moves to the next API after calling it and a notification mechanism of Events of Node.js helps the server to get a response from the previous API call.</p>
  <h6 class='one two a' id='bot'>Very Fast</h6>
