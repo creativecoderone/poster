@@ -1,0 +1,5 @@
+<h1 class='one two' id='bot'>Manojkumar</h1>
+<br />
+<b>Do u want to know more</b>
+<p class='one two' id='bot'>Please let's start</p>
+<p class='one two alert alert-info' id='bot'>😎 Software Engineer</>To be creative be somewhat creative. 🥇Officially Mano 💛History begins on 10-10-1996 ✍️Started writing ...🤩</p>
