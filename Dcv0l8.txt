@@ -32,7 +32,7 @@
 <p class='one two alert alert-dark' id='bot'>npm angular-google-charts</p>
 <div class='one two ' id='bot'>import { GoogleChartsModule } from 'angular-google-charts';</br>imports: [</br>...</br>GoogleChartsModule</br>],</div>
 <br />
-<h5 class='one two ' id='bot'>Create Angular Application</h5>
+<h5 class='one two ' id='bot'>Create Angular Application</h5><br />
 <p class='one two ' id='bot'>Follow the following steps to update the Angular application we created in Angular 6 - Project Setup chapter −</p>
 <li class='list-group-item one two ' id='bot'>1Create a project with a name googleChartsApp as explained in the Angular 6 - Project Setup chapter.</br>2Modify app.module.ts, app.component.ts and app.component.html as explained below. Keep rest of the files unchanged.</br>3Compile and run the application to verify the result of the implemented logic.</li>
 <p class='one two alert alert-warning' id='bot'>Following is the content of the modified module descriptor app.module.ts.</p>
@@ -47,7 +47,7 @@
 <h5 class='one two ' id='bot'>Use Configurations</h5>
 <h6 class='one two ' id='bot'>Set Title</h6>
 <p class='one two alert alert-dark' id='bot'>title = 'Browser market shares at a specific website, 2014';</p>
-<h6 class='one two alert alert-dark' id='bot'>Set Chart Type</h6>
+<h6 class='one twlert-dark' id='bot'>Set Chart Type</h6>
 <p class='one two alert alert-dark' id='bot'>type='PieChart';</p>
 <h6 class='one two ' id='bot'>Configure the data to be displayed on the chart.</h6>
 <div class='one two ' id='bot'>data = [</br>['Firefox', 45.0],</br>['IE', 26.8],</br>['Chrome', 12.8],</br>['Safari', 8.5],</br>['Opera', 6.2],</br>['Others', 0.7]</br>];</div>
@@ -55,7 +55,7 @@
 <p class='one two alert alert-dark' id='bot'>columnNames = ['Browser', 'Percentage'];</p>
 <br />
 <p class='one two ' id='bot'>Configure the other options.</p>
-<p class='one two alert alert-dark' id='bot'>options = { colors: ['#e0440e', '#e6693e', '#ec8f6e', '#f3b49f', '#f6c7b6'], is3D: true};</p>
+<p class='one two aldark' id='bot'>options = { colors: ['#e0440e', '#e6693e', '#ec8f6e', '#f3b49f', '#f6c7b6'], is3D: true};</p>
 <p class='one two alert alert-dark' id='bot'>Consider the following example to further understand the Configuration Syntax −</p>
 <b>app.component.ts</b>
 <div class='one two alert alert-dark' id='bot'>import { Component } from '@angular/core';</br>@Component({</br>selector: 'app-root',</br>templateUrl: './app.component.html',</br>styleUrls: ['./app.component.css']</br>})</br>export class AppComponent {</br>title = 'Browser market shares at a specific website, 2014';</br>type = 'PieChart';</br>data = [</br>['Firefox', 45.0],</br>['IE', 26.8],</br>['Chrome', 12.8],</br>['Safari', 8.5],</br>['Opera', 6.2],</br>['Others', 0.7]</br>];</br>columnNames = ['Browser', 'Percentage'];</br>options = {</br>};</br>width = 550;</br>height = 400;</br>}</div>
