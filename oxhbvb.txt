@@ -1,0 +1,37 @@
+<b>BabelJS</b>is a JavaScript transpiler which transpiles new features into old standard. With this, the features can be run on both old and new browsers, hassle-free. Babeljs comes with a wide range of features in the form of plugins, presets, polyfills, etc.In short, Babeljs is a toolset which has all the required tools available with it and which helps the developers to use all the current features available in ECMA Script and yet not worry how it will be supported on browsers.
+<br />
+<h5 class='one two' id='bot'>Prerequisites</h5>
+<div class='one two' id='bot'>Before proceeding with this tutorial, you should have a basic understanding of JavaScript.</div>
+<p class='one two' id='bot'>BabelJS is a JavaScript transpiler which transpiles new features into old standard. With this, the features can be run on both old and new browsers, hassle-free. An Australian developer, Sebastian McKenzie started BabelJS.</p>
+<br />
+<h5 class='one two' id='bot'>Why BabelJS?</h5>
+<li class='list-group-item one two' id='bot'>JavaScript is the language that the browser understands. We use different browsers to run our applications − Chrome, Firefox, Internet Explorer, Microsoft Edge, Opera, UC browser etc. ECMA Script is the JavaScript language specification; the ECMA Script 2015 ES5 is the stable version which works fine in all new and old browsers.</li>
+<li class='list-group-item one two' id='bot'>After ES5, we have had ES6, ES7, and ES8. ES6 released with a lot of new features which are not fully supported by all browsers. The same applies to ES7, ES8 and ESNext (next version of ECMA Script). It is now uncertain when it will be possible for all browsers to be compatible with all the ES versions that released.</li>
+<li class='list-group-item one two' id='bot'>Incase we plan to use ES6 or ES7 or ES8 features to write our code it will tend to break in some old browsers because of lack of support of the new changes. Therefore, if we want to use new features of ECMA Script in our code and want to run it on all possible browsers available, we need a tool that will compile our final code in ES5.</li>
+<li class='list-group-item one two' id='bot'>transpiling</li>
+<li class='list-group-item one two' id='bot'>polyfilling</li>
+<br />
+<h5 class='one two' id='bot'>What is Babel-Transpiler?</h5>
+<div class='one two' id='bot'>Babel-transpiler converts the syntax of modern JavaScript into a form, which can be easily understood by older browsers. For example, arrow function, const, let classes will be converted to function, var, etc. Here the syntax, i.e., the arrow function is converted to a normal function keeping the functionality same in both the cases.</div>
+<br />
+<h5 class='one two' id='bot'>What is Babel-polyfill?</h5>
+<div class='one two' id='bot'>There are new features added in JavaScript like promises, maps and includes. The features can be used on array; the same, when used and transpiled using babel will not get converted. In case the new feature is a method or object, we need to use Babel-polyfill along with transpiling to make it work on older browsers.</div>
+<br />
+<li class='list-group-item one two' id='bot'>Classes,Decorators,Const,ModulesDestructing,Default parameters,Computed property names,Object rest/spread,Async functions,Arrow functions,Rest parameters,Spread,Template Literals,</li>
+<li class='list-group-item one two' id='bot'>Promises,Map,Set,Symbol,Weakmap,Weakset,includess,Array.from, Array.of,Array#find,Array.buffer, Array#findIndex,Object.assign,Object.entries,Object.values,</li>
+<br />
+<h4 class='one two' id='bot'>Features of BabelJS</h4>
+<hr />
+<h5 class='one two' id='bot'>Babel-Plugins</h5>
+<p class='one two' id='bot'>Plugins and Presets are config details for Babel to transpile the code. Babel supports a number of plugins, which can be used individually, if we know the environment in which the code will execute.</p>
+<hr />
+<h5 class='one two' id='bot'>Babel-Presets</h5>
+<p class='one two' id='bot'>Babel presets are a set of plugins, i.e., config details to the babel-transpiler that instruct Babel to transpile in a specific mode. We need to use presets, which has the environment in which we want the code to be converted. For example, es2015 preset will convert the code to es5.</p>
+<hr />
+<h5 class='one two' id='bot'>Babel-Polyfills</h5>
+<p class='one two' id='bot'>There are some features like methods and objects, which cannot be transpiled. At such instances, we can make use of babel-polyfill to facilitate the use of features in any browser. Let us consider the example of promises; for the feature to work in older browsers, we need to use polyfills.</p>
+<hr />
+<h5 class='one two' id='bot'>Babel-Polyfills</h5>
+<p class='one two' id='bot'>Babel-cli comes with a bunch of commands where the code can be easily compiled on the command line. It also has features like plugins and presets to be used along with the command making it easy to transpile the code at one go.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.tutorialspoint.com/babeljs/images/compiler.jpg' class='center' id='' />
