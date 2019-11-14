@@ -62,4 +62,9 @@
 </br>
 <h6 class='one two alert alert-dark' id='bot'>Verify the result.</h6>
 <img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.tutorialspoint.com/angular_googlecharts/images/angular_googlecharts_pie_basic.jpg' class='center' id='' />
-<p class='one two alert alert-primary text-center' id='bot'>Yup</p>
+<p class='one two alert alert-primary text-center' id='bot'>Yup</p><style>div,
+p,
+li {
+  padding-bottom: 12px;
+}
+</style>
