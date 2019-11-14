@@ -2,7 +2,12 @@
 	"id": "KliUTa",
 	"title": "Angular intro",
 	"version": "0.1"
-}, {
+},            {
+  "id": "rxncUT",
+  "title": "Python Big Picture",
+  "version": "0.1"
+}
+          , {
 	"id": "Dcv0l8",
 	"title": "Angular Google Charts",
 	"version": "0.1"
