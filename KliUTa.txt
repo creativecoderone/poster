@@ -1,5 +1,4 @@
-<h4 class='one two' id='bot'>One framework forMobile & desktop</h4>
-<hr /> <br>
+  <br>
 <h6 class='one two' id='bot'>DEVELOP ACROSS ALL PLATFORMS</h6><br>
 <img style='width:50%;margin:auto;display:block;padding:10px;' src='https://angular.io/generated/images/marketing/home/responsive-framework.svg' class='center' id='' /><br>
 <div class='one two' id='bot'>Learn one way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.</div><br>
