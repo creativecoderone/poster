@@ -1,0 +1,31 @@
+<div class='one two' id='bot'>Gulp is a task runner that uses Node.js as a platform. It purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications. Gulp builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files. These tasks can be run using Shell or Bash scripts on the command line.</div>
+<div class='one two' id='bot'>Gulp to run front-end tasks and large-scale web applications in simple and easy steps. After completing this tutorial, you will find yourself at a moderate level of expertise in using Gulp from where you may take yourself to the next levels.</div>
+<br />
+<h5 class='one two' id='bot'>Prerequisites</h5>
+<div class='one two' id='bot'>It is assumed that you have prior knowledge of basic software development using Java or any other programming language. It should be of help if you have had some exposure to the software build and deployment process.</div>
+<br />
+<h5 class='one two' id='bot'>What is Gulp?</h5>
+<div class='one two' id='bot'>Gulp is a task runner that uses Node.js as a platform. Gulp purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications. It builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files. These tasks can be run using Shell or Bash scripts on the command line.</div>
+<br />
+<h5 class='one two' id='bot'>Why to use Gulp?</h5>
+<li class='list-group-item one two' id='bot'>It is shorter, simpler and faster as compared to other task runner.</li>
+<li class='list-group-item one two' id='bot'>Uses SASS and LESS as CSS preprocessor.</li>
+<li class='list-group-item one two' id='bot'>Easy to understand and build the Gulpfile.js because, it uses pure JavaScript code to build the task.</li>
+<br />
+<h5 class='one two' id='bot'>Features</h5>
+<li class='list-group-item one two' id='bot'>Provides minification and concatenation.</li>
+<li class='list-group-item one two' id='bot'>Uses pure JavaScript code.</li>
+<li class='list-group-item one two' id='bot'>Converts LESS or SASS to CSS compilation.</li>
+<li class='list-group-item one two' id='bot'>Manages file manipulation in the memory and enhances speed by using the Node.js platform.</li>
+<br />
+<h5 class='one two' id='bot'>Advantages</h5>
+<li class='list-group-item one two' id='bot'>Huge speed advantage over any other task runner</li>
+<li class='list-group-item one two' id='bot'>Easy to code and understand.</li>
+<li class='list-group-item one two' id='bot'>Easy to test the web applications..</li>
+<li class='list-group-item one two' id='bot'>Plugins are simple to use and they are designed to do one thing at a time.</li>
+<li class='list-group-item one two' id='bot'>Performs repetitive tasks repeatedly such as minifying stylesheets, compressing images, etc.</li>
+<br />
+<h5 class='one two' id='bot'>Disadvantages</h5>
+<li class='list-group-item one two' id='bot'>More number of dependencies and is a newcomer compared to Grunt.</li>
+<li class='list-group-item one two' id='bot'>Using Gulp plugins, you cannot perform multiple tasks.</li>
+<li class='list-group-item one two' id='bot'>Configuration is not as clean as Grunt.</li>
