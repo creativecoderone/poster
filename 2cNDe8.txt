@@ -22,7 +22,8 @@
 <h6 class='one two alrt alert-inf' id='bot'>Single Threaded but Highly Scalable</h6>
 <p class='one two alert alert-info' id='bot'>Node.js uses a single threaded model with event looping. Event mechanism helps the server to respond in a non-blocking way and makes the server highly scalable as opposed to traditional servers which create limited threads to handle requests. Node.js uses a single threaded program and the same program can provide service to a much larger number of requests than traditional servers like Apache HTTP Server.</p>
 <br />
-<h5 class='one two ' id='bot'>Where to Use Node.js?</h5>
+<h5 class='one two ' id='bot'>Where to Use Node.js?</h5><br />
+
 <p class='one two ' id='bot'>I/O bound Applications
 	<br/>Data Streaming Applications
 	<br/>Data Intensive Real-time Applications (DIRT)
