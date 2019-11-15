@@ -1,0 +1,47 @@
+<div class='one two' id='bot'>Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.</div>
+<br />
+<h5 class='one two' id='bot'>Getting Started</h5>
+<br />
+<hr />
+<p class='one two alert alert-primary' id='bot'>The official guide assumes intermediate level knowledge of HTML, CSS, and JavaScript. If you are totally new to frontend development, it might not be the best idea to jump right into a framework as your first step - grasp the basics then come back! Prior experience with other frameworks helps, but is not required.</p>
+<br />
+<div class='one two alertalert-primary' id='bot'>The easiest way to try out Vue.js is using the JSFiddle Hello World example. Feel free to open it in another tab and follow along as we go through some basic examples. Or, you can create an index.html file and include Vue with:</div>
+<br />
+<textarea class='code form-control' rows=' '>&lt;!--&nbsp;[#!#&nbsp;:&nbsp;0&nbsp;:&nbsp;#!#]&nbsp;--&gt;&#13;&lt;script&nbsp;src=&#34;https:&#47;&#47;cdn.jsdelivr.net&#47;npm&#47;vue&#47;dist&#47;vue.js&#34;&gt;&lt;&#47;script&gt;</textarea>
+<br />
+<b>or:</b>
+<textarea class='code form-control' rows=' '>&lt;!--&nbsp;[#!#&nbsp;:&nbsp;1&nbsp;:&nbsp;#!#]&nbsp;--&gt;&#13;&lt;script&nbsp;src=&#34;https:&#47;&#47;cdn.jsdelivr.net&#47;npm&#47;vue&#34;&gt;&lt;&#47;script&gt;</textarea>
+<br />
+<p class='one two alertalert-primary' id='bot'>The Installation page provides more options of installing Vue. Note: We do not recommend that beginners start with vue-cli, especially if you are not yet familiar with Node.js-based build tools.</p>
+<br />
+<p class='one two alertalert-primary' id='bot'>If you prefer something more interactive, you can also check out this tutorial series on Scrimba, which gives you a mix of screencast and code playground that you can pause and play around with anytime.</p>
+<br />
+<a href='https://vuejs.org/v2/guide/installation.html' class='center badge badge-info' id=''>Installation</a>
+<p class='one two alertalert-primary' id='bot'>At the core of Vue.js is a system that enables us to declaratively render data to the DOM using straightforward template syntax:</p>
+<br />
+<textarea class='code form-control' rows=' '>&lt;div&nbsp;id=&#34;app&#34;&gt;&#123;&#123;&nbsp;message&nbsp;&#125;&#125;&lt;&#47;div&gt;</textarea>
+<br />
+<p class='one two alertalert-primary' id='bot'>var app = new Vue({
+	<br />el: '#app',
+	<br />data: {
+	<br />message: 'Hello Vue!'
+	<br />}
+	<br />})
+	<br /></p>
+<br />
+<p class='one two alertalert-primary' id='bot'>We have already created our very first Vue app! This looks pretty similar to rendering a string template, but Vue has done a lot of work under the hood. The data and the DOM are now linked, and everything is now reactive. How do we know? Open your browser’s JavaScript console (right now, on this page) and set app.message to a different value. You should see the rendered example above update accordingly.</p>
+<br />
+<textarea class='code form-control' rows='5'>&lt;div&nbsp;id=&#34;app-2&#34;&gt;&#13;&nbsp;&lt;span&nbsp;v-bind:title=&#34;message&#34;&gt;Hover&nbsp;your&nbsp;mouse&nbsp;over&nbsp;me&nbsp;for&nbsp;a&nbsp;few&nbsp;seconds&nbsp;to&nbsp;see&nbsp;my&nbsp;dynamically&nbsp;bound&nbsp;title!&lt;&#47;span&gt;&#13;&lt;&#47;div&gt;</textarea>
+<br />
+<p class='one two alertalert-primary' id='bot'>var app2 = new Vue({
+	<br />el: '#app-2',
+	<br />data: {
+	<br />message: 'You loaded this page on ' + new Date().toLocaleString()
+	<br />}
+	<br />})
+	<br /></p>
+<br />
+<div class='one two alertalert-primary' id='bot'>Here we are encountering something new. The v-bind attribute you are seeing is called a directive. Directives are prefixed with v- to indicate that they are special attributes provided by Vue, and as you may have guessed, they apply special reactive behavior to the rendered DOM. Here, it is basically saying “keep this element’s title attribute up-to-date with the message property on the Vue instance.”</div>
+<br />
+<div class='one two alertalert-primary' id='bot'>If you open up your JavaScript console again and enter app2.message = 'some new message', you’ll once again see that the bound HTML - in this case the title attribute - has been updated.</div>
+<br />
