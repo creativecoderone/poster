@@ -1,0 +1,59 @@
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/tutorial/flask/images/flask-tutorial.png' class='center' id='' />
+<br />
+<p class='one two' id='bot'>Flask Tutorial provides the basic and advanced concepts of the Python Flask framework. Our Flask tutorial is designed for beginners and professionals.</p>
+<br />
+<p class='one two' id='bot'>Flask is a web framework that provides libraries to build lightweight web applications in python. It is developed by Armin Ronacher who leads an international group of python enthusiasts (POCCO).</p>
+<br />
+<h5 class='one two' id='bot'>Prerequisite</h5>
+<br />
+<p class='one two' id='bot'>Before learning Flask, you must have the basic knowledge of Python concepts.</p>
+<br />
+<h5 class='one two' id='bot'>What is Flask?</h5>
+<br />
+<div class='one two' id='bot'>Flask is a web framework that provides libraries to build lightweight web applications in python. It is developed by Armin Ronacher who leads an international group of python enthusiasts (POCCO). It is based on WSGI toolkit and jinja2 template engine. Flask is considered as a micro framework</div>
+<br />
+<h5 class='one two' id='bot'>What is WSGI?</h5>
+<br />
+<p class='one two' id='bot'>It is an acronym for web server gateway interface which is a standard for python web application development. It is considered as the specification for the universal interface between the web server and web application.</p>
+<br />
+<h5 class='one two' id='bot'>What is Jinja2?</h5>
+<br />
+<p class='one two' id='bot'>Jinja2 is a web template engine which combines a template with a certain data source to render the dynamic web pages.</p>
+<br />
+<h5 class='one two' id='bot'>Flask Environment Setup</h5>
+<br />
+<p class='one two' id='bot'>To install flask on the system, we need to have python 2.7 or higher installed on our system. However, we suggest using python 3 for the development in the flask.</p>
+<br />
+<h5 class='one two' id='bot'>Install virtual environment (virtualenv)</h5>
+<br />
+<p class='one two' id='bot'>virtualenv is considered as the virtual python environment builder which is used to create the multiple python virtual environment side by side. It can be installed by using the following command.</p>
+<br />
+<p class='one two alert alert-dark' id='bot'>$ pip install virtualenv</p>
+<br />
+<p class='one two ale ert-dark' id='bot'>Once it is installed, we can create the new virtual environment into a folder as given below.</p>
+<br />
+<p class='one two alert alert-dark' id='bot'>$ mkdir new
+	<br />$ cd new
+	<br />$ virtualenv venv
+	<br /></p>
+<br />
+<p class='one two alerlert-dark' id='bot'>To activate the corresponding environment, use the following command on the Linux operating system.</p>
+<br />
+<p class='one two alert alert-dark' id='bot'>$ venv/bin/activate</p>
+<br />
+<p class='one two alertalert-dark' id='bot'>On windows, use the following command.</p>
+<br />
+<p class='one two alert alert-dark' id='bot'>$ venv\scripts\activate</p>
+<br />
+<p class='one two alertalert-dark' id='bot'>We can now install the flask by using the following command.</p>
+<br />
+<p class='one two alert alert-dark' id='bot'>$ pip install flask</p>
+<br />
+<p class='one two alertalert-dark' id='bot'>However, we can install the flask using the above command without creating the virtual environment.</p>
+<br />
+<p class='one two alertalert-dark' id='bot'>To test the flask installation, open python on the command line and type python to open the python shell. Try to import the package flask.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/tutorial/flask/images/flask-introduction.png' class='center' id='' />
+<br />
+<p class='one two alertalert-dark' id='bot'>We have successfully installed the flask since we do not get the error in the process. Now, we can continue with the tutorial.</p>
+<br />
