@@ -6,17 +6,17 @@
 		"id": "rxncUT",
 		"title": "Python Big Picture",
 		"version": "0.1"
-	},            {
-  "id": "rUZ6Zs",
-  "title": "Sass story",
-  "version": "0.1" 
-}          ,  {
-  "id": "mNFCuw",
-  "title": "Into Python Flask ",
-  "version": "0.1"
-}
-          
-          , {
+	}, {
+		"id": "rUZ6Zs",
+		"title": "Sass story",
+		"version": "0.1"
+	}, {
+		"id": "mNFCuw",
+		"title": "Into Python Flask ",
+		"version": "0.1"
+	}
+
+	, {
 		"id": "0XFyG3",
 		"title": "Gulp Big Picture",
 		"version": "0.1"
