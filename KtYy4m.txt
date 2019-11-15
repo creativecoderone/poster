@@ -16,7 +16,7 @@
 <h5 class='one two' id='bot'>Hello World using HTML.</h5><br />
 
 <p class='one two' id='bot'>Just to give you a little excitement about HTML, I'm going to give you a small conventional HTML Hello World program,</p>
-<textarea class='code form-control' rows='9'>&lt;html&gt;&#13;&nbsp;&lt;head&gt;&#13;&nbsp;&nbsp;&lt;title&gt;This&nbsp;is&nbsp;document&nbsp;title&lt;&#47;title&gt;&#13;&nbsp;&lt;&#47;head&gt;&#13;&nbsp;&lt;body&gt;&#13;&nbsp;&nbsp;&lt;h1&gt;This&nbsp;is&nbsp;a&nbsp;heading&lt;&#47;h1&gt;&#13;&nbsp;&nbsp;&lt;p&gt;Hello&nbsp;World!&lt;&#47;p&gt;&#13;&nbsp;&lt;&#47;body&gt;&#13;&lt;&#47;html&gt;</textarea>
+<textarea class='code form-control' rows='9'>&lt;html&gt;&#13;&nbsp;&lt;head&gt;&#13;&nbsp;&nbsp;&lt;title&gt;This&nbsp;is&nbsp;document&nbsp;title&lt;&#47;title&gt;&#13;&nbsp;&lt;&#47;head&gt;&#13;&nbsp;&lt;body&gt;&#13;&nbsp;&nbsp;&lt;h1&gt;This&nbsp;is&nbsp;a&nbsp;heading&lt;&#47;h1&gt;&#13;&nbsp;&nbsp;&lt;p&gt;Hello&nbsp;World!&lt;&#47;p&gt;&#13;&nbsp;&lt;&#47;body&gt;&#13;&lt;&#47;html&gt;</textarea><br />
 <h5 class='one two' id='bot'>Applications of HTML</h5><br />
 
 <p class='one two' id='bot'>As mentioned before, HTML is one of the most widely used language over the web. I'm going to list few of them here:</p><br />
