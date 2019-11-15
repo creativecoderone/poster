@@ -24,7 +24,7 @@
 <h5 class='one two' id='bot'>Licence</h5>
 <p class='one two' id='bot'>Google Charts is open source and is free to use.</p>
 <p class='one two' id='bot'>Google Charts and Angular Framework. In this chapter, we will discuss the Environment Setup required for Angular 6. To install Angular 6, we require the following −</p>
-<li class='list-group-item one two' id='bot'>Nodejs</br>Npm</br>Angular CLI</br>IDE for writing your code</li>
+<li class='list-group-item one two' id='bot'>Nodejs</br>Npm</br>Angular CLI</br>IDE for writing your code</li><br />
 <p class='one two' id='bot'>Nodejs has to be greater than 8.11 and npm has to be greater than 5.6.</p>
 <br />
 <h5 class='one two' id='bot'>Install Google Charts Wrapper</h5>
@@ -34,14 +34,14 @@
 <br />
 <h5 class='one two ' id='bot'>Create Angular Application</h5><br />
 <p class='one two ' id='bot'>Follow the following steps to update the Angular application we created in Angular 6 - Project Setup chapter −</p>
-<li class='list-group-item one two ' id='bot'>1Create a project with a name googleChartsApp as explained in the Angular 6 - Project Setup chapter.</br>2Modify app.module.ts, app.component.ts and app.component.html as explained below. Keep rest of the files unchanged.</br>3Compile and run the application to verify the result of the implemented logic.</li>
+<li class='list-group-item one two ' id='bot'>1Create a project with a name googleChartsApp as explained in the Angular 6 - Project Setup chapter.</br>2Modify app.module.ts, app.component.ts and app.component.html as explained below. Keep rest of the files unchanged.</br>3Compile and run the application to verify the result of the implemented logic.</li><br />
 <p class='one two alert alert-warning' id='bot'>Following is the content of the modified module descriptor app.module.ts.</p>
-<div class='one two a ' id='bot'>import { BrowserModule } from '@angular/platform-browser';</br>import { NgModule } from '@angular/core';</br>import { AppComponent } from './app.component';</br>import { GoogleChartsModule } from 'angular-google-charts';</br>@NgModule({</br>declarations: [</br>AppComponent</br>],</br>imports: [</br>BrowserModule,GoogleChartsModule</br>],</br>providers: [], bootstrap: [AppComponent]</br>})</br>export class AppModule { }</div>
+<div class='one two a ' id='bot'>import { BrowserModule } from '@angular/platform-browser';</br>import { NgModule } from '@angular/core';</br>import { AppComponent } from './app.component';</br>import { GoogleChartsModule } from 'angular-google-charts';</br>@NgModule({</br>declarations: [</br>AppComponent</br>],</br>imports: [</br>BrowserModule,GoogleChartsModule</br>],</br>providers: [], bootstrap: [AppComponent]</br>})</br>export class AppModule { }</div><br />
 <p class='one two alert alert-warning' id='bot'>Following is the content of the modified HTML host file app.component.html.</p>
 <div class='one two' id='bot'>
 	<google-chart #chart [title]="title"</br>[type]="type"</br>[data]="data"</br>[columnNames]="columnNames"</br>[options]="options"</br>[width]="width"</br>[height]="height"></br>
 </google-chart>
-</div>
+</div><br />
 <p class='one two ' id='bot'>We'll see the updated app.component.ts in the end after understanding configurations.</p>
 <br />
 <h5 class='one two ' id='bot'>Use Configurations</h5>
@@ -57,7 +57,7 @@
 <p class='one two ' id='bot'>Configure the other options.</p>
 <p class='one two aldark' id='bot'>options = { colors: ['#e0440e', '#e6693e', '#ec8f6e', '#f3b49f', '#f6c7b6'], is3D: true};</p>
 <p class='one two alert alert-dark' id='bot'>Consider the following example to further understand the Configuration Syntax −</p>
-<b>app.component.ts</b>
+<b>app.component.ts</b><br />
 <div class='one two alert alert-dark' id='bot'>import { Component } from '@angular/core';</br>@Component({</br>selector: 'app-root',</br>templateUrl: './app.component.html',</br>styleUrls: ['./app.component.css']</br>})</br>export class AppComponent {</br>title = 'Browser market shares at a specific website, 2014';</br>type = 'PieChart';</br>data = [</br>['Firefox', 45.0],</br>['IE', 26.8],</br>['Chrome', 12.8],</br>['Safari', 8.5],</br>['Opera', 6.2],</br>['Others', 0.7]</br>];</br>columnNames = ['Browser', 'Percentage'];</br>options = {</br>};</br>width = 550;</br>height = 400;</br>}</div>
 </br>
 <h6 class='one two alert alert-dark' id='bot'>Verify the result.</h6>
