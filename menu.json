@@ -1,43 +1,44 @@
 [{
-	"id": "KliUTa",
-	"title": "Angular intro",
-	"version": "0.1"
-},            {
-  "id": "rxncUT",
-  "title": "Python Big Picture",
-  "version": "0.1"
-},            {
-  "id": "0XFyG3",
-  "title": "Gulp Big Picture",
-  "version": "0.1"
-}
-          
-          , {
-	"id": "Dcv0l8",
-	"title": "Angular Google Charts",
-	"version": "0.1"
-}, {
-	"id": "2cNDe8",
-	"title": "Node js Intro",
-	"version": "0.1"
-}, {
-	"id": "oxhbvb",
-	"title": "Babel JS",
-	"version": "0.1"
-}, {
-	"id": "KtYy4m",
-	"title": "HTML Intro",
-	"version": "0.1"
-}, {
-	"id": "FZEIN1",
-	"title": "Ajax Intro",
-	"version": "0.1"
-}, {
-	"id": "9WXM92",
-	"title": "Why Angular",
-	"version": "0.1"
-}, {
-	"id": "gnp5a3",
-	"title": "My first angular application.",
-	"version": "0.1"
-}]
+		"id": "KliUTa",
+		"title": "Angular intro",
+		"version": "0.1"
+	}, {
+		"id": "rxncUT",
+		"title": "Python Big Picture",
+		"version": "0.1"
+	}, {
+		"id": "0XFyG3",
+		"title": "Gulp Big Picture",
+		"version": "0.1"
+	}
+
+	, {
+		"id": "Dcv0l8",
+		"title": "Angular Google Charts",
+		"version": "0.1"
+	}, {
+		"id": "2cNDe8",
+		"title": "Node js Intro",
+		"version": "0.1"
+	}, {
+		"id": "oxhbvb",
+		"title": "Babel JS",
+		"version": "0.1"
+	}, {
+		"id": "KtYy4m",
+		"title": "HTML Intro",
+		"version": "0.1"
+	}, {
+		"id": "FZEIN1",
+		"title": "Ajax Intro",
+		"version": "0.1"
+	}, {
+		"id": "9WXM92",
+		"title": "Why Angular",
+		"version": "0.1"
+	}, {
+		"id": "gnp5a3",
+		"title": "My first angular application.",
+		"version": "0.1"
+	}
+]
