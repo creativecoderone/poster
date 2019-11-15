@@ -74090,6 +74090,778 @@ var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('7.1.4')
 
 /***/ }),
 
+/***/ "./node_modules/angular-google-charts/fesm5/angular-google-charts.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/angular-google-charts/fesm5/angular-google-charts.js ***!
+  \***************************************************************************/
+/*! exports provided: GoogleChartComponent, GoogleChartPackagesHelper, GoogleChartsModule, RawChartComponent, ScriptLoaderService, ɵa, ɵb, ɵc, ɵd */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GoogleChartComponent", function() { return GoogleChartComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GoogleChartPackagesHelper", function() { return GoogleChartPackagesHelper; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GoogleChartsModule", function() { return GoogleChartsModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RawChartComponent", function() { return RawChartComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ScriptLoaderService", function() { return ScriptLoaderService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return GOOGLE_CHARTS_PROVIDERS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵb", function() { return setupScriptLoaderService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵc", function() { return CHART_VERSION; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵd", function() { return GOOGLE_API_KEY; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+
+
+
+
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/** @type {?} */
+var CHART_VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["InjectionToken"]('CHART_VERSION');
+/** @type {?} */
+var GOOGLE_API_KEY = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["InjectionToken"]('GOOGLE_API_KEY');
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var ScriptLoaderService = /** @class */ (function () {
+    function ScriptLoaderService(localeId, googleApiKey, chartVersion) {
+        this.localeId = localeId;
+        this.googleApiKey = googleApiKey;
+        this.chartVersion = chartVersion;
+        this.scriptSource = 'https://www.gstatic.com/charts/loader.js';
+        this.onLoadSubject = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
+        this.initialize();
+    }
+    Object.defineProperty(ScriptLoaderService.prototype, "onReady", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            if (this.doneLoading) {
+                return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(true);
+            }
+            return this.onLoadSubject.asObservable();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ScriptLoaderService.prototype, "doneLoading", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            if (typeof google === 'undefined' || typeof google.charts === 'undefined') {
+                return false;
+            }
+            return true;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(ScriptLoaderService.prototype, "isLoading", {
+        get: /**
+         * @private
+         * @return {?}
+         */
+        function () {
+            var _this = this;
+            if (this.doneLoading) {
+                return false;
+            }
+            /** @type {?} */
+            var pageScripts = Array.from(document.getElementsByTagName('script'));
+            /** @type {?} */
+            var googleChartsScript = pageScripts.find((/**
+             * @param {?} script
+             * @return {?}
+             */
+            function (script) { return script.src === _this.scriptSource; }));
+            return googleChartsScript !== undefined;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @param {?} packages
+     * @return {?}
+     */
+    ScriptLoaderService.prototype.loadChartPackages = /**
+     * @param {?} packages
+     * @return {?}
+     */
+    function (packages) {
+        var _this = this;
+        return new rxjs__WEBPACK_IMPORTED_MODULE_2__["Observable"]((/**
+         * @param {?} observer
+         * @return {?}
+         */
+        function (observer) {
+            /** @type {?} */
+            var config = {
+                packages: packages,
+                language: _this.localeId,
+                mapsApiKey: _this.googleApiKey
+            };
+            google.charts.load(_this.chartVersion, config);
+            google.charts.setOnLoadCallback((/**
+             * @return {?}
+             */
+            function () {
+                observer.next();
+                observer.complete();
+            }));
+        }));
+    };
+    /**
+     * @private
+     * @return {?}
+     */
+    ScriptLoaderService.prototype.initialize = /**
+     * @private
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (!this.doneLoading && !this.isLoading) {
+            /** @type {?} */
+            var script = this.createScriptElement();
+            script.onload = (/**
+             * @return {?}
+             */
+            function () {
+                _this.onLoadSubject.next(true);
+                _this.onLoadSubject.complete();
+            });
+            script.onerror = (/**
+             * @return {?}
+             */
+            function () {
+                console.error('Failed to load the google chart script!');
+                _this.onLoadSubject.error('Failed to load the google chart script!');
+                _this.onLoadSubject.complete();
+            });
+        }
+    };
+    /**
+     * @private
+     * @return {?}
+     */
+    ScriptLoaderService.prototype.createScriptElement = /**
+     * @private
+     * @return {?}
+     */
+    function () {
+        /** @type {?} */
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = this.scriptSource;
+        script.async = true;
+        document.getElementsByTagName('head')[0].appendChild(script);
+        return script;
+    };
+    ScriptLoaderService.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"] }
+    ];
+    /** @nocollapse */
+    ScriptLoaderService.ctorParameters = function () { return [
+        { type: String, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"],] }] },
+        { type: String, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [GOOGLE_API_KEY,] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Optional"] }] },
+        { type: String, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [CHART_VERSION,] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Optional"] }] }
+    ]; };
+    return ScriptLoaderService;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var GoogleChartPackagesHelper = /** @class */ (function () {
+    function GoogleChartPackagesHelper() {
+    }
+    /**
+     * @param {?} chartName
+     * @return {?}
+     */
+    GoogleChartPackagesHelper.getPackageForChartName = /**
+     * @param {?} chartName
+     * @return {?}
+     */
+    function (chartName) {
+        return GoogleChartPackagesHelper.ChartTypesToPackages[chartName];
+    };
+    GoogleChartPackagesHelper.ChartTypesToPackages = {
+        AnnotationChart: 'annotationchart',
+        AreaChart: 'corechart',
+        Bar: 'bar',
+        BarChart: 'corechart',
+        BubbleChart: 'corechart',
+        Calendar: 'calendar',
+        CandlestickChart: 'corechart',
+        ColumnChart: 'corechart',
+        ComboChart: 'corechart',
+        PieChart: 'corechart',
+        Gantt: 'gantt',
+        Gauge: 'gauge',
+        GeoChart: 'geochart',
+        Histogram: 'corechart',
+        Line: 'line',
+        LineChart: 'corechart',
+        Map: 'map',
+        OrgChart: 'orgchart',
+        Sankey: 'sankey',
+        Scatter: 'scatter',
+        ScatterChart: 'corechart',
+        SteppedAreaChart: 'corechart',
+        Table: 'table',
+        Timeline: 'timeline',
+        TreeMap: 'treemap',
+        WordTree: 'wordtree'
+    };
+    return GoogleChartPackagesHelper;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var RawChartComponent = /** @class */ (function () {
+    function RawChartComponent(element, loaderService) {
+        this.element = element;
+        this.loaderService = loaderService;
+        this.dynamicResize = false;
+        this.firstRowIsData = false;
+        this.error = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.ready = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.select = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.mouseenter = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.mouseleave = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+    }
+    /**
+     * @return {?}
+     */
+    RawChartComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.chartData == null) {
+            throw new Error('Can\'t create a Google Chart without data!');
+        }
+        this.loaderService.onReady.subscribe((/**
+         * @return {?}
+         */
+        function () {
+            _this.createChart();
+        }));
+    };
+    /**
+     * @return {?}
+     */
+    RawChartComponent.prototype.ngAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+        this.addResizeListener();
+    };
+    /**
+     * @return {?}
+     */
+    RawChartComponent.prototype.ngOnChanges = /**
+     * @return {?}
+     */
+    function () {
+        if (this.wrapper) {
+            this.updateChart();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    RawChartComponent.prototype.getChartElement = /**
+     * @return {?}
+     */
+    function () {
+        return this.element.nativeElement.firstElementChild;
+    };
+    /**
+     * @protected
+     * @return {?}
+     */
+    RawChartComponent.prototype.createChart = /**
+     * @protected
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.loadNeededPackages().subscribe((/**
+         * @return {?}
+         */
+        function () {
+            _this.wrapper = new google.visualization.ChartWrapper();
+            _this.updateChart();
+        }));
+    };
+    /**
+     * @protected
+     * @return {?}
+     */
+    RawChartComponent.prototype.loadNeededPackages = /**
+     * @protected
+     * @return {?}
+     */
+    function () {
+        return this.loaderService.loadChartPackages([GoogleChartPackagesHelper.getPackageForChartName(this.chartData.chartType)]);
+    };
+    /**
+     * @protected
+     * @return {?}
+     */
+    RawChartComponent.prototype.updateChart = /**
+     * @protected
+     * @return {?}
+     */
+    function () {
+        // This check here is important to allow passing of a created dataTable as well as just an array
+        if (!(this.chartData.dataTable instanceof google.visualization.DataTable)) {
+            this.dataTable = google.visualization.arrayToDataTable((/** @type {?} */ (this.chartData.dataTable)), this.firstRowIsData);
+        }
+        else {
+            this.dataTable = this.chartData.dataTable;
+        }
+        this.wrapper.setDataTable(this.dataTable);
+        this.wrapper.setChartType(this.chartData.chartType);
+        this.wrapper.setOptions(this.chartData.options);
+        this.wrapper.setDataSourceUrl(this.chartData.dataSourceUrl);
+        this.wrapper.setQuery(this.chartData.query);
+        this.wrapper.setRefreshInterval(this.chartData.refreshInterval);
+        this.wrapper.setView(this.chartData.view);
+        this.removeChartEvents();
+        this.registerChartEvents();
+        if (this.formatter) {
+            this.formatData(this.dataTable);
+        }
+        this.wrapper.draw(this.element.nativeElement);
+    };
+    /**
+     * @protected
+     * @param {?} dataTable
+     * @return {?}
+     */
+    RawChartComponent.prototype.formatData = /**
+     * @protected
+     * @param {?} dataTable
+     * @return {?}
+     */
+    function (dataTable) {
+        if (this.formatter instanceof Array) {
+            this.formatter.forEach((/**
+             * @param {?} value
+             * @return {?}
+             */
+            function (value) {
+                value.formatter.format(dataTable, value.colIndex);
+            }));
+        }
+        else {
+            for (var i = 0; i < dataTable.getNumberOfColumns(); i++) {
+                this.formatter.format(dataTable, i);
+            }
+        }
+    };
+    /**
+     * @private
+     * @return {?}
+     */
+    RawChartComponent.prototype.addResizeListener = /**
+     * @private
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.dynamicResize) {
+            Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["fromEvent"])(window, 'resize')
+                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["debounceTime"])(100))
+                .subscribe((/**
+             * @return {?}
+             */
+            function () {
+                _this.ngOnChanges();
+            }));
+        }
+    };
+    /**
+     * @private
+     * @return {?}
+     */
+    RawChartComponent.prototype.removeChartEvents = /**
+     * @private
+     * @return {?}
+     */
+    function () {
+        google.visualization.events.removeAllListeners(this.wrapper);
+    };
+    /**
+     * @private
+     * @return {?}
+     */
+    RawChartComponent.prototype.registerChartEvents = /**
+     * @private
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.registerChartEvent(this.wrapper, 'ready', (/**
+         * @return {?}
+         */
+        function () {
+            _this.registerChartEvent(_this.wrapper.getChart(), 'onmouseover', (/**
+             * @param {?} event
+             * @return {?}
+             */
+            function (event) { return _this.mouseenter.emit(event); }));
+            _this.registerChartEvent(_this.wrapper.getChart(), 'onmouseout', (/**
+             * @param {?} event
+             * @return {?}
+             */
+            function (event) { return _this.mouseleave.emit(event); }));
+            _this.ready.emit('Chart Ready');
+        }));
+        this.registerChartEvent(this.wrapper, 'error', (/**
+         * @param {?} error
+         * @return {?}
+         */
+        function (error) { return _this.error.emit(error); }));
+        this.registerChartEvent(this.wrapper, 'select', (/**
+         * @return {?}
+         */
+        function () {
+            /** @type {?} */
+            var selection = _this.wrapper.getChart().getSelection();
+            _this.select.emit(selection);
+        }));
+    };
+    /**
+     * @private
+     * @param {?} object
+     * @param {?} eventName
+     * @param {?} callback
+     * @return {?}
+     */
+    RawChartComponent.prototype.registerChartEvent = /**
+     * @private
+     * @param {?} object
+     * @param {?} eventName
+     * @param {?} callback
+     * @return {?}
+     */
+    function (object, eventName, callback) {
+        google.visualization.events.addListener(object, eventName, callback);
+    };
+    RawChartComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    // tslint:disable-next-line:component-selector
+                    selector: 'raw-chart',
+                    template: '',
+                    exportAs: 'raw-chart',
+                    changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectionStrategy"].OnPush,
+                    styles: [':host { width: fit-content; display: block; }']
+                }] }
+    ];
+    /** @nocollapse */
+    RawChartComponent.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },
+        { type: ScriptLoaderService }
+    ]; };
+    RawChartComponent.propDecorators = {
+        chartData: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        formatter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        dynamicResize: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        firstRowIsData: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        error: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        ready: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        select: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        mouseenter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        mouseleave: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return RawChartComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var GoogleChartComponent = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(GoogleChartComponent, _super);
+    function GoogleChartComponent(element, loaderService) {
+        var _this = _super.call(this, element, loaderService) || this;
+        _this.roles = new Array();
+        _this.width = undefined;
+        _this.height = undefined;
+        _this.options = {};
+        return _this;
+    }
+    /**
+     * @return {?}
+     */
+    GoogleChartComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.type == null) {
+            throw new Error('Can\'t create a Google Chart without specifying a type!');
+        }
+        if (this.data == null) {
+            throw new Error('Can\'t create a Google Chart without data!');
+        }
+        this.chartData = {
+            chartType: this.type
+        };
+        this.loaderService.onReady.subscribe((/**
+         * @return {?}
+         */
+        function () {
+            _this.createChart();
+        }));
+    };
+    /**
+     * @return {?}
+     */
+    GoogleChartComponent.prototype.ngOnChanges = /**
+     * @return {?}
+     */
+    function () {
+        if (this.wrapper) {
+            this.chartData = {
+                chartType: this.type,
+                dataTable: this.getDataTable(),
+                options: this.parseOptions()
+            };
+        }
+        _super.prototype.ngOnChanges.call(this);
+    };
+    /**
+     * @protected
+     * @return {?}
+     */
+    GoogleChartComponent.prototype.parseOptions = /**
+     * @protected
+     * @return {?}
+     */
+    function () {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({ title: this.title, width: this.width, height: this.height }, this.options);
+    };
+    /**
+     * @protected
+     * @return {?}
+     */
+    GoogleChartComponent.prototype.createChart = /**
+     * @protected
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.loadNeededPackages().subscribe((/**
+         * @return {?}
+         */
+        function () {
+            _this.chartData = {
+                chartType: _this.type,
+                dataTable: _this.getDataTable(),
+                options: _this.parseOptions()
+            };
+            _this.wrapper = new google.visualization.ChartWrapper();
+            _this.updateChart();
+        }));
+    };
+    /**
+     * @protected
+     * @return {?}
+     */
+    GoogleChartComponent.prototype.getDataTable = /**
+     * @protected
+     * @return {?}
+     */
+    function () {
+        if (this.columnNames) {
+            /** @type {?} */
+            var columns = this.parseRoles(this.columnNames);
+            this.firstRowIsData = false;
+            return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])([columns], this.data);
+        }
+        else {
+            this.firstRowIsData = true;
+            return this.data;
+        }
+    };
+    /**
+     * @private
+     * @param {?} columnNames
+     * @return {?}
+     */
+    GoogleChartComponent.prototype.parseRoles = /**
+     * @private
+     * @param {?} columnNames
+     * @return {?}
+     */
+    function (columnNames) {
+        /** @type {?} */
+        var columnNamesWithRoles = columnNames.slice();
+        if (this.roles) {
+            // Roles must be copied to avoid modifying the index everytime there's a change from ngOnChanges.
+            /** @type {?} */
+            var copyRoles_1 = this.roles.map((/**
+             * @param {?} role
+             * @return {?}
+             */
+            function (role) { return Object.assign({}, role); }));
+            copyRoles_1.forEach((/**
+             * @param {?} role
+             * @return {?}
+             */
+            function (role) {
+                var e_1, _a;
+                /** @type {?} */
+                var roleData = {
+                    type: role.type,
+                    role: role.role
+                };
+                if (role.p) {
+                    roleData.p = role.p;
+                }
+                if (role.index != null) {
+                    columnNamesWithRoles.splice(role.index + 1, 0, roleData);
+                    try {
+                        for (var copyRoles_2 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__values"])(copyRoles_1), copyRoles_2_1 = copyRoles_2.next(); !copyRoles_2_1.done; copyRoles_2_1 = copyRoles_2.next()) {
+                            var otherRole = copyRoles_2_1.value;
+                            if (otherRole === role) {
+                                continue;
+                            }
+                            if (otherRole.index > role.index) {
+                                otherRole.index++;
+                            }
+                        }
+                    }
+                    catch (e_1_1) { e_1 = { error: e_1_1 }; }
+                    finally {
+                        try {
+                            if (copyRoles_2_1 && !copyRoles_2_1.done && (_a = copyRoles_2.return)) _a.call(copyRoles_2);
+                        }
+                        finally { if (e_1) throw e_1.error; }
+                    }
+                }
+                else {
+                    columnNamesWithRoles.push(roleData);
+                }
+            }));
+        }
+        return columnNamesWithRoles;
+    };
+    GoogleChartComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    // tslint:disable-next-line:component-selector
+                    selector: 'google-chart',
+                    template: '',
+                    exportAs: 'google-chart',
+                    changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectionStrategy"].OnPush,
+                    styles: [':host { width: fit-content; display: block; }']
+                }] }
+    ];
+    /** @nocollapse */
+    GoogleChartComponent.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },
+        { type: ScriptLoaderService }
+    ]; };
+    GoogleChartComponent.propDecorators = {
+        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        columnNames: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        roles: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        options: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
+    };
+    return GoogleChartComponent;
+}(RawChartComponent));
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/** @type {?} */
+var GOOGLE_CHARTS_PROVIDERS = [
+    {
+        provide: ScriptLoaderService,
+        useFactory: setupScriptLoaderService,
+        deps: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"], GOOGLE_API_KEY, CHART_VERSION]
+    }
+];
+var GoogleChartsModule = /** @class */ (function () {
+    function GoogleChartsModule() {
+    }
+    /**
+     * @param {?=} googleApiKey
+     * @param {?=} chartVersion
+     * @return {?}
+     */
+    GoogleChartsModule.forRoot = /**
+     * @param {?=} googleApiKey
+     * @param {?=} chartVersion
+     * @return {?}
+     */
+    function (googleApiKey, chartVersion) {
+        return {
+            ngModule: GoogleChartsModule,
+            providers: [
+                GOOGLE_CHARTS_PROVIDERS,
+                { provide: GOOGLE_API_KEY, useValue: googleApiKey ? googleApiKey : '' },
+                { provide: CHART_VERSION, useValue: chartVersion ? chartVersion : '46' }
+            ]
+        };
+    };
+    GoogleChartsModule.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"], args: [{
+                    providers: [ScriptLoaderService],
+                    declarations: [GoogleChartComponent, RawChartComponent],
+                    exports: [GoogleChartComponent, RawChartComponent]
+                },] }
+    ];
+    return GoogleChartsModule;
+}());
+/**
+ * @param {?} localeId
+ * @param {?} googleApiKey
+ * @param {?} chartVersion
+ * @return {?}
+ */
+function setupScriptLoaderService(localeId, googleApiKey, chartVersion) {
+    return new ScriptLoaderService(localeId, googleApiKey, chartVersion);
+}
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+
+
+//# sourceMappingURL=angular-google-charts.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/html-formatter/index.js":
 /*!**********************************************!*\
   !*** ./node_modules/html-formatter/index.js ***!
@@ -74320,6 +75092,103 @@ if (true) {
   }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 } else {}
+
+
+/***/ }),
+
+/***/ "./node_modules/ng2-search-filter/ng2-search-filter.es5.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/ng2-search-filter/ng2-search-filter.es5.js ***!
+  \*****************************************************************/
+/*! exports provided: Ng2SearchPipeModule, Ng2SearchPipe */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Ng2SearchPipeModule", function() { return Ng2SearchPipeModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Ng2SearchPipe", function() { return Ng2SearchPipe; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+var Ng2SearchPipe = (function () {
+    function Ng2SearchPipe() {
+    }
+    /**
+     * @param {?} items object from array
+     * @param {?} term term's search
+     * @return {?}
+     */
+    Ng2SearchPipe.prototype.transform = function (items, term) {
+        if (!term || !items)
+            return items;
+        return Ng2SearchPipe.filter(items, term);
+    };
+    /**
+     *
+     * @param {?} items List of items to filter
+     * @param {?} term  a string term to compare with every property of the list
+     *
+     * @return {?}
+     */
+    Ng2SearchPipe.filter = function (items, term) {
+        var /** @type {?} */ toCompare = term.toLowerCase();
+        /**
+         * @param {?} item
+         * @param {?} term
+         * @return {?}
+         */
+        function checkInside(item, term) {
+            for (var /** @type {?} */ property in item) {
+                if (item[property] === null || item[property] == undefined) {
+                    continue;
+                }
+                if (typeof item[property] === 'object') {
+                    if (checkInside(item[property], term)) {
+                        return true;
+                    }
+                }
+                if (item[property].toString().toLowerCase().includes(toCompare)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        return items.filter(function (item) {
+            return checkInside(item, term);
+        });
+    };
+    return Ng2SearchPipe;
+}());
+Ng2SearchPipe.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"], args: [{
+                name: 'filter',
+                pure: false
+            },] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"] },
+];
+/**
+ * @nocollapse
+ */
+Ng2SearchPipe.ctorParameters = function () { return []; };
+var Ng2SearchPipeModule = (function () {
+    function Ng2SearchPipeModule() {
+    }
+    return Ng2SearchPipeModule;
+}());
+Ng2SearchPipeModule.decorators = [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"], args: [{
+                declarations: [Ng2SearchPipe],
+                exports: [Ng2SearchPipe]
+            },] },
+];
+/**
+ * @nocollapse
+ */
+Ng2SearchPipeModule.ctorParameters = function () { return []; };
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+//# sourceMappingURL=ng2-search-filter.es5.js.map
 
 
 /***/ }),
