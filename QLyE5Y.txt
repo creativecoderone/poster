@@ -1,0 +1,107 @@
+<div class='' id=''>Web development is the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web-based internet applications (web apps), electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web engineering, web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development.</div>
+<br />
+<h5 class='' id=''>Ajax</h5>
+<br />
+<div class='' id=''>AJAX is a web development technique for creating interactive web applications. If you know JavaScript, HTML, CSS, and XML, then you need to spend just one hour to start with AJAX.Why to Learn Ajax?AJAX stands for Asynchronous JavaScript and XML. AJAX is a new technique for creating better, faster, and more interactive web applications with the help of XML, HTML, CSS, and Java Script.</div>
+<br />
+<h5 class='' id=''>Angular Google Charts</h5>
+<br />
+<p class='' id=''>angular-google-charts is a open source angular based wrapper for Google Charts to provides an elegant and feature rich Google Charts visualizations within an Angular application and can be used along with Angular components seamlessly. There are chapters discussing all the basic components of Google Charts with suitable examples within a Angular application.</p>
+<br />
+<div class='' id=''>Google Charts is a pure JavaScript based charting library meant to enhance web applications by adding interactive charting capability. Google Charts provides a wide variety of charts. For example, line charts, spline charts, area charts, bar charts, pie charts and so on. This tutorial will teach you the basics of Google Charts.</div>
+<br />
+<div class='' id=''>Angular is a JavaScript framework for building web applications and apps in JavaScript, html, and TypeScript, which is a superset of JavaScript. Angular provides built-in features for animation, http service, and materials which in turn has features such as auto-complete, navigation, toolbar, menus, etc. The code is written in TypeScript, which compiles to JavaScript and displays the same in the browser.</div>
+<br />
+<h5 class='' id=''>Angular Highcharts</h5>
+<br />
+<div class='' id=''>HighChart Angular Wrapper is a open source angular based component to provides an elegant and feature rich Highcharts visualizations within an Angular application and can be used along with Angular components seamlessly. There are chapters discussing all the basic components of Highcharts with suitable examples within a Angular application.</div>
+<br />
+<div class='' id=''>Highcharts is a pure JavaScript based charting library meant to enhance web applications by adding interactive charting capability. Highcharts provides a wide variety of charts. For example, line charts, spline charts, area charts, bar charts, pie charts and so on. This tutorial will teach you the basics of Highcharts.</div>
+<br />
+<div class='' id=''>Angular is a JavaScript framework for building web applications and apps in JavaScript, html, and TypeScript, which is a superset of JavaScript. Angular provides built-in features for animation, http service, and materials which in turn has features such as auto-complete, navigation, toolbar, menus, etc. The code is written in TypeScript, which compiles to JavaScript and displays the same in the browser.</div>
+<br />
+<h5 class='' id=''>Angular Material</h5>
+<br />
+<div class='' id=''>Angular Material is a UI component library for Angular JS developers. Angular Material components help in constructing attractive, consistent, and functional web pages and web applications while adhering to modern web design principles like browser portability, device independence, and graceful degradation. It helps in creating faster, beautiful, and responsive websites. It is inspired by the Google Material Design.</div>
+<br />
+<h5 class='' id=''>Angular Material 7</h5>
+<br />
+<div class='' id=''>Angular Material 7 is a UI component library for Angular developers. Angular Material components help in constructing attractive, consistent, and functional web pages and web applications while adhering to modern web design principles like browser portability, device independence, and graceful degradation. It helps in creating faster, beautiful, and responsive websites. It is inspired by the Google Material Design.</div>
+<br />
+<h5 class='' id=''>Angular 2</h5>
+<br />
+<div class='' id=''>Angular 2 is an open source JavaScript framework to build web applications in HTML and JavaScript. This tutorial looks at the various aspects of Angular 2 framework which includes the basics of the framework, the setup of Angular and how to work with the various aspects of the framework. Other topics discussed in the tutorial are advanced chapters such as interfaces, nested components and services within Angular. Topics such as routing, modules, and arrays are also dealt with in this tutorial.</div>
+<br />
+<h5 class='' id=''>Angular 4</h5>
+<br />
+<div class='' id=''>Angular 4 is a JavaScript framework for building web applications and apps in JavaScript, html, and TypeScript, which is a superset of JavaScript. Angular provides built-in features for animation, http service, and materials which in turn has features such as auto-complete, navigation, toolbar, menus, etc. The code is written in TypeScript, which compiles to JavaScript and displays the same in the browser.</div>
+<br />
+<h5 class='' id=''>Angular 6</h5>
+<br />
+<div class='' id=''>Angular 6 is a JavaScript framework for building web applications and apps in JavaScript, html, and TypeScript, which is a superset of JavaScript. Angular provides built-in features for animation, http service, and materials which in turn has features such as auto-complete, navigation, toolbar, menus, etc. The code is written in TypeScript, which compiles to JavaScript and displays the same in the browser.</div>
+<br />
+<h5 class='' id=''>Angular7</h5>
+<br />
+<div class='' id=''>Angular 7 is an open source JavaScript framework for building web applications and apps in JavaScript, html, and Typescript which is a superset of JavaScript. Angular provides built-in features for animation, http service, and materials which in turn have features such as auto-complete, navigation, toolbar, menus, etc. The code is written in Typescript, which compiles to JavaScript and displays the same in the browser.</div>
+<br />
+<h5 class='' id=''>AngularJS</h5>
+<br />
+<div class='' id=''>AngularJS is a very powerful JavaScript Framework. It is used in Single Page Application (SPA) projects. It extends HTML DOM with additional attributes and makes it more responsive to user actions. AngularJS is open source, completely free, and used by thousands of developers around the world. It is licensed under the Apache license version 2.0.</div>
+<br />
+<h5 class='' id=''>AWS Lambda</h5>
+<br />
+<div class='' id=''>AWS Lambda is a service which computes the code without any server. It is said to be serverless compute. The code is executed based on the response of events in AWS services such as adding/removing files in S3 bucket, updating Amazon DynamoDB tables, HTTP request from Amazon API Gateway etc.</div>
+<br />
+<h5 class='' id=''>BabelJS</h5>
+<br />
+<div class='' id=''>BabelJS is a JavaScript transpiler which transpiles new features into old standard. With this, the features can be run on both old and new browsers, hassle-free. Babeljs comes with a wide range of features in the form of plugins, presets, polyfills, etc.
+	<br />In short, Babeljs is a toolset which has all the required tools available with it and which helps the developers to use all the current features available in ECMA Script and yet not worry how it will be supported on browsers.</div>
+<br />
+<h5 class='' id=''>BackboneJS</h5>
+<br />
+<div class='' id=''>BackboneJS is a light weight JavaScript library that allows to develop and structure client side applications that run in a web browser. It offers MVC framework which abstracts data into models, DOM (Document Object Model) into views and bind these two using events. This tutorial covers most of the topics required for a basic understanding of BackboneJS and to get a feel of how it works.</div>
+<br />
+<h5 class='' id=''>Bootstrap</h5>
+<br />
+<div class='' id=''>Twitter Bootstrap is the most popular front end framework in the recent time. It is sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development. It uses HTML, CSS and Javascript. This tutorial will teach you the basics of Bootstrap Framework using which you can create web projects with ease. The tutorial is divided into sections such as Bootstrap Basic Structure, Bootstrap CSS, Bootstrap Layout Components and Bootstrap Plugins. Each of these sections contain related topics with simple and useful examples.</div>
+<br />
+<h5 class='' id=''>Bootstrap 4</h5>
+<br />
+<div class='' id=''>Bootstrap is a most popular front end framework in the recent time. It is sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development. It uses HTML, CSS and Javascript. This tutorial will teach you the basics of Bootstrap 4 Framework, which you can create web projects with ease. The tutorial is divided into sections such as Bootstrap Basic Structure, Bootstrap Layout, Bootstrap Grid System, Bootstrap Content, Bootstrap Components and Bootstrap Utilities. Each of these sections contain related topics with simple and useful examples.</div>
+<br />
+<h5 class='' id=''>CSS</h5>
+<br />
+<p class='' id=''>CSS is used to control the style of a web document in a simple and easy way.</p>
+<br />
+<p class='' id=''>CSS is the acronym for "Cascading Style Sheet". This tutorial covers both the versions CSS1,CSS2 and CSS3, and gives a complete understanding of CSS, starting from its basics to advanced concepts.</p>
+<br />
+<p class='' id=''>Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.</p>
+<br />
+<h5 class='' id=''>D3.js</h5>
+<br />
+<div class='' id=''>D3 stands for Data-Driven Documents. D3.js is a JavaScript library for manipulating documents based on data. D3.js is a dynamic, interactive, online data visualizations framework used in a large number of websites. D3.js is written by Mike Bostock, created as a successor to an earlier visualization toolkit called Protovis. This tutorial will give you a complete knowledge on D3.jsframework. This is an introductory tutorial, which covers the basics of Data-Driven Documents and explains how to deal with its various components and sub-components.</div>
+<br />
+<h5 class='' id=''>Django</h5>
+<br />
+<div class='' id=''>Django is a web development framework that assists in building and maintaining quality web applications. Django helps eliminate repetitive tasks making the development process an easy and time saving experience. This tutorial gives a complete understanding of Django.</div>
+<br />
+<h5 class='' id=''>ExpressJS</h5>
+<br />
+<div class='' id=''>Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It is an open source framework developed and maintained by the Node.js foundation.</div>
+<br />
+<h5 class='' id=''>ES6</h5>
+<br />
+<div class='' id=''>ECMAScript (ES) is a scripting language specification standardized by ECMAScript International. It is used by applications to enable client-side scripting. Languages like JavaScript, Jscript and ActionScript are governed by this specification.</div>
+<br />
+<h5 class='' id=''>Firebase</h5>
+<br />
+<div class='' id=''>Firebase is a backend platform for building Web, Android and IOS applications. It offers real time database, different APIs, multiple authentication types and hosting platform. This is an introductory tutorial, which covers the basics of the Firebase platform and explains how to deal with its various components and sub-components.</div>
+<br />
+<h5 class='' id=''>Flask</h5>
+<br />
+<div class='' id=''>Flask is a web application framework written in Python. Armin Ronacher, who leads an international group of Python enthusiasts named Pocco, develops it. Flask is based on Werkzeug WSGI toolkit and Jinja2 template engine. Both are Pocco projects.</div>
+<br />
+<h5 class='' id=''>Flexbox</h5>
+<br />
+<div class='' id=''>Flexbox (flexible box) is a layout mode of CSS3. Using this mode, you can easily create layouts for complex applications and web pages. Flexbox layout gives complete control over the direction, alignment, order, size of the boxes. In this tutorial, we are going to learn how to use the various features available in Flexbox.</div>
+<br />
