@@ -1596,7 +1596,7 @@ var CanComponent = /** @class */ (function () {
         // After 3 seconds, remove the show class from DIV
         setTimeout(function () {
             x.className = x.className.replace("show", "");
-        }, 3000);
+        }, 5000);
     };
     CanComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -1987,6 +1987,7 @@ var SugarComponent = /** @class */ (function () {
                 ".txt", { responseType: "text" })
                 .subscribe(function (data2) {
                 _this.loader = false;
+                _this.snacks(_this.itemtitle);
                 _this.renderer = data2;
             }, function (err) { });
         }
@@ -2005,6 +2006,7 @@ var SugarComponent = /** @class */ (function () {
                 ".txt", { responseType: "text" })
                 .subscribe(function (data2) {
                 _this.loader = false;
+                _this.snacks(_this.itemtitle);
                 _this.renderer = data2;
             }, function (err) { });
         }
@@ -2018,7 +2020,7 @@ var SugarComponent = /** @class */ (function () {
         // After 3 seconds, remove the show class from DIV
         setTimeout(function () {
             x.className = x.className.replace("show", "");
-        }, 3000);
+        }, 5000);
     };
     SugarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
