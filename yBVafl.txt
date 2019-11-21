@@ -57,9 +57,9 @@
 		<br />SpringApplication.run(DemoApplication.class, args);
 		<br />}
 		<br />}
-		<br />
+		
 	</p>
-	<br /></li>
+	<br /></li><br />
 <h5 class='' id=''>Spring Boot Application</h5>
 <br />
 <div class='' id=''>The entry point of the Spring Boot Application is the class contains @SpringBootApplication annotation. This class should have the main method to run the Spring Boot application. @SpringBootApplication annotation includes Auto- Configuration, Component Scan, and Spring Boot Configuration.</div>
@@ -76,9 +76,7 @@
 	<br />SpringApplication.run(DemoApplication.class, args);
 	<br />}
 	<br />}
-	<br /></li>
-<h5 class='' id=''>Component Scan</h5>
-<br />
+	<br /></li> 
 <br />
 <h5 class='' id=''>Component Scan</h5>
 <br />
