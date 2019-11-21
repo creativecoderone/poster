@@ -1,0 +1,53 @@
+<div class='' id=''>Spring Boot is an open source Java-based framework used to create a Micro Service. It is developed by Pivotal Team. It is easy to create a stand-alone and production ready spring applications using Spring Boot. Spring Boot contains a comprehensive infrastructure support for developing a micro service and enables you to develop enterprise-ready applications that you can “just run”.</div>
+<br />
+<h5 class='' id=''>Prerequisites</h5>
+<br />
+<div class='' id=''>Java, Spring, Maven, and Gradle. You can easily understand the concepts of Spring Boot if you have knowledge on these concepts. It would be an additional advantage if you have an idea about writing a RESTful Web Service. If you are a beginner, we suggest you to go through tutorials related to these concepts before you start with Spring Boot.</div>
+<br />
+<h5 class='' id=''>What is Micro Service?</h5>
+<br />
+<div class='' id=''>Micro Service is an architecture that allows the developers to develop and deploy services independently. Each service running has its own process and this achieves the lightweight model to support business applications.</div>
+<br />
+<h5 class='' id=''>Advantages</h5>
+<br />
+<li class='list-group-item ' id=''>Easy deployment
+	<br />Simple scalability
+	<br />Compatible with Containers
+	<br />Minimum configuration
+	<br />Lesser production time
+	<br /></li><br />
+
+<h5 class='' id=''>What is Spring Boot?</h5>
+<br />
+<div class='' id=''>Spring Boot provides a good platform for Java developers to develop a stand-alone and production-grade spring application that you can just run. You can get started with minimum configurations without the need for an entire Spring configuration setup.</div>
+<br />
+<li class='list-group-item alert alert-warning' id=''>Spring Boot offers the following advantages to its developers −</li>
+<li class='list-group-item ' id=''>Easy to understand and develop spring applications
+	<br />Increases productivity
+	<br />Reduces the development time</li><br />
+
+<h5 class='' id=''>Goals</h5>
+<br />
+<li class='list-group-item alert alert-warning' id=''>Spring Boot is designed with the following goals −</li>
+<li class='list-group-item ing' id=''>To avoid complex XML configuration in Spring
+	<br />To develop a production ready Spring applications in an easier way
+	<br />To reduce the development time and run the application independently
+	<br />Offer an easier way of getting started with the application</li><br />
+
+<h5 class='' id=''>Why Spring Boot?</h5>
+<br />
+<p class='' id=''>You can choose Spring Boot because of the features and benefits it offers as given here −</p>
+<br />
+<li class='list-group-item ' id=''>It provides a flexible way to configure Java Beans, XML configurations, and Database Transactions.
+	<br />It provides a powerful batch processing and manages REST endpoints.
+	<br />In Spring Boot, everything is auto configured; no manual configurations are needed.
+	<br />It offers annotation-based spring application
+	<br />Eases dependency management
+	<br />It includes Embedded Servlet Container</li>
+<br />
+<h5 class='' id=''>How does it work?</h5>
+<br />
+<p class='' id=''>Spring Boot automatically configures your application based on the dependencies you have added to the project by using @EnableAutoConfiguration annotation. For example, if MySQL database is on your classpath, but you have not configured any database connection, then Spring Boot auto-configures an in-memory database.
+	<br />The entry point of the spring boot application is the class contains @SpringBootApplication annotation and the main method.
+	<br />Spring Boot automatically scans all the components included in the project by using @ComponentScan annotation.</p>
+<br />
