@@ -1,0 +1,98 @@
+<div class='' id=''>Spring Boot automatically configures your application based on the dependencies you have added to the project by using @EnableAutoConfiguration annotation. For example, if MySQL database is on your classpath, but you have not configured any database connection, then Spring Boot auto-configures an in-memory database.</div>
+<br />
+<div class='' id=''>The entry point of the spring boot application is the class contains @SpringBootApplication annotation and the main method.</div>
+<br />
+<div class='' id=''>Spring Boot automatically scans all the components included in the project by using @ComponentScan annotation.</div>
+<br />
+<h5 class='' id=''>Spring Boot Starters</h5>
+<br />
+<div class='' id=''>Handling dependency management is a difficult task for big projects. Spring Boot resolves this problem by providing a set of dependencies for developers convenience.
+	<br />For example, if you want to use Spring and JPA for database access, it is sufficient if you include spring-boot-starter-data-jpa dependency in your project.
+	<br />Note that all Spring Boot starters follow the same naming pattern spring-boot-starter- *, where * indicates that it is a type of the application.
+	<br /></div>
+<br />
+<h5 class='' id=''>Examples</h5>
+<br />
+<p class='' id=''>Look at the following Spring Boot starters explained below for a better understanding −</p>
+<br />
+<p class='' id=''>Spring Boot Starter Actuator dependency is used to monitor and manage your application. Its code is shown below −</p>
+<br />
+<textarea class='code form-control' rows='4'>&lt;dependency&gt;&#13;&nbsp;&lt;groupId&gt;org.springframework.boot&lt;&#47;groupId&gt;&#13;&nbsp;&lt;artifactId&gt;spring-boot-starter-actuator&lt;&#47;artifactId&gt;&#13;&lt;&#47;dependency&gt;</textarea>
+<br />
+<br />
+<p class='' id=''>Spring Boot Starter Security dependency is used for Spring Security. Its code is shown below −</p>
+<br />
+<textarea class='code form-control' rows='4'>&lt;dependency&gt;&#13;&nbsp;&lt;groupId&gt;org.springframework.boot&lt;&#47;groupId&gt;&#13;&nbsp;&lt;artifactId&gt;spring-boot-starter-security&lt;&#47;artifactId&gt;&#13;&lt;&#47;dependency&gt;</textarea>
+<br />
+<br />
+<p class='' id=''>Spring Boot Starter web dependency is used to write a Rest Endpoints. Its code is shown below −</p>
+<br />
+<textarea class='code form-control' rows='4'>&lt;dependency&gt;&#13;&nbsp;&lt;groupId&gt;org.springframework.boot&lt;&#47;groupId&gt;&#13;&nbsp;&lt;artifactId&gt;spring-boot-starter-web&lt;&#47;artifactId&gt;&#13;&lt;&#47;dependency&gt;</textarea>
+<br />
+<br />
+<p class='' id=''>Spring Boot Starter Thyme Leaf dependency is used to create a web application. Its code is shown below −</p>
+<br />
+<textarea class='code form-control' rows='4'>&lt;dependency&gt;&#13;&nbsp;&lt;groupId&gt;org.springframework.boot&lt;&#47;groupId&gt;&#13;&nbsp;&lt;artifactId&gt;spring-boot-starter-thymeleaf&lt;&#47;artifactId&gt;&#13;&lt;&#47;dependency&gt;</textarea>
+<br />
+<p class='' id=''>Spring Boot Starter Test dependency is used for writing Test cases. Its code is shown below −</p>
+<br />
+<textarea class='code form-control' rows='4'>&lt;dependency&gt;&#13;&nbsp;&lt;groupId&gt;org.springframework.boot&lt;&#47;groupId&gt;&#13;&nbsp;&lt;artifactId&gt;spring-boot-starter-test&#13;&nbsp;&nbsp;&lt;artifactId&gt;&lt;&#47;dependency&gt;</textarea>
+<br />
+<br />
+<h5 class='' id=''>Auto Configuration</h5>
+<br />
+<div class='' id=''>Spring Boot Auto Configuration automatically configures your Spring application based on the JAR dependencies you added in the project. For example, if MySQL database is on your class path, but you have not configured any database connection, then Spring Boot auto configures an in-memory database.</div>
+<br />
+<p class='' id=''>For this purpose, you need to add @EnableAutoConfiguration annotation or @SpringBootApplication annotation to your main class file. Then, your Spring Boot application will be automatically configured.</p>
+<br />
+<div class='' id=''>Observe the following code for a better understanding −</div>
+<br />
+<li class='list-group-item ' id=''>
+	<p class='' id=''>import org.springframework.boot.SpringApplication;
+		<br />import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+		<br />
+		<br />@EnableAutoConfiguration
+		<br />public class DemoApplication {
+		<br />public static void main(String[] args) {
+		<br />SpringApplication.run(DemoApplication.class, args);
+		<br />}
+		<br />}
+		<br />
+	</p>
+	<br /></li>
+<h5 class='' id=''>Spring Boot Application</h5>
+<br />
+<div class='' id=''>The entry point of the Spring Boot Application is the class contains @SpringBootApplication annotation. This class should have the main method to run the Spring Boot application. @SpringBootApplication annotation includes Auto- Configuration, Component Scan, and Spring Boot Configuration.</div>
+<br />
+<div class='' id=''>If you added @SpringBootApplication annotation to the class, you do not need to add the @EnableAutoConfiguration, @ComponentScan and @SpringBootConfiguration annotation. The @SpringBootApplication annotation includes all other annotations.</div>
+<br />
+<p class='' id=''>Observe the following code for a better understanding −</p>
+<br />
+<li class='list-group-item ' id=''>import org.springframework.boot.SpringApplication;
+	<br />import org.springframework.boot.autoconfigure.SpringBootApplication;
+	<br />@SpringBootApplication
+	<br />public class DemoApplication {
+	<br />public static void main(String[] args) {
+	<br />SpringApplication.run(DemoApplication.class, args);
+	<br />}
+	<br />}
+	<br /></li>
+<h5 class='' id=''>Component Scan</h5>
+<br />
+<br />
+<h5 class='' id=''>Component Scan</h5>
+<br />
+<p class='' id=''>Spring Boot application scans all the beans and package declarations when the application initializes. You need to add the @ComponentScan annotation for your class file to scan your components added in your project.</p>
+<br />
+<p class='' id=''>Observe the following code for a better understanding −</p>
+<br />
+<li class='list-group-item ' id=''>import org.springframework.boot.SpringApplication;
+	<br />import org.springframework.context.annotation.ComponentScan;
+	<br />@ComponentScan
+	<br />public class DemoApplication {
+	<br />public static void main(String[] args) {
+	<br />SpringApplication.run(DemoApplication.class, args);
+	<br />}
+	<br />}
+	<br /></li>
+<br />
