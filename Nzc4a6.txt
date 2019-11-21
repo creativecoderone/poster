@@ -1,0 +1,71 @@
+<h5 class='' id=''>React Environment Setup</h5>
+<br />
+<div class='' id=''>In this section, we will learn how to set up an environment for the successful development of ReactJS application.</div>
+<br />
+<h5 class='' id=''>Pre-requisite for ReactJS</h5>
+<br />
+<li class='list-group-item ' id=''>NodeJS and NPM</li>
+<li class='list-group-item ' id=''>React and React DOM</li>
+<li class='list-group-item ' id=''>Webpack</li>
+<li class='list-group-item ' id=''>Babel</li><br />
+<h5 class='' id=''>Ways to install ReactJS</h5>
+<br />
+<div class='' id=''>There are two ways to set up an environment for successful ReactJS application. They are given below.</div>
+<br />
+<li class='list-group-item ' id=''>Using the npm command</li>
+<li class='list-group-item ' id=''>Using the create-react-app command</li><br />
+<h5 class='' id=''>1. Using the npm command</h5>
+<br />
+<h6 class='' id=''>Install NodeJS and NPM</h6>
+<br />
+<div class='' id=''>NodeJS and NPM are the platforms need to develop any ReactJS application. You can install NodeJS and NPM package manager by the link given below.</div>
+<br />
+<a href='https://nodejs.org/en/' class='center badge badge-warning' id=''>Node js download</a>
+<div class='' id=''>To verify NodeJS and NPM, use the command shown in the below image.</div>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/tutorial/reactjs/images/reactjs-environment-setup.png' class='center' id='' />
+<br />
+<h6 class='' id=''>Install React and React DOM</h6>
+<br />
+<div class='' id=''>Create a root folder with the name reactApp on the desktop or where you want. Here, we create it on the desktop. You can create the folder directly or using the command given below.</div>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/tutorial/reactjs/images/reactjs-environment-setup1.png' class='center' id='' />
+<br />
+<div class='' id=''>Now, you need to create a package.json file. To create any module, it is required to generate a package.json file in the project folder. To do this, you need to run the following command as shown in the below image.</div>
+<br />
+<li class='list-group-item ' id=''>
+	<b>npm init -y</b>
+</li>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/tutorial/reactjs/images/reactjs-environment-setup2.png' class='center' id='' />
+<br />
+<div class='' id=''>After creating a package.json file, you need to install react and its DOM packages using the following npm command in the terminal window as shown in the below image.</div>
+<br />
+<li class='list-group-item ' id=''>
+	<b>npm install react react-dom --save</b>
+</li>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/tutorial/reactjs/images/reactjs-environment-setup3.png' class='center' id='' />
+<br />
+<div class='' id=''>You can also use the above command separately which can be shown as below.</div>
+<br />
+<li class='list-group-item ' id=''>
+	<b>npm install react --save
+		<br />npm install react-dom --save</b>
+</li><br />
+<h6 class='' id=''>Install Webpack</h6>
+<br />
+<div class='' id=''>Webpack is used for module packaging, development, and production pipeline automation. We will use webpack-dev-server during development, webpack to create production builds, and webpack CLI provides a set of commands. Webpack compiles these into a single file(bundle). To install webpack use the command shown in the below image.</div>
+<br />
+<li class='list-group-item ' id=''>
+	<b>npm install webpack webpack-dev-server webpack-cli --save</b>
+</li><br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/tutorial/reactjs/images/reactjs-environment-setup4.png' class='center' id='' />
+<br />
+<h6 class='' id=''>Install Babel</h6>
+<br />
+<div class='' id=''>Babel is a JavaScript compiler and transpiler used to convert one source code to others. It compiles React JSX and ES6 to ES5 JavaScript which can be run on all browsers. We need babel-loader for JSX file types, babel-preset-react makes your browser update automatically when any changes occur to your code without losing the current state of the app. ES6 support requires babel-preset-env Babel preset. To install webpack use the following command shown in the below image.</div>
+<br />
+<li class='list-group-item ' id=''>
+	<b>npm install babel-core babel-loader babel-preset-env babel-preset-react babel-webpack-plugin --save-dev</b>
+</li><br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/tutorial/reactjs/images/reactjs-environment-setup5.png' class='center' id='' />
+<br />
