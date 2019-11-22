@@ -3,7 +3,7 @@
 <h5 class='' id=''>1. Production Builds</h5>
 <br />
 <div class='' id=''>Let’s start simple! When building your application to deploy it we want to ensure we do a production build. This will perform lots of optimizations as part of the build which are not included in a development build.</div>
-<br />
+<br /> 
 <b>AOT Compilation</b>
 <div class='' id=''>When running a production build, Angular using JIT (just in time) compilation, which essentially means, Angular compiles your views in the browser at runtime. This has two downsides. First, the compilation process must run before your application can be used, and this can increase the time it takes for your site to load. Secondly, we have to ship the Angular compiler with your application, and it is not a small module!</div>
 <br />
