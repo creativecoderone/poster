@@ -16,7 +16,8 @@
 <li class='list-group-item ' id=''>12. Unsubscribe</li>
 <li class='list-group-item ' id=''>13. Track By Function</li>
 <li class='list-group-item ' id=''>14. Profiling</li>
-<li class='list-group-item ' id=''>15. Notable Mentions</li>
+<li class='list-group-item ' id=''>15. Notable Mentions</li><br />
+
 <h5 class='' id=''>Conclusion</h5>
 <br />
 <p class='alert alert-primary' id=''>As you can tell performance is not a simple subject. There are many things to consider and this list cover a few of the most common. Hopefully it covers a few of the most common and helps speed up your application.</p>
