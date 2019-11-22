@@ -1,0 +1,23 @@
+<div class='' id=''>Angular is a fantastic framework, packed with useful goodies to make developing an application much simpler. However Angular is not a small framework, and if certain optimizations are not made you can end up negatively impacting performance and your user experience.</div>
+<br />
+<div class='' id=''>For example, a newly created Angular CLI project built in development mode will produce JavaScript totaling 3mb in size, for essentially a hello world application! So it is essential to follow some best practices to make sure page load times, and general application performance remains fast!</div>
+<br />
+<li class='list-group-item ' id=''>1. Production Builds</li>
+<li class='list-group-item ' id=''>2. Lazy Loading Modules</li>
+<li class='list-group-item ' id=''>3. Enable Production Mode</li>
+<li class='list-group-item ' id=''>4. OnPush Change Detection</li>
+<li class='list-group-item ' id=''>5. Preserve Whitespaces</li>
+<li class='list-group-item ' id=''>6. Avoid Function Calls in Views</li>
+<li class='list-group-item ' id=''>7. Avoid Getters in View</li>
+<li class='list-group-item ' id=''>8. Pure Pipes</li>
+<li class='list-group-item ' id=''>9. The Angular Zone</li>
+<li class='list-group-item ' id=''>10. Check your ngDoCheck</li>
+<li class='list-group-item ' id=''>11. Async Pipe</li>
+<li class='list-group-item ' id=''>12. Unsubscribe</li>
+<li class='list-group-item ' id=''>13. Track By Function</li>
+<li class='list-group-item ' id=''>14. Profiling</li>
+<li class='list-group-item ' id=''>15. Notable Mentions</li>
+<h5 class='' id=''>Conclusion</h5>
+<br />
+<p class='alert alert-primary' id=''>As you can tell performance is not a simple subject. There are many things to consider and this list cover a few of the most common. Hopefully it covers a few of the most common and helps speed up your application.</p>
+<br />
