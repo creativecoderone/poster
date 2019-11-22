@@ -1,0 +1,86 @@
+<div class='' id=''>Spring is a lightweight framework. It can be thought of as a framework of frameworks because it provides support to various frameworks such as Struts, Hibernate, Tapestry, EJB, JSF etc. The framework, in broader sense, can be defined as a structure where we find solution of the various technical problems.</div>
+<br />
+<div class='' id=''>The Spring framework comprises several modules such as IOC, AOP, DAO, Context, ORM, WEB MVC etc. We will learn these modules in next page. Let's understand the IOC and Dependency Injection first.</div>
+<br />
+<div class='' id=''>Spring Boot is a Spring module which provides RAD (Rapid Application Development) feature to Spring framework.</div>
+<br />
+<h5 class='' id=''>Prerequisite of Spring Boot</h5>
+<br />
+<li class='list-group-item alert alert-danger' id=''>Java 1.8
+	<br />Gradle 2.3+ or Maven 3.0+
+	<br />Spring Framework 5.0.0.BUILD-SNAPSHOT
+	<br />An IDE (Spring Tool Suit) is recommended.
+	<br /></li>
+<br />
+<h5 class='' id=''>Spring Boot Maven Project</h5>
+<br />
+<p class='' id=''>Creating Spring Boot project by creating maven project. It includes the following steps.</p>
+<br />
+<b>Select project type</b>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/springboot/images/spring-boot-project1.png' class='center' id='' />
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/springboot/images/spring-boot-project2.png' class='center' id='' />
+<br />
+<b>Configure project by providing project name.</b>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/springboot/images/spring-boot-project3.png' class='center' id='' />
+<br />
+<b>After clicking finish, Spring boot project has been created. Our new project looks like the following screen shot.</b>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/springboot/images/spring-boot-project4.png' class='center' id='' />
+<br />
+<b>This Maven project has a pom.xml file which contains the following default configuration.</b>
+<h5 class='' id=''>// pom.xml</h5>
+<br />
+<textarea class='code form-control' rows='10'>&lt;project&nbsp;xmlns=&#34;https:&#47;&#47;maven.apache.org&#47;POM&#47;4.0.0&#34;&nbsp;xmlns:xsi=&#34;https:&#47;&#47;www.w3.org&#47;2001&#47;XMLSchema-instance&#34;&nbsp;xsi:schemaLocation=&#34;https:&#47;&#47;maven.apache.org&#47;POM&#47;4.0.0&nbsp;https:&#47;&#47;maven.apache.org&#47;xsd&#47;maven-4.0.0.xsd&#34;&gt;&#13;&nbsp;&lt;modelVersion&gt;4.0.0&lt;&#47;modelVersion&gt;&#13;&nbsp;&lt;groupId&gt;com.javatpoint&lt;&#47;groupId&gt;&#13;&nbsp;&lt;artifactId&gt;spring-boot-example&lt;&#47;artifactId&gt;&#13;&nbsp;&lt;version&gt;0.0.1-SNAPSHOT&lt;&#47;version&gt;&#13;&nbsp;&lt;name&gt;JavaTpoint&nbsp;Spring&nbsp;Boot&nbsp;Example&lt;&#47;name&gt;&#13;&lt;&#47;project&gt;</textarea>
+<br />
+<p class='' id=''>We need to configure it in order to make it a Spring Boot project. Here, we are adding parent to our Maven project. It is used to declare that our project is a child to this parent project.</p>
+<br />
+<textarea class='code form-control' rows='5'>&lt;parent&gt;&#13;&nbsp;&lt;groupId&gt;org.springframework.boot&lt;&#47;groupId&gt;&#13;&nbsp;&lt;artifactId&gt;spring-boot-starter-parent&lt;&#47;artifactId&gt;&#13;&nbsp;&lt;version&gt;1.4.2.RELEASE&lt;&#47;version&gt;&#13;&lt;&#47;parent&gt;</textarea>
+<br />
+<p class='' id=''>After that add the following dependency to the pom.xml file. Here, we are adding web dependency by adding spring-boot-starter-web.</p>
+<br />
+<p class='alert alert-warning' id=''>Maven project will add web dependency to the project by downloading the jar.</p>
+<br />
+<textarea class='code form-control' rows='6'>&lt;dependencies&gt;&#13;&nbsp;&lt;dependency&gt;&#13;&nbsp;&nbsp;&lt;groupId&gt;org.springframework.boot&lt;&#47;groupId&gt;&#13;&nbsp;&nbsp;&lt;artifactId&gt;spring-boot-starter-web&lt;&#47;artifactId&gt;&#13;&nbsp;&lt;&#47;dependency&gt;&#13;&lt;&#47;dependencies&gt;</textarea>
+<br />
+<b>After that add Java version for the project.</b>
+<textarea class='code form-control' rows='3'>&lt;properties&gt;&#13;&nbsp;&lt;java.version&gt;1.8&lt;&#47;java.version&gt;&#13;&lt;&#47;properties&gt;</textarea>
+<br />
+<p class='' id=''>Now, our project should have the following directly structure. You can notice that maven has created a new dependency folder to store the jar files.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/springboot/images/spring-boot-project5.png' class='center' id='' />
+<br />
+<p class='' id=''>Update Maven project each time after including new dependencies.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/springboot/images/spring-boot-project6.png' class='center' id='' />
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/springboot/images/spring-boot-project7.png' class='center' id='' />
+<br />
+<b>After updating Maven. Now, let's make it runnable. Create a Java class inside the src/main/java package.</b>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/springboot/images/spring-boot-project8.png' class='center' id='' />
+<br />
+<p class='alert alert-primary' id=''>After creating class call the static run method of SpringApplication class. In the following code, we are calling run method and passing class name as argument.</p>
+<br />
+<br />
+<b>// SpringBootExample.java</b>
+<li class='list-group-item ' id=''>
+	<p class='' id=''>package com.javatpoint;
+		<br />
+		<br />import org.springframework.boot.SpringApplication;
+		<br />import org.springframework.boot.autoconfigure.SpringBootApplication;
+		<br />@SpringBootApplication
+		<br />public class SpringBootExample {
+		<br />public static void main(String[] args) {
+		<br />SpringApplication.run(SpringBootExample.class, args);
+		<br />}
+		<br />}
+		<br />
+	</p>
+	<br /></li>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/springboot/images/spring-boot-project9.png' class='center' id='' />
+<br />
+<b>It displays the following output.</b>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/springboot/images/spring-boot-project10.png' class='center' id='' />
+<br />
+<p class='alert alert-dark' id=''>The line Started SpringBootExample in 14.047 seconds (JVM running for 17.391) in output window shows that our application is started.</p>
+<br />
