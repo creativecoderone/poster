@@ -1,0 +1,73 @@
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/tutorial/ionic/images/ionic-logo.png' class='center' id='' />
+<br />
+<div class='' id=''>The Ionic Tutorial provides basic and advanced concepts of the Ionic framework. Ionic framework is an open-source UI toolkit for building performant, high-quality mobile apps, desktop apps, and progressive web apps using web technologies such as HTML, CSS, and JavaScript. It allows developers to build once and run everywhere. It was created by Max Lynch, Ben Sperry, and Adam Bradley of Drifty Co. in 2013. The first beta version of the Ionic framework was released in March 2014.</div>
+<br />
+<div class='' id=''>The Ionic framework mainly focuses on front-end user experience or UI interaction that handles all the look and feel of your app. It is easy to learn and can integrate with other libraries or framework such as Angular, Cordova, etc.</div>
+<br />
+<h5 class='' id=''>Why should you use the Ionic Framework?</h5>
+<br />
+<div class='' id=''>Ionic is an excellent choice for creating basic native functionalities within an application which can run on multiple devices and operating system. The main advantage of the Ionic framework is that we can build the app once, rather than multiple times for separate devices and can deploy everywhere. It makes the app development fast and cost-efficient. It also reduces the need for maintenance.</div>
+<br />
+<h5 class='' id=''>Prerequisite</h5>
+<br />
+<div class='' id=''>Before learning Ionic framework in-depth, you must have the basic knowledge of web scripting languages such as HTML, JavaScript, and CSS.</div>
+<br />
+<div class='' id=''>Officially, the Ionic framework has integration with Angular, but it also provides support for Vue.js and React.js, which are in development.</div>
+<br />
+<h5 class='' id=''>What are Progressive Web Apps (PWAs)?</h5>
+<br />
+<div class='' id=''>A progressive web app is a normal web app which looks and feel like native mobile apps. It uses modern web capabilities to deliver an app-like experience to the user. These apps can easily deploy to servers, accessible through URLs, and indexed by search engines. The PWA app optimizes to be:</div>
+<br />
+<li class='list-group-item ' id=''>Reliable: Load fast and provide offline functionality.</li>
+<li class='list-group-item ' id=''>Fast: It should be fast and respond quickly to user actions.</li>
+<li class='list-group-item ' id=''>Re-engageable: It makes re-engagement with the user through push notification, which feels like a native app on the mobile device.</li>
+<br />
+<h5 class='' id=''>Why should you use the Ionic Framework?</h5>
+<br />
+<div class='' id=''>Ionic is a great choice for creating basic native functionalities within an application which can run on multiple devices and operating system. The main advantage of the Ionic framework is that we can build the app once, rather than multiple times for separate devices and can deploy everywhere. It makes the app development fast and cost-efficient. It also reduces the need for maintenance.</div>
+<br />
+<h5 class='' id=''>Advantages of Ionic Framework</h5>
+<br />
+<p class='' id=''>The advantages of Ionic application development framework are as following:</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/tutorial/ionic/images/advantages-of-ionic-framework.png' class='center' id='' />
+<br />
+<b>Easy to learn</b>
+<p class='' id=''>If the developer has a basic knowledge of CSS, HTML, or JavaScript frameworks, then learning and developing apps using the Ionic framework is very easy. It also allows for the development companies to switch to Ionic if their requirements and needs require hybrid application development.</p>
+<br />
+<b>Easy documentation</b>
+<p class='' id=''>Ionic provides very good and well-structured documentation. The official documentation covered most of the things required for the developers.</p>
+<br />
+<b>Cross-platform</b>
+<p class='' id=''>The ionic application can deploy on multiple platforms such as native iOS, Android, Desktop, and the web, all with one codebase. These applications can write once and runs everywhere.</p>
+<br />
+<b>User Interface</b>
+<p class='' id=''>The user interface of Ionic, such as themes and components are highly customizable. The ionic platform allows its components to adapt the platform on which application is running.</p>
+<br />
+<b>Built on AngularJS</b>
+<p class='' id=''>The Ionic framework uses AngularJS which provide many functionalities to the developers. Nowadays, AngularJS is the most widely used framework by designers. AngularJS allows Ionic to provide a robust structure which makes the code more manageable.</p>
+<br />
+<h5 class='' id=''>Disadvantages of Ionic Framework</h5>
+<br />
+<p class='' id=''>The disadvantages of Ionic application development framework are as following:</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://static.javatpoint.com/tutorial/ionic/images/disadvantages-of-ionic-framework.png' class='center' id='' />
+<br />
+<b>Performance</b>
+<p class='' id=''>The performance of the Ionic application is not as good as compared to native mobile applications. However, the performance gap is not noticeable for most of the average users.</p>
+<br />
+<b>Security</b>
+<p class='' id=''>The app developed with the Ionic framework may not provide as much security as a native application. For example, if you are developing a financial app, e.g., the app for a bank, the Ionic framework is not recommended.</p>
+<br />
+<b>Limited native functionality</b>
+<p class='' id=''>There are some native functions may not be available in the Ionic framework. In such a case, you need to develop the plugin to fulfill that function yourself. However, there are many plugins available to cover most of the native functionalities.</p>
+<br />
+<b>Not good for video game</b>
+<p class='' id=''>Ionic framework is not perfect for high-end graphics-dependent applications or video games.</p>
+<br />
+<b>Need for specialists</b>
+<p class='' id=''>JavaScript can be tricky to learn. So, there is a need for someone who can not only "do" JS, but also have deep knowledge of advanced libraries and technologies including Angular, Cordova, Ionic, etc.</p>
+<br />
+<b>Early adopter risk</b>
+<p class='' id=''>Ionic technology is still in development. It regularly keeps changing its support and standard, and its libraries can be completely rewritten at any time.</p>
+<br />
