@@ -1,44 +1,41 @@
-[            {
-  "id": "QLyE5Y",
-  "title": "UI/UX Developer Intro - Phase 1",
-  "version": "0.1"
-},            {
-  "id": "MN5LKx",
-  "title": "UI/UX Developer Intro - Phase 2",
-  "version": "0.1"
-},                 {
-  "id": "elAKX6",
-  "title": "Sprint Boot Explanation",
-  "version": "0.1"
-},            {
-  "id": "yBVafl",
-  "title": "Into Spring Boot - Starter",
-  "version": "0.1"
-}
-          ,            {
-  "id": "LJdVtB",
-  "title": "Create Sprin Boot Application",
-  "version": "0.1"
-}
-          
-          ,       {
-  "id": "55CMER",
-  "title": "Css Big Picture ",
-  "version": "0.1"
-}
-          ,         {
-  "id": "Nzc4a6",
-  "title": "React kick Start",
-  "version": "0.1"
-}
-             ,            {
-  "id": "LMpEdf",
-  "title": "React Js",
-  "version": "0.1"
-}
-          
-          
-          ,{
+[{
+		"id": "QLyE5Y",
+		"title": "UI/UX Developer Intro - Phase 1",
+		"version": "0.1"
+	}, {
+		"id": "MN5LKx",
+		"title": "UI/UX Developer Intro - Phase 2",
+		"version": "0.1"
+	}, {
+		"id": "elAKX6",
+		"title": "Sprint Boot Explanation",
+		"version": "0.1"
+	}, {
+		"id": "yBVafl",
+		"title": "Into Spring Boot - Starter",
+		"version": "0.1"
+	}, {
+		"id": "LJdVtB",
+		"title": "Create Spring Boot Application",
+		"version": "0.1"
+	}
+
+	, {
+		"id": "55CMER",
+		"title": "Css Big Picture ",
+		"version": "0.1"
+	}, {
+		"id": "Nzc4a6",
+		"title": "React kick Start",
+		"version": "0.1"
+	}, {
+		"id": "LMpEdf",
+		"title": "React Js",
+		"version": "0.1"
+	}
+
+
+	, {
 		"id": "KliUTa",
 		"title": "Angular intro",
 		"version": "0.1"
@@ -54,13 +51,12 @@
 		"id": "mNFCuw",
 		"title": "Into Python Flask ",
 		"version": "0.1"
+	}, {
+		"id": "WeH4Se",
+		"title": "Vue Basic",
+		"version": "0.1"
 	}
-            ,{
-  "id": "WeH4Se",
-  "title": "Vue Basic",
-  "version": "0.1"
-}
-          
+
 	, {
 		"id": "0XFyG3",
 		"title": "Gulp Big Picture",
