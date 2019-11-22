@@ -1,0 +1,73 @@
+<div class='' id=''>Angular is a fantastic framework, packed with useful goodies to make developing an application much simpler. However Angular is not a small framework, and if certain optimizations are not made you can end up negatively impacting performance and your user experience.</div>
+<br />
+<h5 class='' id=''>1. Production Builds</h5>
+<br />
+<div class='' id=''>Let’s start simple! When building your application to deploy it we want to ensure we do a production build. This will perform lots of optimizations as part of the build which are not included in a development build.</div>
+<br />
+<b>AOT Compilation</b>
+<div class='' id=''>When running a production build, Angular using JIT (just in time) compilation, which essentially means, Angular compiles your views in the browser at runtime. This has two downsides. First, the compilation process must run before your application can be used, and this can increase the time it takes for your site to load. Secondly, we have to ship the Angular compiler with your application, and it is not a small module!</div>
+<br />
+<div class='' id=''>By taking advantage of AOT (ahead of time) compilation, we move this step to build time so we do it once when building our application, and only ship the compiled templates. We can now remove the Angular compiler from our bundle (reducing our bundle size by ~1mb) and allows us to skip the compilation step making our pages load much quicker!</div>
+<br />
+<b>Minification</b>
+<p class='' id=''>Code minification is the process tools like UglifyJS perform to optimize the code we have written. It performs many optimizations, for example, removing whitespace, renaming properties, dead code elimination and much much more.</p>
+<br />
+<p class='' id=''>When developing having well named variables make development much easier, but when shipping our applications we don’t need these names to be so helpful, so while averageUserAge might be useful when developing this could be renamed to a1 reducing the amount of code needed to be shipped.</p>
+<br />
+<p class='' id=''>It can also detect code paths that will never be executed, for example an if statement where the condition can never be satisfied:</p>
+<br />
+<li class='list-group-item ' id=''>if (false) {
+	<br />console.log('This would never be executed');
+	<br />}
+	<br /></li>
+<p class='' id=''>We can safely remove this code without worrying about breaking our application.</p>
+<br />
+<p class='' id=''>We can also minify our stylesheets as well. We generally aren’t able to make quite as significant savings as we can with JavaScript code, but it can remove unneeded whitespace and shorten color values eg: #ffffff to #fff along with some other tweaks as well.</p>
+<br />
+<p class='' id=''>This process can reduce our bundle size often by megabytes.</p>
+<br />
+<b>Build Optimizer</b>
+<p class='' id=''>This is a tool created by the Angular team to identify some additional code that can be removed at build time.</p>
+<br />
+<p class='' id=''>For example, it can mark certain functions as “pure” indicating to UglifyJS that these functions can be removed without side effects.</p>
+<br />
+<p class='' id=''>If you have ever looked at compiled TypeScript code that uses decorators you may notice that it generates quite a lot of code to use them. The build optimizer can optimize this code for Angular decorators and reduce the code required quite significantly. It performs some other optimizations which can be found here: https://github.com/angular/angular-cli/tree/master/packages/angular_devkit/build_optimizer</p>
+<br />
+<p class='' id=''>If you are using the CLI you can ensure the buildOptimizer flag is set to true in your angular.json file.</p>
+<br />
+<b>Running a Production Build</b>
+<p class='' id=''>You can perform a production build that automatically performs all the optimizations mentioned above by adding the --prod flag when running an ng build.</p>
+<br />
+<h5 class='' id=''>2. Lazy Loading Modules</h5>
+<br />
+<p class='' id=''>Most applications will have more than one pages, for example, you may have a home page, a login page and a profile page. By default, when your application starts, the browser will load all the code required for all of these pages even if the user never visits them. Luckily, Angular provides us with an easy way to only load pages when the user wants to navigate to them and this comes built in to the router.</p>
+<br />
+<p class='' id=''>As a prerequisite to this, each page you wish to lazy load must have its own NgModule that imports the RouterModule and provides its own routes using the forChild function.</p>
+<br />
+<p class='' id=''>Note, it is best not to lazy load the default route, as this is the first page most users will land on, and by lazy loading it the user will have to wait on an additional request.</p>
+<br />
+<b>Before Lazy Loading:</b>
+<li class='list-group-item ' id=''>const routes: Routes = [
+	<br />{
+	<br />path: '',
+	<br />component: HomeComponent
+	<br />},
+	<br />{
+	<br />path: 'login',
+	<br />component: LoginComponent
+	<br />}
+	<br />];
+	<br /></li>
+<b>After Lazy Loading:</b>
+<li class='list-group-item ' id=''>const routes: Routes = [
+	<br />{
+	<br />path: '',
+	<br />component: HomeComponent
+	<br />},
+	<br />{
+	<br />path: 'login',
+	<br />loadChildren: './login/login.module#LoginModule'
+	<br />}
+	<br />];</li>
+<p class='' id=''>Now our application will only load the code for these pages when it is essential giving us a quick and easy improvement to our application.</p>
+<br />
