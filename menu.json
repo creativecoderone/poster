@@ -1,12 +1,17 @@
 [{
 		"id": "QLyE5Y",
-		"title": "UI/UX Developer Intro - Phase 1",
+		"title": "Web Utiliies - 1",
 		"version": "0.1"
 	}, {
 		"id": "MN5LKx",
-		"title": "UI/UX Developer Intro - Phase 2",
+		"title": "Web Utiliies - 2",
 		"version": "0.1"
-	},             {
+	},            {
+  "id": "G4gy0X",
+  "title": "Web page design - Touch to Bootstrap 4.o",
+  "version": "0.1"
+}
+          ,             {
   "id": "YBU5Y9",
   "title": "Angular Booster techniques",
   "version": "0.1"
