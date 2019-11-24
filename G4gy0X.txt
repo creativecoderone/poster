@@ -1,0 +1,35 @@
+<img style='width:50%;margin:auto;display:block;padding:10px;border-radius:15px;' src='https://bs-uploads.toptal.io/blackfish-uploads/blog/common_mistakes_guide/content/cover_image_file/cover_image/12071/cover-Refresh-BootstrapMistakes-Luke_Newsletter-de8e815f0eb7983dff8f613f811b248c.png' class='center' id='' />
+<br />
+<p class='' id=''>Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.</p>
+<br />
+<p class='' id=''>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+<br />
+<h5 class='' id=''>Quick start</h5>
+<br />
+<p class='' id=''>Looking to quickly add Bootstrap to your project? Use BootstrapCDN, provided for free by the folks at StackPath. Using a package manager or need to download the source files? Head to the downloads page.</p>
+<br />
+<b>CSS</b>
+<p class='' id=''>Copy-paste the stylesheet
+	<link />into your
+	<head>before all other stylesheets to load our CSS.</p>
+	<br />
+	<textarea class='code form-control' rows='2'>&lt;link&nbsp;rel=&#34;stylesheet&#34;&nbsp;href=&#34;https:&#47;&#47;stackpath.bootstrapcdn.com&#47;bootstrap&#47;4.3.1&#47;css&#47;bootstrap.min.css&#34;&nbsp;integrity=&#34;sha384-ggOyR0iXCbMQv3Xipma34MD+dH&#47;1fQ784&#47;j6cY&#47;iJTQUOhcWr7x9JvoRxT2MZw1T&#34;&nbsp;crossorigin=&#34;anonymous&#34;&nbsp;&#47;&gt;</textarea>
+	<br />
+	<b>JS</b>
+	<textarea class='code form-control' rows='6'>ny&nbsp;of&nbsp;our&nbsp;components&nbsp;require&nbsp;the&nbsp;use&nbsp;of&nbsp;JavaScript&nbsp;to&nbsp;function.&nbsp;Specifically,&nbsp;they&nbsp;require&nbsp;jQuery,&nbsp;Popper.js,&nbsp;and&nbsp;our&nbsp;own&nbsp;JavaScript&nbsp;plugins.&nbsp;Place&nbsp;the&nbsp;following&#13;&lt;script&gt;s&nbsp;near&nbsp;the&nbsp;end&nbsp;of&nbsp;your&nbsp;pages,&nbsp;right&nbsp;before&nbsp;the&nbsp;closing&lt;&#47;body&gt;tag,&nbsp;to&nbsp;enable&nbsp;them.&nbsp;jQuery&nbsp;must&nbsp;come&nbsp;first,&nbsp;then&nbsp;Popper.js,&nbsp;and&nbsp;then&nbsp;our&nbsp;JavaScript&nbsp;plugin</textarea>
+	<br />
+	<b>We use jQuery’s slim build, but the full version is also supported.</b>
+	<textarea class='code form-control' rows='7'>&lt;script&nbsp;src=&#34;https:&#47;&#47;code.jquery.com&#47;jquery-3.3.1.slim.min.js&#34;&nbsp;integrity=&#34;sha384-q8i&#47;X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&#34;&nbsp;crossorigin=&#34;anonymous&#34;&gt;&lt;&#47;script&gt;&#13;&lt;script&nbsp;src=&#34;https:&#47;&#47;cdnjs.cloudflare.com&#47;ajax&#47;libs&#47;popper.js&#47;1.14.7&#47;umd&#47;popper.min.js&#34;&nbsp;integrity=&#34;sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1&#34;&nbsp;crossorigin=&#34;anonymous&#34;&gt;&lt;&#47;script&gt;&#13;&lt;script&nbsp;src=&#34;https:&#47;&#47;stackpath.bootstrapcdn.com&#47;bootstrap&#47;4.3.1&#47;js&#47;bootstrap.min.js&#34;&nbsp;integrity=&#34;sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf&#47;nJGzIxFDsf4x0xIM+B07jRM&#34;&nbsp;crossorigin=&#34;anonymous&#34;&gt;&lt;&#47;script&gt;</textarea>
+	<br />
+	<li class='list-group-item ' id=''>Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below. If you’re at all unsure about the general page structure, keep reading for an example page template.</li>
+	<br />
+	<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.bluehost.com/blog/wp-content/uploads/2019/01/GettyImages-970979178.jpg' class='center' id='' />
+	<br />
+	<h5 class='' id=''>Starter template</h5>
+	<br />
+	<p class='' id=''>Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this:</p>
+	<br />
+	<textarea class='code form-control' rows='20'>&lt;!doctype&nbsp;html&gt;&#13;&lt;html&nbsp;lang=&#34;en&#34;&gt;&#13;&nbsp;&lt;head&gt;&#13;&nbsp;&nbsp;&lt;!--&nbsp;[#!#&nbsp;:&nbsp;0&nbsp;:&nbsp;#!#]&nbsp;--&gt;&#13;&nbsp;&nbsp;&lt;meta&nbsp;charset=&#34;utf-8&#34;&nbsp;&#47;&gt;&#13;&nbsp;&nbsp;&lt;meta&nbsp;name=&#34;viewport&#34;&nbsp;content=&#34;width=device-width,&nbsp;initial-scale=1,&nbsp;shrink-to-fit=no&#34;&nbsp;&#47;&gt;&#13;&nbsp;&nbsp;&lt;!--&nbsp;[#!#&nbsp;:&nbsp;1&nbsp;:&nbsp;#!#]&nbsp;--&gt;&#13;&nbsp;&nbsp;&lt;link&nbsp;rel=&#34;stylesheet&#34;&nbsp;href=&#34;https:&#47;&#47;stackpath.bootstrapcdn.com&#47;bootstrap&#47;4.3.1&#47;css&#47;bootstrap.min.css&#34;&nbsp;integrity=&#34;sha384-ggOyR0iXCbMQv3Xipma34MD+dH&#47;1fQ784&#47;j6cY&#47;iJTQUOhcWr7x9JvoRxT2MZw1T&#34;&nbsp;crossorigin=&#34;anonymous&#34;&nbsp;&#47;&gt;&#13;&nbsp;&nbsp;&lt;title&gt;Hello,&nbsp;world!&lt;&#47;title&gt;&#13;&nbsp;&lt;&#47;head&gt;&#13;&nbsp;&lt;body&gt;&#13;&nbsp;&nbsp;&lt;h1&gt;Hello,&nbsp;world!&lt;&#47;h1&gt;&#13;&nbsp;&nbsp;&lt;!--&nbsp;[#!#&nbsp;:&nbsp;2&nbsp;:&nbsp;#!#]&nbsp;--&gt;&#13;&nbsp;&nbsp;&lt;!--&nbsp;[#!#&nbsp;:&nbsp;3&nbsp;:&nbsp;#!#]&nbsp;--&gt;&#13;&nbsp;&nbsp;&lt;script&nbsp;src=&#34;https:&#47;&#47;code.jquery.com&#47;jquery-3.3.1.slim.min.js&#34;&nbsp;integrity=&#34;sha384-q8i&#47;X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&#34;&nbsp;crossorigin=&#34;anonymous&#34;&gt;&lt;&#47;script&gt;&#13;&nbsp;&nbsp;&lt;script&nbsp;src=&#34;https:&#47;&#47;cdnjs.cloudflare.com&#47;ajax&#47;libs&#47;popper.js&#47;1.14.7&#47;umd&#47;popper.min.js&#34;&nbsp;integrity=&#34;sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1&#34;&nbsp;crossorigin=&#34;anonymous&#34;&gt;&lt;&#47;script&gt;&#13;&nbsp;&nbsp;&lt;script&nbsp;src=&#34;https:&#47;&#47;stackpath.bootstrapcdn.com&#47;bootstrap&#47;4.3.1&#47;js&#47;bootstrap.min.js&#34;&nbsp;integrity=&#34;sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf&#47;nJGzIxFDsf4x0xIM+B07jRM&#34;&nbsp;crossorigin=&#34;anonymous&#34;&gt;&lt;&#47;script&gt;&#13;&nbsp;&lt;&#47;body&gt;&#13;&lt;&#47;html&gt;</textarea>
+	<br />
+	<p class='' id=''>That’s all you need for overall page requirements. Visit the Layout docs or our official examples to start laying out your site’s content and components.</p>
+	<br />
