@@ -1303,8 +1303,10 @@ var CanComponent = /** @class */ (function () {
         };
         this.cardinfo = {
             id: "",
-            title: "Angular intro",
-            version: "0.1"
+            title: "",
+            word: "",
+            blogger: "",
+            version: ""
         };
         this.fonts = src_app_can_FONT__WEBPACK_IMPORTED_MODULE_4__["FONT"];
         this.gas = [];
@@ -1439,6 +1441,7 @@ var CanComponent = /** @class */ (function () {
                 this.img.id +
                 "' /><br>";
         this.outHtml();
+        this.img.link = "";
     };
     CanComponent.prototype.getAnc = function () {
         this.board = true;
