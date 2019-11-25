@@ -1,103 +1,168 @@
-[{
-		"id": "QLyE5Y",
-		"title": "Web Utiliies - 1",
-		"version": "0.1"
-	}, {
-		"id": "MN5LKx",
-		"title": "Web Utiliies - 2",
-		"version": "0.1"
-	},            {
-  "id": "G4gy0X",
-  "title": "Web page design - Touch to Bootstrap 4.o",
-  "version": "0.1"
-}
-          ,             {
-  "id": "YBU5Y9",
-  "title": "Angular Booster techniques",
-  "version": "0.1"
-},                 {
-  "id": "9r02fo",
-  "title": " Production Builds & Lazy Loading Modules- Angular Booster ",
-  "version": "0.1"
-}
-             
-       ,   {
-		  "id": "86DrZX",
-		  "title": "Ionic Big Picture",
-		  "version": "0.1"
-		}
-         ,  {
-		"id": "elAKX6",
-		"title": "Sprint Boot Explanation",
-		"version": "0.1"
-	}, {
-		"id": "yBVafl",
-		"title": "Into Spring Boot - Starter",
-		"version": "0.1"
-	}, {
-		"id": "LJdVtB",
-		"title": "Create Spring Boot Application",
-		"version": "0.1"
-	}
+[
+  {
+    "id": "QLyE5Y",
+    "title": "Web Utiliies - 1",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/web-utiliies-1/",
+    "blogger": ""
+  },
+  {
+    "id": "MN5LKx",
+    "title": "Web Utiliies - 2",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/web-utilities-2/",
+    "blogger": ""
+  },
+  {
+    "id": "G4gy0X",
+    "title": "Web page design - Touch to Bootstrap 4.o",
+    "version": "0.1",
+    "word":
+      "https://manoj10101996.wordpress.com/2019/11/25/web-page-design-touch-to-bootstrap-4-o/",
+    "blogger": ""
+  },
+  {
+    "id": "YBU5Y9",
+    "title": "Angular Booster techniques",
+    "version": "0.1",
+    "word":
+      "https://manoj10101996.wordpress.com/2019/11/25/angular-booster-techniques/",
+    "blogger": ""
+  },
+  {
+    "id": "9r02fo",
+    "title": " Production Builds & Lazy Loading Modules- Angular Booster ",
+    "version": "0.1",
+    "word":
+      "https://manoj10101996.wordpress.com/2019/11/25/production-builds-lazy-loading-modules-angular-booster/",
+    "blogger": ""
+  },
 
-	, {
-		"id": "55CMER",
-		"title": "Css Big Picture ",
-		"version": "0.1"
-	}, {
-		"id": "Nzc4a6",
-		"title": "React kick Start",
-		"version": "0.1"
-	}, {
-		"id": "LMpEdf",
-		"title": "React Js",
-		"version": "0.1"
-	}
+  {
+    "id": "86DrZX",
+    "title": "Ionic Big Picture",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/ionic-big-picture/",
+    "blogger": ""
+  },
+  {
+    "id": "elAKX6",
+    "title": "Sprint Boot Explanation",
+    "version": "0.1",
+    "word":
+      "https://manoj10101996.wordpress.com/2019/11/25/sprint-boot-explanation/",
+    "blogger": ""
+  },
+  {
+    "id": "yBVafl",
+    "title": "Into Spring Boot - Starter",
+    "version": "0.1",
+    "word":
+      "https://manoj10101996.wordpress.com/2019/11/25/into-spring-boot-starter/",
+    "blogger": ""
+  },
+  {
+    "id": "LJdVtB",
+    "title": "Create Spring Boot Application",
+    "version": "0.1",
+    "word":
+      "https://manoj10101996.wordpress.com/2019/11/25/create-spring-boot-application/",
+    "blogger": ""
+  },
 
+  {
+    "id": "55CMER",
+    "title": "Css Big Picture ",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/css-big-picture/",
+    "blogger": ""
+  },
+  {
+    "id": "Nzc4a6",
+    "title": "React kick Start",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/react-kick-start/",
+    "blogger": ""
+  },
+  {
+    "id": "LMpEdf",
+    "title": "React Js",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/react-js/",
+    "blogger": ""
+  },
 
-	, {
-		"id": "KliUTa",
-		"title": "Angular intro",
-		"version": "0.1"
-	}, {
-		"id": "rxncUT",
-		"title": "Python Big Picture",
-		"version": "0.1"
-	}, {
-		"id": "rUZ6Zs",
-		"title": "Sass story",
-		"version": "0.1"
-	}, {
-		"id": "mNFCuw",
-		"title": "Into Python Flask ",
-		"version": "0.1"
-	}, {
-		"id": "WeH4Se",
-		"title": "Vue Basic",
-		"version": "0.1"
-	} 
+  {
+    "id": "KliUTa",
+    "title": "Angular intro",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/angular-intro/",
+    "blogger": ""
+  },
+  {
+    "id": "rxncUT",
+    "title": "Python Big Picture",
+    "version": "0.1",
+    "word":
+      "https://manoj10101996.wordpress.com/2019/11/25/python-big-picture/",
+    "blogger": ""
+  },
+  {
+    "id": "rUZ6Zs",
+    "title": "Sass story",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/sass-story/",
+    "blogger": ""
+  },
+  {
+    "id": "mNFCuw",
+    "title": "Into Python Flask ",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/into-python-flask/",
+    "blogger": ""
+  },
+  {
+    "id": "WeH4Se",
+    "title": "Vue Basic",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/vue-basic/",
+    "blogger": ""
+  },
 
-	, {
-		"id": "0XFyG3",
-		"title": "Gulp Big Picture",
-		"version": "0.1"
-	}
+  {
+    "id": "0XFyG3",
+    "title": "Gulp Big Picture",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/gulp-big-picture/",
+    "blogger": ""
+  },
 
-	,  {
-		"id": "2cNDe8",
-		"title": "Node js Intro",
-		"version": "0.1"
-	}, {
-		"id": "oxhbvb",
-		"title": "Babel JS",
-		"version": "0.1"
-	}, {
-		"id": "KtYy4m",
-		"title": "HTML Intro",
-		"version": "0.1"
-	}, {
-		"id": "FZEIN1",
-		"title": "Ajax Intro",
-		"version": "0.1"
-	}
+  {
+    "id": "2cNDe8",
+    "title": "Node js Intro",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/node-js-intro/",
+    "blogger": ""
+  },
+  {
+    "id": "oxhbvb",
+    "title": "Babel JS",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/babel-js/",
+    "blogger": ""
+  },
+  {
+    "id": "KtYy4m",
+    "title": "HTML Intro",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/html-intro/",
+    "blogger": ""
+  },
+  {
+    "id": "FZEIN1",
+    "title": "Ajax Intro",
+    "version": "0.1",
+    "word": "https://manoj10101996.wordpress.com/2019/11/25/ajax-intro/",
+    "blogger": ""
+  }
 ]
