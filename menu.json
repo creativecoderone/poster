@@ -4,22 +4,25 @@
     "title": "Web Utiliies - 1",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/web-utiliies-1/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/web-developement-technologies-part-1.html"
   },
   {
     "id": "MN5LKx",
     "title": "Web Utiliies - 2",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/web-utilities-2/",
-    "blogger": ""
-  },  
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/web-developement-technologies.html"
+  },
   {
     "id": "G4gy0X",
     "title": "Web page design - Touch to Bootstrap 4.o",
     "version": "0.1",
     "word":
       "https://manoj10101996.wordpress.com/2019/11/25/web-page-design-touch-to-bootstrap-4-o/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/web-page-design-touch-to-bootstrap-4o.html"
   },
   {
     "id": "YBU5Y9",
@@ -27,7 +30,8 @@
     "version": "0.1",
     "word":
       "https://manoj10101996.wordpress.com/2019/11/25/angular-booster-techniques/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/angular-booster-techniques.html"
   },
   {
     "id": "9r02fo",
@@ -35,7 +39,8 @@
     "version": "0.1",
     "word":
       "https://manoj10101996.wordpress.com/2019/11/25/production-builds-lazy-loading-modules-angular-booster/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/production-builds-lazy-loading-modules.html"
   },
 
   {
@@ -43,7 +48,8 @@
     "title": "Ionic Big Picture",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/ionic-big-picture/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/ionic-big-picture.html"
   },
   {
     "id": "elAKX6",
@@ -51,7 +57,8 @@
     "version": "0.1",
     "word":
       "https://manoj10101996.wordpress.com/2019/11/25/sprint-boot-explanation/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/sprint-boot-explanation.html"
   },
   {
     "id": "yBVafl",
@@ -59,7 +66,8 @@
     "version": "0.1",
     "word":
       "https://manoj10101996.wordpress.com/2019/11/25/into-spring-boot-starter/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/into-spring-boot-starter.html"
   },
   {
     "id": "LJdVtB",
@@ -75,21 +83,23 @@
     "title": "Css Big Picture ",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/css-big-picture/",
-    "blogger": ""
+    "blogger": "https://manoj10101996.blogspot.com/2019/11/css-big-picture.html"
   },
   {
     "id": "Nzc4a6",
     "title": "React kick Start",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/react-kick-start/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/react-kick-start.html"
   },
   {
     "id": "LMpEdf",
     "title": "React Js",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/react-js/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/react-js-look-into.html"
   },
 
   {
@@ -97,7 +107,7 @@
     "title": "Angular intro",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/angular-intro/",
-    "blogger": ""
+    "blogger": "https://manoj10101996.blogspot.com/2019/11/angular-intro.html"
   },
   {
     "id": "rxncUT",
@@ -105,28 +115,23 @@
     "version": "0.1",
     "word":
       "https://manoj10101996.wordpress.com/2019/11/25/python-big-picture/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/python-big-picture.html"
   },
   {
     "id": "rUZ6Zs",
     "title": "Sass story",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/sass-story/",
-    "blogger": ""
+    "blogger": "https://manoj10101996.blogspot.com/2019/11/sass-story.html"
   },
   {
     "id": "mNFCuw",
     "title": "Into Python Flask ",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/into-python-flask/",
-    "blogger": ""
-  },
-  { 
-    "id": "WeH4Se",
-    "title": "Vue Basic",
-    "version": "0.1",
-    "word": "https://manoj10101996.wordpress.com/2019/11/25/vue-basic/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/into-python-flask.html"
   },
 
   {
@@ -134,7 +139,8 @@
     "title": "Gulp Big Picture",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/gulp-big-picture/",
-    "blogger": ""
+    "blogger":
+      "https://manoj10101996.blogspot.com/2019/11/gulp-big-picture.html"
   },
 
   {
@@ -142,27 +148,27 @@
     "title": "Node js Intro",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/node-js-intro/",
-    "blogger": ""
+    "blogger": "https://manoj10101996.blogspot.com/2019/11/node-js-intro.html"
   },
   {
     "id": "oxhbvb",
     "title": "Babel JS",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/babel-js/",
-    "blogger": ""
+    "blogger": "https://manoj10101996.blogspot.com/2019/11/babel-js.html"
   },
   {
     "id": "KtYy4m",
     "title": "HTML Intro",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/html-intro/",
-    "blogger": ""
+    "blogger": "https://manoj10101996.blogspot.com/2019/11/html-intro.html"
   },
   {
     "id": "FZEIN1",
     "title": "Ajax Intro",
     "version": "0.1",
     "word": "https://manoj10101996.wordpress.com/2019/11/25/ajax-intro/",
-    "blogger": ""
+    "blogger": "https://manoj10101996.blogspot.com/2019/11/ajax-intro.html"
   }
 ]
