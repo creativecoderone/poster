@@ -1,0 +1,81 @@
+<p class='' id=''>There are still many technologies, tools, and resources you can learn and utilize to up your game as a web design professional.
+	<br />Here is our list of the different languages, libraries, frameworks, databases, and CSS Pre-Processors that could help you become a better web designer.</p>
+<br />
+<h5 class='' id=''>Web Design Languages</h5>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.clipartwiki.com/clipimg/detail/183-1834382_web-development-png.png' class='center' id='' />
+<br />
+<h5 class='' id=''>JavaScript</h5>
+<br />
+<p class='' id=''>JavaScript is no doubt the first and foremost language you need to learn as a web design professional because of its versatility. It works across all web browsers, databases, mobile apps, frameworks, and even programmable hardware. And with the introduction of the ES6, JavaScript will become much more powerful and easier to write.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.javascript.com/' class='center' id=''>Javascript</a>
+</p>
+<br />
+<p class='' id=''>To further utilize JavaScript, learn more and use Bower and npm, dependency management tools as well as jshint and jscs, tools for code style and issue reporting. Grunt, a javascript runner tool, is also helpful when using Java to help you zip files, lint on js files, and compile Less files.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.aroracomfortechs.com/user/themes/aroracomfortechs/images/custom-design-website.svg' class='center' id='' />
+<br />
+<h5 class='' id=''>CoffeeScript</h5>
+<br />
+<p class='' id=''>Programming languages also has some sort of dialect, and CoffeeScript is one of them. Inspired by Haskell, Python, and Ruby, CoffeeScript exposes the good parts of JavaScript and enhances its brevity and readability to make it easier on the eyes. Then it converts into JavaScript living its tagline, “It’s just JavaScript.”</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://coffeescript.org/' class='center' id=''>CofeeScript</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://thenextscoop.com/wp-content/uploads/2019/01/web-design-2019.jpg' class='center' id='' />
+<br />
+<h5 class='' id=''>Python</h5>
+<br />
+<p class='' id=''>Python is an object-type multi-purpose programming language that works on the Django framework. It is popularly used in mathematical calculations because it makes solving mathematical problems as easy as writing down your own thought in pen and paper.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.python.org/' class='center' id=''>Python</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.bluetext.com/wp-content/uploads/2018/01/web-design-agency.png' class='center' id='' />
+<br />
+<h5 class='' id=''>Ruby</h5>
+<br />
+<p class='' id=''>Running on the Ruby on Rails framework, Ruby is similar to Python. Besides Rails, Ruby is used for almost everything from web applications to desktop GUI applications, and even web servers, intelligent libraries, threaded databases servers, low-level system utilities, picture recognition engines, and throughout computing.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.ruby-lang.org/en/' class='center' id=''>Ruby</a>
+</p>
+<br />
+<img style='width:30%;margin:auto;display:block;padding:10px;' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt5iJlaWQ0m-Z8sMf9WNHszO9w4uSwW-R7W8Qe3aCALpzuKIaf&s' class='center' id='' />
+<br />
+<h5 class='' id=''>Go</h5>
+<br />
+<p class='' id=''>Go or Golang is a new language from Google and is becoming popular in the programming circles. According to Google’s own FAQ, it allows you to compile a large Go program in a single computer in just a few seconds, has a model for software construction making it easy to conduct dependency analysis, and avoids much of the overhead of C-style include files and libraries.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='htthttps://golang.org/' class='center' id=''>Go</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.bnecreative.com/wp-content/uploads/2019/07/illus-webdesign-2.png' class='center' id='' />
+<br />
+<p class='' id=''>Despite its popularity, we don’t recommend to migrate your program to it just yet because it is on its early stages and development.</p>
+<br />
+<h5 class='' id=''>Objective-C</h5>
+<br />
+<p class='' id=''>ObjC is the main language behind Apple’s OS X and iOS as well as their APIs, Cocoa and Cocoa Touch. This simple language which includes Smalltalk-style messaging to the C language is an extension of the standard ANSI C. ObjC is an object-oriented language which features great object orientation, elegance, and low-level ability.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html' class='center' id=''>Objective-C</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.clipartwiki.com/clipimg/detail/154-1540295_professional-web-design-best-website-design-2019.png' class='center' id='' />
+<br />
+<h5 class='' id=''>Elixir</h5>
+<br />
+<p class='' id=''>Elixir is another newcomer which utilizes Erlang’s great features. Those who have used it has compared it to Ruby in terms of its syntax. Elixir is a highly scalable language which uses its lightweight processes to run in all your cores. Its best features when it comes to performance, however, is its occurency.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://elixir-lang.org/' class='center' id=''>Elixir</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://cdn.dribbble.com/users/2069402/screenshots/5574718/gif-4mb.gif' class='center' id='' />
+<br />
