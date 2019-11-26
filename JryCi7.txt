@@ -1,0 +1,171 @@
+<p class='' id=''>Frameworks make it easier to build and work with programming languages. What it basically does is it takes all the repetitive and difficult tasks of setting up a web application and it performs the dirty task for you or make the task easier for you.</p>
+<br />
+<h5 class='' id=''>Meteor</h5>
+<br />
+<p class='' id=''>Meteor is a full stack javascript framework which is fast gaining popularity because of its radical and new approach to web application. It slowly blurs the line between front and back end development by allowing you to create real-time apps. It also has a dynamic and growing community which continuously creates packages for Meteor.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.meteor.com/' class='center' id=''>Meteor</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://cdn.dribbble.com/users/2069402/screenshots/5574718/gif-4mb.gif' class='center' id='' />
+<br />
+<h5 class='' id=''>Node.js</h5>
+<br />
+<p class='' id=''>Node is a server-side javascript framework which is often used for simple website backends and works well with other frameworks, such as Express, API endpoints, web socket servers, and torrent clients. Its scalability to thousands of active connections, efficiency and speed in writing parallel patterns easily, and tons of great libraries based on a solid package manager are some of the reasons for its popularity.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://nodejs.org/en/' class='center' id=''>Node.js</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://web3canvas.com/wp-content/uploads/2018/02/exploration.jpg' class='center' id='' />
+<br />
+<h5 class='' id=''>Ruby on Rails</h5>
+<br />
+<p class='' id=''>It is a full-stack framework which uses, obviously, Ruby and covers both the back and front end of design. Twitter and Basecamp are two of the most popular sites which have Ruby on Rails at its core. One of its greatest advantage is it allows you to really focus on building complex websites by eliminating lame tasks, such as handling database communications, processing Ajax updates, or providing a template system for handling layouts and page sections.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://rubyonrails.org/' class='center' id=''>Ruby on Rails</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://i.pinimg.com/originals/e6/92/1a/e6921a2ba815d72975bb99c77b2eb82c.gif' class='center' id='' />
+<br />
+<h5 class='' id=''>Django</h5>
+<br />
+<p class='' id=''>Django is another full-stack framework but uses Python. Its clean and pragmatic design encourages rapid development. Some of the main reasons why some developers prefer Django over other frameworks are its excellent open-source documentation (even when it first came out), an amazing and supportive community, it’s been crowd-tested, and numerous of packages available – the latest count was more than 3,000 packages and still growing.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.djangoproject.com/' class='center' id=''>Django</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYlOdDhwCuQsNXAvPgJDEaSLbt0i8tp6CT5ExTTLC5gM2pLX8_&s' class='center' id='' />
+<br />
+<h5 class='' id=''>Ionic</h5>
+<br />
+<p class='' id=''>Ionic is a mobile framework that has gained popularity because it’s easy to learn and develop compared to native development when it comes to creating mobile apps. If you have a good javascript foundation, you’ll be able to learn the nuances of deploying or developing on mobile using this framework.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://ionicframework.com/' class='center' id=''>Ionic</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://i.pinimg.com/originals/31/2b/d9/312bd983a50d633fb7c7d5e9053ca62a.jpg' class='center' id='' />
+<br />
+<h5 class='' id=''>Bootstrap</h5>
+<br />
+<p class='' id=''>Without a doubt, Bootstrap is one of the most popular UI frameworks for building HTML, CSS, and JavaScript. And that’s not without a reason. The two primary reasons are, of course, speed and responsiveness, which are very essential in today’s web applications. Aside from these, it is also highly customizable allowing you to give freedom to your creative ideas.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://getbootstrap.com/' class='center' id=''>Bootstrap</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.bnecreative.com/wp-content/uploads/2019/07/illus-webdesign-2.png' class='center' id='' />
+<br />
+<h5 class='' id=''>WordPress</h5>
+<br />
+<p class='' id=''>1WD is a big fan of WordPress, a preference shared by many experts in the industry. In fact, 20% of website including BBC America, The New Yorker, and the official Star Wars blog run on the WordPress framework.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://wordpress.org/' class='center' id=''>WordPress</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://png.pngtree.com/png-vector/20190613/ourmid/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496222.jpg' class='center' id='' />
+<br />
+<h5 class='' id=''>Foundation</h5>
+<br />
+<p class='' id=''>Foundation is a responsive front-end mobile framework which also allows you to build using HTML, Javascript, and CSS. The framework comes in three different packages – CSS, Sass, and Rails – with the first package designed for beginners. Its quick rise to fame is due to the fact that it doesn’t require any particular bak-end. Instead, it runs entirely on the browser making it easy for you to work locally.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://foundation.zurb.com/' class='center' id=''>Foundation</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.6degreesit.com/wp-content/uploads/2019/03/erp-software-development-company.png' class='center' id='' />
+<br />
+<h5 class='' id=''>Backbone.js</h5>
+<br />
+<p class='' id=''>Backbone is a front-end javascript framework which provides event-driven communication between models and views as well as other elements. Models in backbone.js are tied to a back-end and the framework provides excellent support for RESTful APIs allowing you to map the models to a RESTful endpoint.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://backbonejs.org/' class='center' id=''>Backbone.js</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.mtech-systems.com/assets/images/solutions/planning/planning-opening.png' class='center' id='' />
+<br />
+<h5 class='' id=''>AngularJS</h5>
+<br />
+<p class='' id=''>Angular.js is a front-end javascript framework built by Google to build powerful web apps. One of the biggest reasons for popularity is you write less code because there are no getters and setters.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://angularjs.org/' class='center' id=''>AngularJS</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://cdn.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://www.betterbuys.com/wp-content/uploads/2019/08/erp-hero-facts.png' class='center' id='' />
+<br />
+<p class='' id=''>Another good reason to use angular is that it allows you to split your app into MVC components and then it manages your components and serves as the pipeline that connects them.</p>
+<br />
+<h5 class='' id=''>Ember.js</h5>
+<br />
+<p class='' id=''>Ember.js is another front-end javascript framework like Angular. One of its outstanding characteristics is it allows other Ember developers to join a project much faster than its counterparts.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://emberjs.com/' class='center' id=''>Ember.js</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://mk0fayebsg9n12r0mnhk.kinstacdn.com/wp-content/uploads/2018/09/erp-and-accounting-1.jpeg' class='center' id='' />
+<br />
+<p class='' id=''>Another is the set of tools which saves you the hassle of creating mock servers for the front-end, organizing code into modules, setting up build tools, and writing common functionality in their app.</p>
+<br />
+<h5 class='' id=''>Phonegap/Cordova</h5>
+<br />
+<p class='' id=''>Phonegap, also known as Apache Cordova, is a mobile framework which exposes the native APIs of Android and iOs when using javascript. Aside from the cross-platform advantage, other noteworthy features include custom controls.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://phonegap.com/' class='center' id=''>Phonegap/Cordova</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnPLQhTBqkiskZwpYE-pYjZG5dtZx5rhNA9uC5ftxq08Ix2tXW&s' class='center' id='' />
+<br />
+<p class='' id=''>For example, if you are making a custom tab bar which looks different than the native, you have to write more code for that. Phonegap, however, gives you the freedom to do what you want because it is still web.</p>
+<br />
+<h5 class='' id=''>ASP.NET</h5>
+<br />
+<p class='' id=''>Built by Microsoft, one of the beauties of ASP. NET is its ability to reduce the amount of code to build large applications as well as its security created by Windows authentication and per-application configuration.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://dotnet.microsoft.com/' class='center' id=''>ASP.NET</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='http://ventureaviator.com/wp-content/uploads/2017/12/Staff_augmentation_consulting.png' class='center' id='' />
+<br />
+<p class='' id=''>Add to that its early binding, native optimization, and caching services which add to more efficient performance. The framework works perfectly whether you are building a small or large website.</p>
+<br />
+<h5 class='' id=''>Drupal</h5>
+<br />
+<p class='' id=''>There are a lot of CMS framework on the web and Drupal is one of the most popular using PHP. Often compared with the similar CMS, SiteCore, Drupal has an edge being an open-source CMS with a dynamic community which continuously develops it. Because of this, Drupal has tons of free designs and plug-ins for rapid site assembly.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.drupal.org/' class='center' id=''>Drupal</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.admecindia.co.in/sites/default/files/video-marketing.png' class='center' id='' />
+<br />
+<h5 class='' id=''>Laravel</h5>
+<br />
+<p class='' id=''>Laravel is a PHP framework that is gaining popularity this 2015 because it has made PHP fun to use once again with its noteworthy features, like the composer packages which modularize the framework making the process of dependency management much easier.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://laravel.com/' class='center' id=''>Laravel</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='http://secureservercdn.net/160.153.137.218/j58.c04.myftpupload.com/wp-content/uploads/2019/05/digital-marketing-banner-12x8-revised-01.png' class='center' id='' />
+<br />
+<h5 class='' id=''>Hood.ie</h5>
+<br />
+<p class='' id=''>Hood.ie is a full stack development front-end framework which allows you to build web applications using front-end technologies, such as JavaScript, CSS, and HTML while allowing data manipulation without having to worry about server side coding. However, Hood.ie is the most ideal in creating mobile apps.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='http://hood.ie/' class='center' id=''>Hood.ie</a>
+</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://cdn.lynda.com/course/2811725/2811725-637074612780734573-16x9.jpg' class='center' id='' />
+<br />
+<style>img{border-radius:10x;}</style>
