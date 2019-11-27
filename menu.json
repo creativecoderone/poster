@@ -1,253 +1,215 @@
- [
-  {
-    id: "JryCi7",
-    title: "Frame works -  Web Design",
-    word: "",
-    blogger: "",
-    version: "",
-    image: "https://www.idealever.com/sitecm/i/web-design635943455974131167.png"
-  },
-  {
-    id: "CeE7nQ",
-    title: "Libraries - Web Design",
-    word: "",
-    blogger: "",
-    version: "",
-    image:
-      "https://ibytecode.com/ibcjupiter/wp-content/uploads/2016/09/web-solutions.png"
-  },            {
-  "id": "GY33fz",
-  "title": "Databases- Web Design",
-  "word": "",
-  "blogger": "",
-  "version": "",
-"image":"https://www.loggly.com/wp-content/uploads/2019/02/5-Best-Practices-for-Proactive-Database-V2.png"
-}
-          ,
+ [{
+ 		"id": "JryCi7",
+ 		"title": "Frame works -  Web Design",
+ 		"word": "",
+ 		"blogger": "",
+ 		"version": "",
+ 		"image": "https://www.ealever.com/sitecm/i/web-design635943455974131167.png"
+ 	},
+ 	{
+ 		"id": "CeE7nQ",
+ 		"title": "Libraries - Web Design",
+ 		"word": "",
+ 		"blogger": "",
+ 		"version": "",
+ 		"image": "https://ibytecode.com/ibcjupiter/wp-content/uploads/2016/09/web-solutions.png"
+ 	},
+ 	{
+ 		"id": "GY33fz",
+ 		"title": "Databases- Web Design",
+ 		"word": "",
+ 		"blogger": "",
+ 		"version": "",
+ 		"image": "https://www.loggly.com/wp-content/uploads/2019/02/5-Best-Practices-for-Proactive-Database-V2.png"
+ 	},
 
-  {
-    id: "LEKVrz",
-    title: "Technologies - Web Design",
-    word: "",
-    blogger: "",
-    version: "",
-    image:
-      "https://www.aroracomfortechs.com/user/themes/aroracomfortechs/images/custom-design-website.svg"
-  },
-  {
-    id: "FxeJJP",
-    title: "Designing Big Picture",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/web-utiliies-1/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/web-developement-technologies-part-1.html",
-    image:
-      "https://i.pinimg.com/originals/08/0a/f8/080af88a8ae50250f0fa247b1c3a012a.png"
-  },
-  {
-    id: "QLyE5Y",
-    title: "Web Utiliies - 1",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/web-utiliies-1/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/web-developement-technologies-part-1.html",
-    image:
-      "https://www.trzcacak.rs/myfile/full/433-4335000_highly-customized-and-feature-rich-php-web-development.png"
-  },
-  {
-    id: "MN5LKx",
-    title: "Web Utiliies - 2",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/web-utilities-2/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/web-developement-technologies.html",
-    image:
-      "https://d3dr2wyg3jyyh8.cloudfront.net/wp-uploads/uploads/2018/06/vectorstock_20983392-Converted.png"
-  },
-  {
-    id: "G4gy0X",
-    title: "Web page design - Touch to Bootstrap 4.o",
-    version: "0.1",
-    word:
-      "https://manoj10101996.wordpress.com/2019/11/25/web-page-design-touch-to-bootstrap-4-o/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/web-page-design-touch-to-bootstrap-4o.html",
-    image:
-      "https://media.istockphoto.com/vectors/mobile-app-development-vector-id1053908130"
-  },
-  {
-    id: "YBU5Y9",
-    title: "Angular Booster techniques",
-    version: "0.1",
-    word:
-      "https://manoj10101996.wordpress.com/2019/11/25/angular-booster-techniques/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/angular-booster-techniques.html",
-    image: "https://lightblack.eu/wp-content/uploads/2019/09/Web-Design.png"
-  },
-  {
-    id: "9r02fo",
-    title: "Angular Booster ",
-    version: "0.1",
-    word:
-      "https://manoj10101996.wordpress.com/2019/11/25/production-builds-lazy-loading-modules-angular-booster/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/production-builds-lazy-loading-modules.html",
-    image:
-      "http://wallkeeper.com/wp-content/uploads/ph/thumb-photostock-vector-a-team-of-web-developers-designs-a-news-portal-or-information-website-flat-vector-illustration.jpg"
-  },
+ 	{
+ 		"id": "LEKVrz",
+ 		"title": "Technologies - Web Design",
+ 		"word": "",
+ 		"blogger": "",
+ 		"version": "",
+ 		"image": "https://www.aroracomfortechs.com/user/themes/aroracomfortechs/s/custom-design-website.svg"
+ 	},
+ 	{
+ 		"id": "FxeJJP",
+ 		"title": "Designing Big Picture",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/web-utiliies-1/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/web-developement-technologies-part-1.html",
+ 		"image": "https://i.pinimg.com/originals/08/0a/f8/080af88a8ae50250f0fa247b1c3a012a.png"
+ 	},
+ 	{
+ 		"id": "QLyE5Y",
+ 		"title": "Web Utiliies - 1",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/web-utiliies-1/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/web-developement-technologies-part-1.html",
+ 		"image": "https://www.trzcacak.rs/myfile/full/433-4335000_highly-customized-and-feature-rich-php-web-development.png"
+ 	},
+ 	{
+ 		"id": "MN5LKx",
+ 		"title": "Web Utiliies - 2",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/web-utilities-2/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/web-developement-technologies.html",
+ 		"image": "https://d3dr2wyg3jyyh8.cloudfront.net/wp-uploads/uploads/2018/06/vectorstock_20983392-Converted.png"
+ 	},
+ 	{
+ 		"id": "G4gy0X",
+ 		"title": "Web page design - Touch to Bootstrap 4.o",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/web-page-design-touch-to-bootstrap-4-o/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/web-page-design-touch-to-bootstrap-4o.html",
+ 		"image": "https://media.istockphoto.com/vectors/mobile-app-development-vector-id1053908130"
+ 	},
+ 	{
+ 		"id": "YBU5Y9",
+ 		"title": "Angular Booster techniques",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/angular-booster-techniques/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/angular-booster-techniques.html",
+ 		"image": "https://lightblack.eu/wp-content/uploads/2019/09/Web-Design.png"
+ 	},
+ 	{
+ 		"id": "9r02fo",
+ 		"title": "Angular Booster ",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/production-builds-lazy-loading-modules-angular-booster/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/production-builds-lazy-loading-modules.html",
+ 		"image": "http://wallkeeper.com/wp-content/uploads/ph/thumb-photostock-vector-a-team-of-web-developers-designs-a-news-portal-or-information-website-flat-vector-illustration.jpg"
+ 	},
 
-  {
-    id: "86DrZX",
-    title: "Ionic Big Picture",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/ionic-big-picture/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/ionic-big-picture.html",
-    image: "https://www.adstriangle.com/assets/img/webdesign/vector.png"
-  },
-  {
-    id: "elAKX6",
-    title: "Sprint Boot Explanation",
-    version: "0.1",
-    word:
-      "https://manoj10101996.wordpress.com/2019/11/25/sprint-boot-explanation/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/sprint-boot-explanation.html",
-    image:
-      "https://cdn.dribbble.com/users/163342/screenshots/4704323/smartdreamers_web_illustration_1x.jpg"
-  },
-  {
-    id: "yBVafl",
-    title: "Into Spring Boot - Starter",
-    version: "0.1",
-    word:
-      "https://manoj10101996.wordpress.com/2019/11/25/into-spring-boot-starter/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/into-spring-boot-starter.html",
-    image: "https://cdn.dribbble.com/users/2457624/screenshots/5090180/___c.gif"
-  },
-  {
-    id: "LJdVtB",
-    title: "Create Spring Boot Application",
-    version: "0.1",
-    word:
-      "https://manoj10101996.wordpress.com/2019/11/25/create-spring-boot-application/",
-    blogger: "",
-    image:
-      "https://aibusiness.com/wp-content/uploads/2019/03/Flat-color-Modern-Illustration-design-Data-Analysis-1.jpg"
-  },
+ 	{
+ 		"id": "86DrZX",
+ 		"title": "Ionic Big Picture",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/ionic-big-picture/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/ionic-big-picture.html",
+ 		"image": "https://www.adstriangle.com/assets/img/webdesign/vector.png"
+ 	},
+ 	{
+ 		"id": "elAKX6",
+ 		"title": "Sprint Boot Explanation",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/sprint-boot-explanation/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/sprint-boot-explanation.html",
+ 		"image": "https://cdn.dribbble.com/users/163342/screenshots/4704323/smartdreamers_web_illustration_1x.jpg"
+ 	},
+ 	{
+ 		"id": "yBVafl",
+ 		"title": "Into Spring Boot - Starter",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/into-spring-boot-starter/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/into-spring-boot-starter.html",
+ 		"image": "https://cdn.dribbble.com/users/2457624/screenshots/5090180/___c.gif"
+ 	},
+ 	{
+ 		"id": "LJdVtB",
+ 		"title": "Create Spring Boot Application",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/create-spring-boot-application/",
+ 		"blogger": "",
+ 		"image": "https://aibusiness.com/wp-content/uploads/2019/03/Flat-color-Modern-Illustration-design-Data-Analysis-1.jpg"
+ 	},
 
-  {
-    id: "55CMER",
-    title: "Css Big Picture ",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/css-big-picture/",
-    blogger: "https://manoj10101996.blogspot.com/2019/11/css-big-picture.html",
-    image:
-      "https://cdn.dribbble.com/users/292354/screenshots/4984405/data_analysis.jpg"
-  },
-  {
-    id: "Nzc4a6",
-    title: "React kick Start",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/react-kick-start/",
-    blogger: "https://manoj10101996.blogspot.com/2019/11/react-kick-start.html",
-    image:
-      "https://cdn.dribbble.com/users/1175433/screenshots/5864803/for-dribble3_final111_2x.png"
-  },
-  {
-    id: "LMpEdf",
-    title: "React Js",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/react-js/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/react-js-look-into.html",
-    image:
-      "https://kit8.net/images/thumbnails/580/386/detailed/3/Collaboration@2x.png"
-  },
+ 	{
+ 		"id": "55CMER",
+ 		"title": "Css Big Picture ",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/css-big-picture/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/css-big-picture.html",
+ 		"image": "https://cdn.dribbble.com/users/292354/screenshots/4984405/data_analysis.jpg"
+ 	},
+ 	{
+ 		"id": "Nzc4a6",
+ 		"title": "React kick Start",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/react-kick-start/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/react-kick-start.html",
+ 		"image": "https://cdn.dribbble.com/users/1175433/screenshots/5864803/for-dribble3_final111_2x.png"
+ 	},
+ 	{
+ 		"id": "LMpEdf",
+ 		"title": "React Js",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/react-js/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/react-js-look-into.html",
+ 		"image": "https://kit8.net/images/thumbnails/580/386/detailed/3/Collaboration@2x.png"
+ 	},
 
-  {
-    id: "KliUTa",
-    title: "Angular intro",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/angular-intro/",
-    blogger: "https://manoj10101996.blogspot.com/2019/11/angular-intro.html",
-    image:
-      "https://cdn.dribbble.com/users/1912990/screenshots/6129020/cloud_computing.gif"
-  },
-  {
-    id: "rxncUT",
-    title: "Python Big Picture",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/python-big-picture/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/python-big-picture.html",
-    image:
-      "https://cdn.dribbble.com/users/806947/screenshots/4698193/drink_coffee-resize.gif"
-  },
-  {
-    id: "rUZ6Zs",
-    title: "Sass story",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/sass-story/",
-    blogger: "https://manoj10101996.blogspot.com/2019/11/sass-story.html",
-    image:
-      "https://cdn.dribbble.com/users/217865/screenshots/5083655/ilustracja-dribble.gif"
-  },
-  {
-    id: "mNFCuw",
-    title: "Into Python Flask ",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/into-python-flask/",
-    blogger:
-      "https://manoj10101996.blogspot.com/2019/11/into-python-flask.html",
-    image: ""
-  },
+ 	{
+ 		"id": "KliUTa",
+ 		"title": "Angular intro",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/angular-intro/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/angular-intro.html",
+ 		"image": "https://cdn.dribbble.com/users/1912990/screenshots/6129020/cloud_computing.gif"
+ 	},
+ 	{
+ 		"id": "rxncUT",
+ 		"title": "Python Big Picture",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/python-big-picture/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/python-big-picture.html",
+ 		"image": "https://cdn.dribbble.com/users/806947/screenshots/4698193/drink_coffee-resize.gif"
+ 	},
+ 	{
+ 		"id": "rUZ6Zs",
+ 		"title": "Sass story",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/sass-story/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/sass-story.html",
+ 		"image": "https://cdn.dribbble.com/users/217865/screenshots/5083655/ilustracja-dribble.gif"
+ 	},
+ 	{
+ 		"id": "mNFCuw",
+ 		"title": "Into Python Flask ",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/into-python-flask/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/into-python-flask.html",
+ 		"image": ""
+ 	},
 
-  {
-    id: "0XFyG3",
-    title: "Gulp Big Picture",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/gulp-big-picture/",
-    blogger: "https://manoj10101996.blogspot.com/2019/11/gulp-big-picture.html",
-    image:
-      "http://www.newfoundmarketing.ca/wp-content/uploads/2018/06/web-development.jpg"
-  },
+ 	{
+ 		"id": "0XFyG3",
+ 		"title": "Gulp Big Picture",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/gulp-big-picture/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/gulp-big-picture.html",
+ 		"image": "http://www.newfoundmarketing.ca/wp-content/uploads/2018/06/web-development.jpg"
+ 	},
 
-  {
-    id: "2cNDe8",
-    title: "Node js Intro",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/node-js-intro/",
-    blogger: "https://manoj10101996.blogspot.com/2019/11/node-js-intro.html",
-    image:
-      "https://cdn.dribbble.com/users/66052/screenshots/7019251/digital-marketing.png"
-  },
-  {
-    id: "oxhbvb",
-    title: "Babel JS",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/babel-js/",
-    blogger: "https://manoj10101996.blogspot.com/2019/11/babel-js.html",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9t-rjUaf52q03Mn33xD0Jsrmtyfh8n_cifxDETC-q9souuSpU&s"
-  },
-  {
-    id: "KtYy4m",
-    title: "HTML Intro",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/html-intro/",
-    blogger: "https://manoj10101996.blogspot.com/2019/11/html-intro.html",
-    image: "https://lightblack.eu/wp-content/uploads/2019/09/Marketing.png"
-  },
-  {
-    id: "FZEIN1",
-    title: "Ajax Intro",
-    version: "0.1",
-    word: "https://manoj10101996.wordpress.com/2019/11/25/ajax-intro/",
-    blogger: "https://manoj10101996.blogspot.com/2019/11/ajax-intro.html",
-    image:
-      "https://ionfinfi.sirv.com/WP_www.barrazacarlos.com/2019/04/DIgital-Marketing.png"
-  }
-]
+ 	{
+ 		"id": "2cNDe8",
+ 		"title": "Node js Intro",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/node-js-intro/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/node-js-intro.html",
+ 		"image": "https://cdn.dribbble.com/users/66052/screenshots/7019251/digital-marketing.png"
+ 	},
+ 	{
+ 		"id": "oxhbvb",
+ 		"title": "Babel JS",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/babel-js/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/babel-js.html",
+ 		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9t-rjUaf52q03Mn33xD0Jsrmtyfh8n_cifxDETC-q9souuSpU&s"
+ 	},
+ 	{
+ 		"id": "KtYy4m",
+ 		"title": "HTML Intro",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/html-intro/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/html-intro.html",
+ 		"image": "https://lightblack.eu/wp-content/uploads/2019/09/Marketing.png"
+ 	},
+ 	{
+ 		"id": "FZEIN1",
+ 		"title": "Ajax Intro",
+ 		"version": "0.1",
+ 		"word": "https://manoj10101996.wordpress.com/2019/11/25/ajax-intro/",
+ 		"blogger": "https://manoj10101996.blogspot.com/2019/11/ajax-intro.html",
+ 		"image": "https://ionfinfi.sirv.com/WP_www.barrazacarlos.com/2019/04/DIgital-Marketing.png"
+ 	}
+ ]
