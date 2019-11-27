@@ -1,0 +1,46 @@
+<p class='' id=''>Databases, obviously, are like filing cabinets where you store all your data. They basically come in two types – SQL and noSQL. Where SQL makes sure that all data is correct and validated, noSQL gives you a lot of flexibility to maintain and build applications.</p>
+<br />
+<h5 class='' id=''>Mongodb</h5>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.mongodb.com/' class='center' id=''>Mongodb</a>
+</p>
+<br />
+<p class='' id=''>Mongodb is an open-source noSQL database and the only database at the moment that supports Meteor. Some of its features include high scalability and tools which allow you to deploy, monitor, back up, and scale the database easily.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://d35fo82fjcw0y8.cloudfront.net/2018/09/05102935/Blog_header-e1551339439285.png' class='center' id='' />
+<br />
+<b>One of the best noSQL databases</b>
+<h5 class='' id=''>Redis</h5>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://redis.io/' class='center' id=''>Redis</a>
+</p>
+<br />
+<p class='' id=''>Redis is also a noSQL database but unlike Mongodb, it is a key-value store with built-in persistence and more datatypes. Redid gained popularity because of its lightning speed for retrieving data. However, it doesn’t allow for much depth when it comes to data storage.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.kbresearch.com/concept-files/database-marketing-v2.png' class='center' id='' />
+<br />
+<b>Redis is a key-value store</b>
+<h5 class='' id=''>PostgreSQL</h5>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.postgresql.org/' class='center' id=''>PostgreSQL</a>
+</p>
+<br />
+<p class='' id=''>PostgreSQL is an open-source SQL database. Compared to MySQL, Postgre isn’t object-relational and has more powerful querying facilities. Other advantages of Postgre include subselects, user-defined datatypes and functions in various languages, and data handling. On the other hand, some of its SELECT queries might be a bit slower compared to its MySQL counterparts.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://www.loggly.com/wp-content/uploads/2019/02/5-Best-Practices-for-Proactive-Database-V2.png' class='center' id='' />
+<br />
+<b>PostgreSQL has powerful querying faciliites</b>
+<h5 class='' id=''>SQL Server</h5>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.microsoft.com/en-us/sql-server/sql-server-2016' class='center' id=''>SQL Server</a>
+</p>
+<br />
+<p class='' id=''>This is an SQL server manager built by Microsoft. Some of its pros include tools, such as BI tools and SQL Server Management Studio, which save you a lot of time in development and troubleshooting. And since it is one of Microsoft’s flagship products, it is well-documented and rapidly evolving in various technologies.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='http://www.cybertrol.com/wp-content/uploads/2016/03/DatabaseDesign_Infographic-1.png' class='center' id='' />
+<br />
+<b>SQL Server saves you time on development and troubleshooting</b>
