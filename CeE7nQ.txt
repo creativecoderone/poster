@@ -1,0 +1,38 @@
+<p class='' id=''>Libraries group code snippets to give you a vast amount of functionality without letting you write all the code by yourself. Libraries also ensure that all codes work efficiently across all web browsers and devices.</p>
+<br />
+<h5 class='' id=''>jQuery</h5>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://jquery.com/' class='center' id=''>jQuery</a>
+</p>
+<br />
+<p class='' id=''>When it comes to libraries, jQuery is no doubt the largest open-source javascript library which is CSS3 compliant and can run across different browsers. One of the best things about is that you don’t really need to heavily know code to use it. It also has a vast community which supports and constantly develops its components.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://cdn.dribbble.com/users/1912990/screenshots/6129020/cloud_computing.gif' class='center' id='' />
+<br />
+<b>jQuery is still no doubt the largest library</b>
+<hr />
+<h5 class='' id=''>React</h5>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://reactjs.org/' class='center' id=''>React</a>
+</p>
+<br />
+<p class='' id=''>React is a javascript library developed by Facebook which provides very fast performance due to its virtual DOM. It can be easily plugged into existing projects. React has a lot of potential because of its active community which constantly develops its components. One of its coolest features is its ability to update only the part that needs to be changed once the “Refresh” button has been hit.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='http://www.newfoundmarketing.ca/wp-content/uploads/2018/06/web-development.jpg' class='center' id='' />
+<br />
+<b>React is a library developed for Facebook</b>
+<hr />
+<h5 class='' id=''>Underscore</h5>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://underscorejs.org/' class='center' id=''>Underscore</a>
+</p>
+<br />
+<p class='' id=''>Underscore is also a javascript library which gives you the utility for common programming tasks. It gives you the functional programming support like the one you get fromn Prototype.js, but it does not extend any of the built-in javascript objects.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9t-rjUaf52q03Mn33xD0Jsrmtyfh8n_cifxDETC-q9souuSpU&s' class='center' id='' />
+<br />
+<b>A javascript library for common programming tasks</b>
+<hr />
