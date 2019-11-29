@@ -1,0 +1,486 @@
+<div class='' id=''>
+	<div class="content">
+	 
+	 
+		<!-- InstanceBeginEditable name="main_content" -->
+		<a href="html-get-started.php" class="previous-page" title="Go to Previous Page"></a>
+		<a href="html-attributes.php" class="next-page" title="Go to Next Page"></a>
+		<h1>HTML
+			<span>Elements</span>
+		</h1>
+		<p class="summary">In this tutorial you will learn about HTML tags and elements.</p>
+		<h2>HTML Element Syntax</h2>
+		<p>An HTML element is an individual component of an HTML document. It represents semantics, or meaning. For example, the
+			<code>title</code>element represents the title of the document.</p>
+		<p class="space">Most HTML elements are written with a
+			<em>start tag</em>(or opening tag) and an
+			<em>end tag</em>(or closing tag), with content in between. Elements can also contain attributes that defines its additional properties. For example, a paragraph, which is represented by the
+			<code>p</code>element, would be written as:</p>
+		<div class="space">
+			<img width="560" src="../lib/images/html-element.png" alt="HTML Element Syntax Illustration" />
+		</div>
+		<p>We will learn about the HTML attributes in the
+			<a href="html-attributes.php">next chapter</a>.</p>
+		<!--Note box-->
+		<div class="color-box">
+			<div class="shadow">
+				<div class="info-tab note-icon" title="Important Notes">
+					<i></i>
+				</div>
+				<div class="note-box">
+					<p>
+						<strong>Note:</strong>All elements don't require the end tag or closing tag to be present. These are referred as
+						<em>empty elements</em>,
+						<em>self-closing elements</em>or
+						<em>void elements</em>.</p>
+				</div>
+			</div>
+		</div>
+		<!--End:Note box-->
+		<hr />
+		<h2>HTML Tags Vs Elements</h2>
+		<p>Technically, an HTML element is the collection of start tag, its attributes, an end tag and everything in between. On the other hand an HTML tag (either opening or closing) is used to mark the start or end of an element, as you can see in the above illustration.</p>
+		<p>However, in common usage the terms HTML element and HTML tag are interchangeable i.e. a tag is an element is a tag. For simplicity's sake of this website, the terms "tag" and "element" are used to mean the same thing — as it will define something on your web page.</p>
+		<hr />
+		<h2>Case Insensitivity in HTML Tags and Attributes</h2>
+		<p>In HTML, tag and attribute names are not case-sensitive (but most attribute values are case-sensitive). It means the tag
+			<code>&lt;P&gt;</code>, and the tag
+			<code>&lt;p&gt;</code>defines the same thing in HTML which is a paragraph.</p>
+		<p>But in
+			<a href="../xhtml-tutorial.php">XHTML</a>they are case-sensitive and the tag
+			<code>&lt;P&gt;</code>is different from the tag
+			<code>&lt;p&gt;</code>.</p>
+		<!--Code box-->
+		<div class="example">
+			<div class="codebox">
+				<div class="codebox-title">
+					<h4>Example</h4>
+					<a href="../codelab.php?topic=html&amp;file=case-insensitivity" target="_blank" class="try-btn" title="Try this code using online Editor">Try this code
+						<span>»</span>
+					</a>
+				</div>
+				<pre class="syntax-highlighter line-numbers language-markup">
+					<code class="language-markup">
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>This is a paragraph.
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>P</span>
+							<span class="token punctuation">&gt;</span>
+						</span>This is also a valid paragraph.
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>P</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span aria-hidden="true" class="line-numbers-rows">
+							<span style="height: 24px;"></span>
+							<span style="height: 24px;"></span>
+						</span>
+						<span class="line-numbers-sizer" style="display: none;"></span>
+					</code>
+				</pre>
+			</div>
+		</div>
+		<!--End:Code box-->
+		<!--Tip Box-->
+		<div class="color-box">
+			<div class="shadow">
+				<div class="info-tab tip-icon" title="Useful Tips">
+					<i></i>
+				</div>
+				<div class="tip-box">
+					<p>
+						<strong>Tip:</strong>We recommend using lowercase for tag and attributing names in HTML, since by doing this you can make your document more compliant for future upgrades.</p>
+				</div>
+			</div>
+		</div>
+		<!--End:Tip Box-->
+		<hr />
+		<h2 id="empty-elements">Empty HTML Elements</h2>
+		<p>Empty elements (also called self-closing or void elements) are not container tags — that means, you can not write
+			<code>&lt;hr&gt;
+				<i>some content</i>&lt;/hr&gt;</code>or
+			<code>&lt;br&gt;
+				<i>some content</i>&lt;/br&gt;</code>.</p>
+		<p>A typical example of an empty element, is the
+			<code>&lt;br&gt;</code>element, which represents a line break. Some other common empty elements are
+			<code>&lt;img&gt;</code>,
+			<code>&lt;input&gt;</code>,
+			<code>&lt;link&gt;</code>,
+			<code>&lt;meta&gt;</code>,
+			<code>&lt;hr&gt;</code>, etc.</p>
+		<!--Code box-->
+		<div class="example">
+			<div class="codebox">
+				<div class="codebox-title">
+					<h4>Example</h4>
+					<a href="../codelab.php?topic=html&amp;file=empty-elements" target="_blank" class="try-btn" title="Try this code using online Editor">Try this code
+						<span>»</span>
+					</a>
+				</div>
+				<pre class="syntax-highlighter line-numbers language-markup">
+					<code class="language-markup">
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>This paragraph contains
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>br</span>
+							<span class="token punctuation">&gt;</span>
+						</span>a line break.
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>img</span>
+							<span class="token attr-name">src</span>
+							<span class="token attr-value">
+								<span class="token punctuation">=</span>
+								<span class="token punctuation">"</span>images/sky.jpg
+								<span class="token punctuation">"</span>
+							</span>
+							<span class="token attr-name">alt</span>
+							<span class="token attr-value">
+								<span class="token punctuation">=</span>
+								<span class="token punctuation">"</span>Cloudy Sky
+								<span class="token punctuation">"</span>
+							</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>input</span>
+							<span class="token attr-name">type</span>
+							<span class="token attr-value">
+								<span class="token punctuation">=</span>
+								<span class="token punctuation">"</span>text
+								<span class="token punctuation">"</span>
+							</span>
+							<span class="token attr-name">name</span>
+							<span class="token attr-value">
+								<span class="token punctuation">=</span>
+								<span class="token punctuation">"</span>username
+								<span class="token punctuation">"</span>
+							</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span aria-hidden="true" class="line-numbers-rows">
+							<span style="height: 24px;"></span>
+							<span style="height: 24px;"></span>
+							<span style="height: 24px;"></span>
+						</span>
+						<span class="line-numbers-sizer" style="display: none;"></span>
+					</code>
+				</pre>
+			</div>
+		</div>
+		<!--End:Code box-->
+		<!-- Responsive Leaderboard -->
+		<div class="color-box">
+			<div class="shadow">
+				<div class="info-tab note-icon" title="Important Notes">
+					<i></i>
+				</div>
+				<div class="note-box">
+					<p>
+						<strong>Note:</strong>In HTML, a self-closing element is written simply as
+						<code>
+							<a href="../html-reference/html-br-tag.php">&lt;br&gt;</a>
+						</code>. In XHTML, a self-closing element requires a space and a trailing slash, such as
+						<code>&lt;br /&gt;</code>.</p>
+				</div>
+			</div>
+		</div>
+		<!-- InstanceBeginEditable name="main_content" -->
+		<hr />
+		<h2>Nesting HTML Elements</h2>
+		<p>Most HTML elements can contain any number of further elements (except
+			<a href="#empty-elements">empty elements</a>), which are, in turn, made up of tags, attributes, and content or other elements.</p>
+		<p>The following example shows some elements nested inside the
+			<code>&lt;p&gt;</code>element.</p>
+		<!--Note box-->
+		<div class="example">
+			<div class="codebox">
+				<div class="codebox-title">
+					<h4>Example</h4>
+					<a href="../codelab.php?topic=html&amp;file=nesting-elements" target="_blank" class="try-btn" title="Try this code using online Editor">Try this code
+						<span>»</span>
+					</a>
+				</div>
+				<pre class="syntax-highlighter line-numbers language-markup">
+					<code class="language-markup">
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>Here is some
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>b</span>
+							<span class="token punctuation">&gt;</span>
+						</span>bold
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>b</span>
+							<span class="token punctuation">&gt;</span>
+						</span>text.
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>Here is some
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>em</span>
+							<span class="token punctuation">&gt;</span>
+						</span>emphasized
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>em</span>
+							<span class="token punctuation">&gt;</span>
+						</span>text.
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>Here is some
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>mark</span>
+							<span class="token punctuation">&gt;</span>
+						</span>highlighted
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>mark</span>
+							<span class="token punctuation">&gt;</span>
+						</span>text.
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span aria-hidden="true" class="line-numbers-rows">
+							<span style="height: 24px;"></span>
+							<span style="height: 24px;"></span>
+							<span style="height: 24px;"></span>
+						</span>
+						<span class="line-numbers-sizer" style="display: none;"></span>
+					</code>
+				</pre>
+			</div>
+		</div>
+		<!--End:Note box-->
+		<!--Code box-->
+		<div class="color-box">
+			<div class="shadow">
+				<div class="info-tab tip-icon" title="Useful Tips">
+					<i></i>
+				</div>
+				<div class="tip-box">
+					<p>
+						<strong>Tip:</strong>Placing one element inside another is called nesting. A nested element, also called a child element, can be a parent element too if other elements are nested within it.</p>
+				</div>
+			</div>
+		</div>
+		<!--End:Code box-->
+		<p>HTML tags should be nested in correct order. They must be closed in the inverse order of how they are defined, that means the last tag opened must be closed first.</p>
+		<!--Tip Box-->
+		<div class="example">
+			<div class="codebox">
+				<div class="codebox-title">
+					<h4>Example</h4>
+					<a href="../codelab.php?topic=html&amp;file=nesting-order" target="_blank" class="try-btn" title="Try this code using online Editor">Try this code
+						<span>»</span>
+					</a>
+				</div>
+				<pre class="syntax-highlighter line-numbers language-markup">
+					<code class="language-markup">
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>strong</span>
+							<span class="token punctuation">&gt;</span>
+						</span>These tags are nested properly.
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>strong</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>strong</span>
+							<span class="token punctuation">&gt;</span>
+						</span>These tags are not nested properly.
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>strong</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span aria-hidden="true" class="line-numbers-rows">
+							<span style="height: 24px;"></span>
+							<span style="height: 24px;"></span>
+						</span>
+						<span class="line-numbers-sizer" style="display: none;"></span>
+					</code>
+				</pre>
+			</div>
+		</div>
+		<!--End:Tip Box-->
+		<hr />
+		<h2>Writing Comments in HTML</h2>
+		<p>Comments are usually added with the purpose of making the source code easier to understand. It may help other developer (or you in the future when you edit the source code) to understand what you were trying to do with the HTML. Comments are not displayed in the browser.</p>
+		<p>An HTML comment begins with
+			<code>&lt;!--</code>, and ends with
+			<code>--&gt;</code>, as shown in the example below:</p>
+		<!--Code box-->
+		<div class="example">
+			<div class="codebox">
+				<div class="codebox-title">
+					<h4>Example</h4>
+					<a href="../codelab.php?topic=html&amp;file=comment-syntax" target="_blank" class="try-btn" title="Try this code using online Editor">Try this code
+						<span>»</span>
+					</a>
+				</div>
+				<pre class="syntax-highlighter line-numbers language-markup">
+					<code class="language-markup">
+						<span class="token comment">&lt;!-- This is an HTML comment --&gt;</span>
+						<span class="token comment">&lt;!-- This is a multi-line HTML comment that spans across more than one line --&gt;</span>
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>This is a normal piece of text.
+						<span class="token tag">
+							<span class="token tag">
+								<span class="token punctuation">&lt;/</span>p</span>
+							<span class="token punctuation">&gt;</span>
+						</span>
+						<span aria-hidden="true" class="line-numbers-rows">
+							<span style="height: 24px;"></span>
+							<span style="height: 24px;"></span>
+							<span style="height: 24px;"></span>
+							<span style="height: 24px;"></span>
+						</span>
+						<span class="line-numbers-sizer" style="display: none;"></span>
+					</code>
+				</pre>
+			</div>
+		</div>
+		<!--End:Code box-->
+		<p>You can also comment out part of your HTML code for debugging purpose, as shown here:</p>
+		<!-- Responsive Leaderboard -->
+		<div class="example">
+			<div class="codebox">
+				<div class="codebox-title">
+					<h4>Example</h4>
+					<a href="../codelab.php?topic=html&amp;file=commenting-code" target="_blank" class="try-btn" title="Try this code using online Editor">Try this code
+						<span>»</span>
+					</a>
+				</div>
+				<pre class="syntax-highlighter line-numbers language-markup">
+					<code class="language-markup">
+						<span class="token comment">&lt;!-- Hiding this image for testing&lt;img src="images/smiley.png" alt="Smiley"&gt;--&gt;</span>
+						<span aria-hidden="true" class="line-numbers-rows">
+							<span style="height: 24px;"></span>
+							<span style="height: 24px;"></span>
+							<span style="height: 24px;"></span>
+						</span>
+						<span class="line-numbers-sizer" style="display: none;"></span>
+					</code>
+				</pre>
+			</div>
+		</div>
+		<!-- InstanceBeginEditable name="main_content" -->
+		<hr />
+		<h2>HTML Elements Types</h2>
+		<p>Elements can be placed in two distinct groups:
+			<em>
+				<a href="../css-tutorial/css-visual-formatting.php#block-level">block level</a>
+			</em>and
+			<em>
+				<a href="../css-tutorial/css-visual-formatting.php#inline-level">inline level</a>
+			</em>elements. The former make up the document's structure, while the latter dress up the contents of a block.</p>
+		<p>Also, a block element occupies 100% of the available width and it is rendered with a line break before and after. Whereas, an inline element will take up only as much space as it needs.</p>
+		<p>The most commonly used block-level elements are
+			<code>&lt;div&gt;</code>,
+			<code>&lt;p&gt;</code>,
+			<code>&lt;h1&gt;</code>through
+			<code>&lt;h6&gt;</code>,
+			<code>&lt;form&gt;</code>,
+			<code>&lt;ol&gt;</code>,
+			<code>&lt;ul&gt;</code>,
+			<code>&lt;li&gt;</code>, and so on. Whereas, the commonly used inline-level elements are
+			<code>&lt;img&gt;</code>,
+			<code>&lt;a&gt;</code>,
+			<code>&lt;span&gt;</code>,
+			<code>&lt;strong&gt;</code>,
+			<code>&lt;b&gt;</code>,
+			<code>&lt;em&gt;</code>,
+			<code>&lt;i&gt;</code>,
+			<code>&lt;code&gt;</code>,
+			<code>&lt;input&gt;</code>,
+			<code>&lt;button&gt;</code>, etc.</p>
+		<p>You will learn about these elements in detail in upcoming chapters.</p>
+		<!--Note box-->
+		<div class="color-box">
+			<div class="shadow">
+				<div class="info-tab note-icon" title="Important Notes">
+					<i></i>
+				</div>
+				<div class="note-box">
+					<p>
+						<strong>Note:</strong>The block-level elements should not be placed within inline-level elements. For example, the
+						<code>&lt;p&gt;</code>element should not be placed inside the
+						<code>&lt;b&gt;</code>element.</p>
+				</div>
+			</div>
+		</div>
+		<!--End:Note box-->
+		<!--Code box-->
+ 
+	</div>
+</div>
+<br />
