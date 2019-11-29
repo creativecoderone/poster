@@ -64,8 +64,7 @@
 <br />
 <img style='width:50%;margin:auto;display:block;padding:10px;' src='https://iotvnaw69daj.i.optimole.com/w:692/h:414/q:90/https://mk0codeinwp10tp0961a.kinstacdn.com/wp-content/uploads/2018/12/img-1.png' class='center' id='' />
 <br />
-<li class='list-group-item ' id=''>
-	<table style="width: 100%;border-radius:5px;" class="table table-responsive" border="1" >
+ 	<table style="width: 100%;border-radius:5px;" class="table table-responsive" border="1" >
 		<tbody>
 			<tr style="height: 21px;">
 				<td style="height: 21px; width: 14%;">&nbsp;</td>
@@ -141,4 +140,4 @@
 		</tbody>
 	</table>
 	<!-- DivTable.com -->
-</li>
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://cdn.dribbble.com/users/2457624/screenshots/5090180/___c.gif' class='center' id='' /><br>
