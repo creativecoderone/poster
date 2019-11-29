@@ -90,10 +90,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/environments/environment */ "./src/environments/environment.ts");
+
 
 
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
+        this.cookieLinkText = "Learn more";
         this.title = "Swan paper";
         this.caner = false;
         this.type = "PieChart";
@@ -112,6 +115,28 @@ var AppComponent = /** @class */ (function () {
         };
         this.loader = false;
     }
+    AppComponent.prototype.construtor = function () { };
+    AppComponent.prototype.ngOnInit = function () {
+        var cc = window;
+        cc.cookieconsent.initialise({
+            palette: {
+                popup: {
+                    background: "#164969"
+                },
+                button: {
+                    background: "#ffe000",
+                    text: "#164969"
+                }
+            },
+            theme: "classic",
+            content: {
+                message: "This website user cookies ensure for better experience",
+                dismiss: "Got it",
+                link: "Learn more",
+                href: src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].Frontend + "/dataprivacy"
+            }
+        });
+    };
     AppComponent.prototype.canerIt = function () {
         var _this = this;
         this.loader = true;
@@ -1345,6 +1370,7 @@ var CanComponent = /** @class */ (function () {
         );
     };
     CanComponent.prototype.ngOnInit = function () {
+        this.baseHtml = JSON.parse(window.localStorage.getItem("power"));
         speech
             .init({
             volume: 1,
@@ -1579,6 +1605,7 @@ var CanComponent = /** @class */ (function () {
         // this.ids = this.makeid(6);
         this.texter = "";
         this.baseHtml = this.gas.join(" ");
+        window.localStorage.setItem("power", JSON.stringify(this.baseHtml));
         this.baseHtml = html_formatter__WEBPACK_IMPORTED_MODULE_3___default.a.render(this.baseHtml);
     };
     CanComponent.prototype.genBR = function () {
@@ -1968,7 +1995,7 @@ var IMGLIST = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"april \" *ngIf=\"!loader\">\n  \n  <div class=\"row\">\n    <div class=\"col-md-12\"> <br>\n      <div class=\"form-group\">\n        <input type=\"text\" class=\"form-control vcs\" [(ngModel)]=\"search\" name=\"sa4e\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Search term\">\n        <br>\n        <div class=\"fixede\">\n          <div class=\"text-center\" *ngIf=\"search.length>0\">\n            <button style=\"margin: 3px;\" type=\"button\" *ngFor=\"let item of lister | filter: search; let i=index\" (click)=\"getTitle(item.title)\"\n              class=\"badge uk-animation-fade cd badge-primary\" (click)=\"search = ''\"> \n              <span  > {{item.title}} </span></button>\n          </div>\n        </div>\n      </div>\n      <!--<img src=\"https://cdn2.iconfinder.com/data/icons/pastel-svg-application/16/application-view-icons-128.png\"  uk-toggle=\"target: #toggle-animation-multiple; animation:  uk-animation-slide-left, uk-animation-slide-bottom\"\n        class=\"scss\" style=\"width: 40px;\" uk-tooltip=\"Hide Editor\" alt=\"\">-->\n\n      <div id=\"toggle-animation-multiple\" id=\"paper\" class=\" \">\n        <div class=\"carder uk-card-hover uk-card-body\" style=\"padding: 10px;\">\n          <!--*ngFor=\"let item of lister; let i=index\" id=\"{{item.id}}\"-->\n          <div class=\"animated fadeInLeft\">\n            <div class=\"uk-card  \">\n\n              <h3 style=\"padding-left: 8px;\">\n                {{itemtitle}}\n              </h3>\n              <div class=\"base\" [innerHTML]=\"renderer|sanitaizer\">\n              </div>\n            </div>\n          </div>\n        </div> <br> </div>\n      <div class=\"accordion uk-card uk-card-default  uk-card-hover\" id=\"accordionExample\">\n        <div class=\" \">\n          <div class=\"uk-card header\" id=\"headingOne\">\n            <span class=\" badge-pill uk-badge\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\">\n              More topics &nbsp; <i class=\"fas fa-arrow-right\"></i>\n            </span>\n          </div>\n          <div id=\"collapseOne\" class=\"collapse show\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">\n            <div class=\"ca ody\">\n              <div class=\"uk-child-width-1-3@m uk-grid-small uk-grid-match\" uk-grid>\n                <div class=\"  uk-animation-scale-up\" *ngFor=\"let item of lister; let i=index\">\n                  <div class=\"uk-card uk-card-hover uk-card-default dd\" (click)=\"getRender(i)\" onclick=\"topFunction()\">\n                    <img [src]=\"item['image']\" style=\"width: 80px;height: 80px\" alt=\"\">\n                    <span class=\"uk -title\"> &nbsp; {{item.title}}</span>\n                    <div class=\" uk-card-sec ndary \">\n                      <div class=\"row\">\n                        <div class=\"cde\" uk-tooltip=\"Github\">\n                          <a target=\"blank\" [href]=\"'https://github.com/creativecoderone/poster/blob/master/'+itemid+'.txt'\">\n                          <i class='fab fa-github'></i> </a>\n                        </div>\n                        <div class=\"cde\" uk-tooltip=\"Wordpress\">\n                          <a target=\"blank\" href=\"{{item['word']}}\"><i class='fab fa-wordpress-simple'></i> </a>\n                        </div>\n                        <div class=\"cde\" uk-tooltip=\"Blog\">\n                          <a target=\"blank\" href=\"{{item['blogger']}}\"><i class='fab fa-blogger-b'></i> </a>\n                        </div>\n                        <div class=\"cde\" uk-tooltip=\"Open\">\n                          <a target=\"blank\" [href]=\"'#'+item['id']\"><i class='fas fa-hashtag'></i> </a>\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<div>\n  <img *ngIf=\"loader\" src=\"http://jobsinmp.mpmsme.gov.in/newportal/assets/img/soon.gif\" class=\"loader2\"\n    alt=\"\">\n</div>\n<div>\n  <img *ngIf=\"loader\" src=\"http://jobsinmp.mpmsme.gov.in/newportal/assets/img/soon.gif\" class=\"loader2\"\n    alt=\"\">\n</div>\n<div>\n  <img *ngIf=\"loader\" src=\"http://jobsinmp.mpmsme.gov.in/newportal/assets/img/soon.gif\" class=\"loader2\"\n    alt=\"\">\n</div>\n<div>\n  <img *ngIf=\"loader\" src=\"http://jobsinmp.mpmsme.gov.in/newportal/assets/img/soon.gif\" class=\"loader2\"\n    alt=\"\">\n</div>\n<div>\n  <img *ngIf=\"loader\" src=\"http://jobsinmp.mpmsme.gov.in/newportal/assets/img/soon.gif\" class=\"loader2\"\n    alt=\"\">\n</div>\n<div id=\"snackbar\">{{msg}}</div>\n<!--<div class=\"identity fd\">\n  <a target=\"blank\" [href]=\"'https://github.com/creativecoderone/poster/blob/master/'+itemid+'.txt'\"><i class='fas fa-external-link-alt'></i> </a>\n</div>-->\n\n<div class=\"uk-card uk-card-default  uk-card-hover toolbar  text-center\" style=\"margin: auto;margin-bottom:5px;\">\n\n  <i *ngIf=\"!loader\" class='fas lt fa-arrow-circle-left' (click)=\"dis()\"></i>\n\n  <i *ngIf=\"speech\" (click)=\"startSpeech('lister')\" class=\"vs fas fa-headphones-alt\"></i>\n  <i *ngIf=\"!speech\" (click)=\"ngOnDestroy()\" class=\"vs text-dark fas fa-headphones-alt\"></i>\n\n  <i *ngIf=\"!loader\" class='fas rt fa-arrow-circle-right' (click)=\"ins()\"></i>\n\n</div>\n<div class=\"row\" id=\"gal\">\n  <div class=\"col-md-4\" *ngFor=\"let item of imglist; let i=index\">\n    <div class=\"  animated slideInUp\">\n      <img [src]=\"item\" alt=\"\" class=\"vlist\">\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"april \" *ngIf=\"!loader\">\n  \n  <div class=\"row\">\n    <div class=\"col-md-12\"> <br>\n      <div class=\"form-group\">\n        <input type=\"text\" class=\"form-control vcs\" [(ngModel)]=\"search\" name=\"sa4e\" id=\"\" aria-describedby=\"helpId\" placeholder=\"Search term\">\n        <br>\n        <div class=\"fixede\">\n          <div class=\"text-center\" *ngIf=\"search.length>0\">\n            <button style=\"margin: 3px;\" type=\"button\" *ngFor=\"let item of lister | filter: search; let i=index\" (click)=\"getTitle(item.title)\"\n              class=\"badge uk-animation-fade cd badge-primary\" (click)=\"search = ''\"> \n              <span  > {{item.title}} </span></button>\n          </div>\n        </div>\n      </div>\n      <!--<img src=\"https://cdn2.iconfinder.com/data/icons/pastel-svg-application/16/application-view-icons-128.png\"  uk-toggle=\"target: #toggle-animation-multiple; animation:  uk-animation-slide-left, uk-animation-slide-bottom\"\n        class=\"scss\" style=\"width: 40px;\" uk-tooltip=\"Hide Editor\" alt=\"\">-->\n\n      <div id=\"toggle-animation-multiple\" id=\"paper\" class=\" \">\n        <div class=\"carder uk-card-hover uk-card-body\" style=\"padding: 10px;\">\n          <!--*ngFor=\"let item of lister; let i=index\" id=\"{{item.id}}\"-->\n          <div class=\"animated fadeInLeft\">\n            <div class=\"uk-card  \">\n\n              <h3 style=\"padding-left: 8px;\">\n                {{itemtitle}}\n              </h3>\n              <div class=\"base\" [innerHTML]=\"renderer|sanitaizer\">\n              </div>\n            </div>\n          </div>\n        </div> <br> </div>\n      <div class=\"accordion uk-card uk-card-default  uk-card-hover\" id=\"accordionExample\">\n        <div class=\" \">\n          <div class=\"uk-card uk-card-default header\" id=\"headingOne\">\n            <span class=\" badge-pill uk-badge\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\">\n              More topics &nbsp; <i class=\"fas fa-arrow-right\"></i>\n            </span>\n          </div>\n          <div id=\"collapseOne\" class=\"collapse show\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">\n            <div class=\"ca ody\">\n              <div class=\"uk-child-width-1-3@m uk-grid-small uk-grid-match\" uk-grid>\n                <div class=\"  uk-animation-scale-up\" *ngFor=\"let item of lister; let i=index\">\n                  <div class=\"uk-card uk-card-hover uk-card-default dd\" (click)=\"getRender(i)\" onclick=\"topFunction()\">\n                    <img [src]=\"item['image']\" style=\"width: 80px;height: 80px\" alt=\"\">\n                    <span class=\"uk -title\"> &nbsp; {{item.title}}</span>\n                    <div class=\" uk-card-sec ndary \">\n                      <div class=\"row\">\n                        <div class=\"cde\" uk-tooltip=\"Github\">\n                          <a target=\"blank\" [href]=\"'https://github.com/creativecoderone/poster/blob/master/'+itemid+'.txt'\">\n                          <i class='fab fa-github'></i> </a>\n                        </div>\n                        <div class=\"cde\" uk-tooltip=\"Wordpress\">\n                          <a target=\"blank\" href=\"{{item['word']}}\"><i class='fab fa-wordpress-simple'></i> </a>\n                        </div>\n                        <div class=\"cde\" uk-tooltip=\"Blog\">\n                          <a target=\"blank\" href=\"{{item['blogger']}}\"><i class='fab fa-blogger-b'></i> </a>\n                        </div>\n                        <div class=\"cde\" uk-tooltip=\"Open\">\n                          <a target=\"blank\" [href]=\"'#'+item['id']\"><i class='fas fa-hashtag'></i> </a>\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<div>\n  <img *ngIf=\"loader\" src=\"http://jobsinmp.mpmsme.gov.in/newportal/assets/img/soon.gif\" class=\"loader2\"\n    alt=\"\">\n</div>\n<div>\n  <img *ngIf=\"loader\" src=\"http://jobsinmp.mpmsme.gov.in/newportal/assets/img/soon.gif\" class=\"loader2\"\n    alt=\"\">\n</div>\n<div>\n  <img *ngIf=\"loader\" src=\"http://jobsinmp.mpmsme.gov.in/newportal/assets/img/soon.gif\" class=\"loader2\"\n    alt=\"\">\n</div>\n<div>\n  <img *ngIf=\"loader\" src=\"http://jobsinmp.mpmsme.gov.in/newportal/assets/img/soon.gif\" class=\"loader2\"\n    alt=\"\">\n</div>\n<div>\n  <img *ngIf=\"loader\" src=\"http://jobsinmp.mpmsme.gov.in/newportal/assets/img/soon.gif\" class=\"loader2\"\n    alt=\"\">\n</div>\n<div id=\"snackbar\">{{msg}}</div>\n<!--<div class=\"identity fd\">\n  <a target=\"blank\" [href]=\"'https://github.com/creativecoderone/poster/blob/master/'+itemid+'.txt'\"><i class='fas fa-external-link-alt'></i> </a>\n</div>-->\n\n<div class=\"uk-card uk-card-default  uk-card-hover toolbar  text-center\" style=\"margin: auto;margin-bottom:5px;\">\n\n  <i *ngIf=\"!loader\" class='fas lt fa-arrow-circle-left' (click)=\"dis()\"></i>\n\n  <i *ngIf=\"speech\" (click)=\"startSpeech('lister')\" class=\"vs fas fa-headphones-alt\"></i>\n  <i *ngIf=\"!speech\" (click)=\"ngOnDestroy()\" class=\"vs text-dark fas fa-headphones-alt\"></i>\n\n  <i *ngIf=\"!loader\" class='fas rt fa-arrow-circle-right' (click)=\"ins()\"></i>\n\n</div>\n<div class=\"row\" id=\"gal\">\n  <div class=\"col-md-4\" *ngFor=\"let item of imglist; let i=index\">\n    <div class=\"  animated slideInUp\">\n      <img [src]=\"item\" alt=\"\" class=\"vlist\">\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -2182,7 +2209,8 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 var environment = {
-    production: false
+    production: false,
+    Frontend: ""
 };
 /*
  * For easier debugging in development mode, you can import the following file
