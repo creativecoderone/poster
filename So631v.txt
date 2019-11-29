@@ -10,7 +10,7 @@
 		<strong>JQuery</strong>,
 		<strong>Angular JS</strong>,
 		<strong>Responsive Web Design</strong>,
-		<b>UI testing</b>etc.</p>
+		<b>UI testing</b> &nbsp;etc.</p>
 </li><br />
 <h5 class='' id=''>Web Designing</h5>
 <br />
@@ -29,7 +29,7 @@
 </li>
 <li class='list-group-item ' id=''>&nbsp;
 	<p class="lead">All websites on
-		<abbr data-toggle="tooltip" data-placement="top" data-original-title="World Wide Web">WWW</abbr>are designed by
+		<abbr data-toggle="tooltip" data-placement="top" data-original-title="World Wide Web"> &nbsp;WWW &nbsp;</abbr>are designed by
 		<strong>Web Designer</strong>. &nbsp; A
 		<strong>Web Designer</strong> &nbsp;build
 		<strong>Visual</strong>,
