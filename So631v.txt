@@ -1,4 +1,4 @@
-<li class='list-group-item ' id=''>
+<li class='list-group-item ' id=''> &nbsp;
 	<p class="lead">
 		<strong>Web Designing Tutorial</strong>for beginners and experienced UI/Frontend Developers.
 		<strong>Learn Web Design</strong>with
@@ -15,7 +15,7 @@
 </li><br />
 <h5 class='' id=''>Web Designing</h5>
 <br />
-<li class='list-group-item ' id=''>
+<li class='list-group-item ' id=''>&nbsp;
 	<p class="lead">
 		<strong>Web Designing</strong>is the
 		<strong>process of building and maintaining websites</strong>.
@@ -26,9 +26,9 @@
 		<strong>color combinations</strong>,
 		<strong>fonts</strong>,
 		<strong>graphic design</strong>,
-		<strong>webpage interactions</strong>etc.</p>
+		<strong>webpage interactions</strong>etc.</p>&nbsp;
 </li>
-<li class='list-group-item ' id=''>
+<li class='list-group-item ' id=''>&nbsp;
 	<p class="lead">All websites on
 		<abbr data-toggle="tooltip" data-placement="top" data-original-title="World Wide Web">WWW</abbr>are designed by
 		<strong>Web Designer</strong>. A
@@ -43,7 +43,7 @@
 		<strong>images</strong>,
 		<strong>animated content</strong>,
 		<b>Interactions</b>, and the
-		<strong>Responsive web Design</strong>.</p>
+		<strong>Responsive web Design</strong>.</p>&nbsp;
 </li>
 <br />
 <div class='' id=''>
