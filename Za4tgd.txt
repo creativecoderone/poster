@@ -2,11 +2,11 @@
 <img style='width:50%;margin:auto;display:block;padding:10px;' src='https://d3dr2wyg3jyyh8.cloudfront.net/wp-uploads/uploads/2018/06/vectorstock_20983392-Converted.png' class='center' id='' />
 <br />
 <li class='list-group-item ' id=''>
-	<b>Angular</b>is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.</li>
+	<b>Angular</b> &nbsp; is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.</li>
 <li class='list-group-item ' id=''>
-	<b>React</b>is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications, as it is optimal for fetching rapidly changing data that needs to be recorded.</li>
+	<b>React</b>&nbsp;is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications, as it is optimal for fetching rapidly changing data that needs to be recorded.</li>
 <li class='list-group-item ' id=''>
-	<b>Vue</b>is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members coming from various companies such as Netlify and Netguru.</li>
+	<b>Vue</b>&nbsp;is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members coming from various companies such as Netlify and Netguru.</li>
 <br />
 <img style='width:50%;margin:auto;display:block;padding:10px;' src='https://miro.medium.com/max/2840/1*7zccGWE4o5LmxegijjK_xQ.png' class='center' id='' />
 <br />
