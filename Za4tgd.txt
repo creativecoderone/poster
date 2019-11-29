@@ -1,5 +1,4 @@
-<h5 class='' id=''>War Between Angular vs ReactJs vs VueJs</h5>
-<br />
+ 
 <img style='width:50%;margin:auto;display:block;padding:10px;' src='https://d3dr2wyg3jyyh8.cloudfront.net/wp-uploads/uploads/2018/06/vectorstock_20983392-Converted.png' class='center' id='' />
 <br />
 <li class='list-group-item ' id=''>
@@ -58,7 +57,7 @@
 			</tr>
 		</tbody>
 	</table>
-</li>
+</li><br />
 <h5 class='' id=''>Which is most popular</h5>
 <br />
 <p class='' id=''>As “angular” and “react” are common words, it is difficult to grasp their popularity from Google Trends. Though, a good proxy for their popularity is the number of stars that their GitHub repositories get. A sudden shift in the number of stars of Vue occurred in mid-2016 and, recently, Vue has been up there with React as the most popular frameworks.</p>
