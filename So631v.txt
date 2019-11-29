@@ -1,0 +1,125 @@
+<li class='list-group-item ' id=''>
+	<p class="lead">
+		<strong>Web Designing Tutorial</strong>for beginners and experienced UI/Frontend Developers.
+		<strong>Learn Web Design</strong>with
+		<strong>UI Development</strong>,
+		<strong>HTML</strong>,
+		<strong>CSS</strong>,
+		<strong>HTML5</strong>,
+		<strong>CSS3</strong>,
+		<strong>JavaScript</strong>,
+		<strong>JQuery</strong>,
+		<strong>Angular JS</strong>,
+		<strong>Responsive Web Design</strong>,
+		<b>UI testing</b>etc.</p>
+</li><br />
+<h5 class='' id=''>Web Designing</h5>
+<br />
+<li class='list-group-item ' id=''>
+	<p class="lead">
+		<strong>Web Designing</strong>is the
+		<strong>process of building and maintaining websites</strong>.
+		<strong>Web Designing</strong>includes different aspects like
+		<strong>Front End coding</strong>,
+		<strong>website wireframe</strong>,
+		<strong>website layout design</strong>,
+		<strong>color combinations</strong>,
+		<strong>fonts</strong>,
+		<strong>graphic design</strong>,
+		<strong>webpage interactions</strong>etc.</p>
+</li>
+<li class='list-group-item ' id=''>
+	<p class="lead">All websites on
+		<abbr data-toggle="tooltip" data-placement="top" data-original-title="World Wide Web">WWW</abbr>are designed by
+		<strong>Web Designer</strong>. A
+		<strong>Web Designer</strong>build
+		<strong>Visual</strong>,
+		<strong>frontend</strong>/
+		<strong>Client Side</strong>or
+		<strong>User Interface</strong>part of a website.
+		<strong>Front End</strong>includes writing
+		<strong>mark up</strong>,
+		<strong>stylesheet</strong>,
+		<strong>images</strong>,
+		<strong>animated content</strong>,
+		<b>Interactions</b>, and the
+		<strong>Responsive web Design</strong>.</p>
+</li>
+<br />
+<div class='' id=''>
+	<table class="table table-condensed table-bordered table-striped lead">
+ 		<tbody>
+			<tr>
+				<th>Technology</th>
+				<th>Details</th>
+				<th>Use</th>
+			</tr>
+			<tr>
+				<td>HTML</td>
+				<td>Hypertext Markup Language</td>
+				<td>The language used to build Web Page Structure.
+					<a href="HtmlBasics.html" target="_blank">HTML Tutorial</a>
+				</td>
+			</tr>
+			<tr>
+				<td>CSS</td>
+				<td>Cascading
+					<br />Style
+					<br />Sheet</td>
+				<td>To style or decorate a webpage build by HTML.
+					<a href="css.html" target="_blank">CSS Tutorial</a>
+				</td>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+				<td>Client Side Scripting</td>
+				<td>Client Side Scripting Language used to validate form data, handle events, DOM manipulation, add dynamic content, and to add functionalities.
+					<a href="javascript.html" target="_blank">JavaScript Tutorial</a>
+				</td>
+			</tr>
+			<tr>
+				<td>JQuery</td>
+				<td>Javascript
+					<br />Library</td>
+				<td>Javascript Library to build interactive websites with less code, ajax interaction, animation and DOM Manipulation etc.
+					<a href="jquery.html" target="_blank">JQuery Tutorial</a>
+				</td>
+			</tr>
+			<tr>
+				<td>HTML5</td>
+				<td>Latest
+					<br />Version of
+					<br />HTML</td>
+				<td>To create semantic webpage with new tags, media objects, Geo Location, web storage and web accessibility.
+					<a href="html5.html" target="_blank">HTML5 Tutorial</a>
+				</td>
+			</tr>
+			<tr>
+				<td>CSS3</td>
+				<td>Latest
+					<br />CSS Version.</td>
+				<td>To style a webpage with new properties, new selectors and to build
+					<strong>Responsive Website</strong>.
+					<a href="css3.html" target="_blank">CSS3 Tutorial</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Bootstrap</td>
+				<td>Front End
+					<br />Framework</td>
+				<td>
+					<strong>Bootstrap</strong>or
+					<strong>Twitter Bootstrap</strong>is HTML5 Based and Responsive framework used to build responsive websites quickly.
+					<a href="bootstrap.html" target="_blank">Bootstrap Tutorial</a>
+				</td>
+			</tr>
+			<tr>
+				<td>UI&nbsp;Testing</td>
+				<td>To test
+					<br />User Interface</td>
+				<td>To test user interface on Touch and Touch devices, Cross Browser issues, W3C validation and Device testing.</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<br />
