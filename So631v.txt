@@ -1,7 +1,6 @@
 <li class='list-group-item ' id=''> &nbsp;
 	<p class="lead">
-		<strong>Web Designing Tutorial</strong> &nbsp;for beginners and experienced UI/Frontend Developers.
-		<strong>Learn Web Design</strong> &nbsp;with
+ 		<strong>Learning Web Design</strong> &nbsp;with
 		<strong>UI Development</strong>,
 		<strong>HTML</strong>,
 		<strong>CSS</strong>,
