@@ -40,7 +40,7 @@
 		<strong>Front End</strong>includes writing
 		<strong>mark up</strong>,
 		<strong>stylesheet</strong>,
-		<strong>images</strong>,
+		<strong>images</strong>, 
 		<strong>animated content</strong>,
 		<b>Interactions</b>, and the
 		<strong>Responsive web Design</strong>.</p>&nbsp;
