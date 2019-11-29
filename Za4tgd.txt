@@ -1,0 +1,145 @@
+<h5 class='' id=''>War Between Angular vs ReactJs vs VueJs</h5>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://d3dr2wyg3jyyh8.cloudfront.net/wp-uploads/uploads/2018/06/vectorstock_20983392-Converted.png' class='center' id='' />
+<br />
+<li class='list-group-item ' id=''>
+	<b>Angular</b>is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.</li>
+<li class='list-group-item ' id=''>
+	<b>React</b>is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications, as it is optimal for fetching rapidly changing data that needs to be recorded.</li>
+<li class='list-group-item ' id=''>
+	<b>Vue</b>is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members coming from various companies such as Netlify and Netguru.</li>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://miro.medium.com/max/2840/1*7zccGWE4o5LmxegijjK_xQ.png' class='center' id='' />
+<br />
+<li class='list-group-item ' id=''>
+	<table width="100%">
+		<thead>
+			<tr>
+				<th width="25%">&nbsp;</th>
+				<th width="25%">
+					<strong>Angular</strong>
+				</th>
+				<th width="25%">
+					<strong>React</strong>
+				</th>
+				<th width="25%">VueJS</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Initial release</td>
+				<td>2010</td>
+				<td>2013</td>
+				<td>2014</td>
+			</tr>
+			<tr>
+				<td>Official site</td>
+				<td>
+					<a href="http://angular.io/" target="_blank" rel="noopener">angular.io</a>
+				</td>
+				<td>
+					<a href="http://reactjs.org/" target="_blank" rel="noopener">reactjs.org</a>
+				</td>
+				<td>
+					<a href="http://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Current version</td>
+				<td>7</td>
+				<td>16.6.3</td>
+				<td>2.17</td>
+			</tr>
+			<tr>
+				<td>Used by</td>
+				<td>Google, Wix</td>
+				<td>Facebook, Uber</td>
+				<td>Alibaba, GitLab</td>
+			</tr>
+		</tbody>
+	</table>
+</li>
+<h5 class='' id=''>Which is most popular</h5>
+<br />
+<p class='' id=''>As “angular” and “react” are common words, it is difficult to grasp their popularity from Google Trends. Though, a good proxy for their popularity is the number of stars that their GitHub repositories get. A sudden shift in the number of stars of Vue occurred in mid-2016 and, recently, Vue has been up there with React as the most popular frameworks.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://iotvnaw69daj.i.optimole.com/w:692/h:414/q:90/https://mk0codeinwp10tp0961a.kinstacdn.com/wp-content/uploads/2018/12/img-1.png' class='center' id='' />
+<br />
+<li class='list-group-item ' id=''>
+	<table style="width: 100%;border-radius:5px;" class="table table-responsive" border="1" >
+		<tbody>
+			<tr style="height: 21px;">
+				<td style="height: 21px; width: 14%;">&nbsp;</td>
+				<td style="height: 21px; width: 41.4394%;">&nbsp;Pros</td>
+				<td style="height: 21px; width: 39.5606%;">Cons</td>
+			</tr>
+			<tr style="height: 21px;">
+				<td style="height: 21px; width: 14%;">Angular</td>
+				<td style="height: 21px; width: 41.4394%;">
+					<ul>
+						<li id="288b" data-selectable->Angular&rsquo;s created to be used alongside with Typescript. And has exceptional support for it.</li>
+						<li id="1845" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Angular-language-service &mdash; which allows intelligence and autocomplete inside of component external HTML template files.</li>
+						<li id="d480" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->New features like a generation of Angular based npm libraries from CLI, generation, and development of WebComponents based on Angular.</li>
+						<li id="fb80" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Detailed documentation that allows getting the all necessary information for the individual developer without asking his colleagues. However, this requires more time for education.</li>
+						<li id="38e7" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->One-way data binding that enables singular behaviour for the app which minimized risks of possible errors.</li>
+						<li id="934d" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->MVVM (Model-View-ViewModel) that allows developers to work separately on the same app section using the same set of data.</li>
+						<li id="1312" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Dependency injection of the features related to the components with modules and modularity in general.</li>
+						<li id="5178" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Structure and architecture specifically created for great project scalability</li>
+					</ul>
+				</td>
+				<td style="height: 21px; width: 39.5606%;">
+					<ul>
+						<li id="d40e" data-selectable->Variety of different structures(Injectables, Components, Pipes, Modules etc.) makes it a bit harder to learn in comparison with React and Vue.js, which have an only “Component” in mind.</li>
+						<li id="df0e" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Relatively slower performance, according to different benchmarks. On the other hand, it can be easily tackled by utilizing so-called “ChangeDetectionStrategy”, which helps to control the rendering process of components manually.</li>
+					</ul>
+				</td>
+			</tr>
+			<tr style="height: 21px;">
+				<td style="height: 21px; width: 14%;">React&nbsp;&nbsp;</td>
+				<td style="height: 21px; width: 41.4394%;">
+					<ul>
+						<li id="3728" data-selectable->Easy to learn, thanks to its simple design, use of JSX (an HTML-like syntax) for templating, and highly detailed documentation.</li>
+						<li id="2f78" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Developers spend more time writing modern JavaScript, and less time worrying about the framework-specific code.</li>
+						<li id="b695" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Extremely fast, courtesy of React’s Virtual DOM implementation and various rendering optimizations.</li>
+						<li id="ff8e" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Great support for server-side rendering, making it a powerful framework for content-focused applications.</li>
+						<li id="61f4" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->First-class Progressive Web App (PWA) support, thanks to the `create-react-app` application generator.</li>
+						<li id="9291" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Data-binding is one-way, meaning less unwanted side effects.</li>
+						<li id="578c" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Redux, the most popular framework for managing application state in React, is easy to learn and master.</li>
+						<li id="9e0a" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->React implements Functional Programming (FP) concepts, creating easy-to-test and highly reusable code.</li>
+						<li id="735b" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Applications can be made type-safe with either Microsoft’s TypeScript or Facebook’s Flow, with both featuring native support for JSX.</li>
+						<li id="8ba0" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Migrating between versions is generally very easy, with Facebook providing “codemods” to automate much of the process.</li>
+						<li id="3a61" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Skills learned in React can be applied (often directly) to React Native development.</li>
+					</ul>
+				</td>
+				<td style="height: 21px; width: 39.5606%;">
+					<ul>
+						<li id="2031" data-selectable->React is unopinionated and leaves developers to make choices about the best way to develop. This can be tackled by strong project leadership and good processes.</li>
+						<li id="f217" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->The community is divided on the best way to write CSS in React, split between traditional stylesheets (CSS Modules) and CSS-in-JS (i.e. Emotion and Styled Components).</li>
+						<li id="6a40" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->React is moving away from class-based components, which may be a barrier for developers more comfortable with Object Oriented Programming (OOP).</li>
+						<li id="be8e" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Mixing templating with logic (JSX) can be confusing for some developers at first.</li>
+					</ul>
+				</td>
+			</tr>
+			<tr style="height: 21px;">
+				<td style="height: 21px; width: 14%;">Vue&nbsp;</td>
+				<td style="height: 21px; width: 41.4394%;">
+					<ul>
+						<li id="8113" data-selectable->Empowered HTML. This means that Vue.js has many similar characteristics with Angular and this can help to optimize HTML blocks handling with the use of different components.</li>
+						<li id="604f" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Detailed documentation. Vue.js has very circumstantial documentation which can fasten learning curve for developers and save a lot of time to develop an app using only the basic knowledge of HTML and JavaScript.</li>
+						<li id="99d8" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Adaptability. It provides a rapid switching period from other frameworks to Vue.js because of the similarity with Angular and React in terms of design and architecture.</li>
+						<li id="648a" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Awesome integration. Vue.js can be used for both building single-page applications and more difficult web interfaces of apps. The main thing is that smaller interactive parts can be easily integrated into the existing infrastructure with no negative effect on the entire system.</li>
+						<li id="64aa" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Large scaling. Vue.js can help to develop pretty large reusable templates that can be made with no extra time allocated for that according to its simple structure.</li>
+						<li id="c37a" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Tiny size. Vue.js can weight around 20KB keeping its speed and flexibility that allows reaching much better performance in comparison to other frameworks.</li>
+					</ul>
+				</td>
+				<td style="height: 21px; width: 39.5606%;">
+					<ul>
+						<li id="d0cb" data-selectable->Lack of resources. Vue.js still has a pretty small market share in comparison with React or Angular, which means that knowledge sharing in this framework is still in the beginning phase.</li>
+						<li id="44b7" class="gl gm ar bz gn b go ic gq id gs ie gu if gw ig gy hz ia ib" data-selectable->Risk of over flexibility. Sometimes, Vue.js might have issues while integrating into huge projects and there is still no experience with possible solutions, but they will definitely come soon.</li>
+					</ul>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- DivTable.com -->
+</li>
