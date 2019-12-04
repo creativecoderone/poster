@@ -2025,15 +2025,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 /* harmony import */ var src_app_services_speech__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/speech */ "./src/app/services/speech.ts");
 /* harmony import */ var src_app_sugar_menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/sugar/menu */ "./src/app/sugar/menu.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+
 
 
 
 
 
 var SugarComponent = /** @class */ (function () {
-    function SugarComponent(http, speechRecognitionService) {
+    function SugarComponent(http, speechRecognitionService, route) {
         this.http = http;
         this.speechRecognitionService = speechRecognitionService;
+        this.route = route;
         this.speech = true;
         this.search = "";
         this.imglist = src_app_sugar_menu__WEBPACK_IMPORTED_MODULE_4__["IMGLIST"];
@@ -2068,8 +2071,7 @@ var SugarComponent = /** @class */ (function () {
     };
     SugarComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.loader = true;
-        this.iii = 0;
+        var href = window.location.href.split("/")[3];
         this.http
             .get("https://raw.githubusercontent.com/creativecoderone/poster/master/menu.json")
             .subscribe(function (data) {
@@ -2083,15 +2085,34 @@ var SugarComponent = /** @class */ (function () {
                     _this.box.push(element["title"]);
                 }
             }
+            if (href.length > 4) {
+                href = window.location.href.split("/")[3];
+                console.log(href, "---.--TRUE--.---");
+                href = href.split("#")[1];
+                for (var key in _this.lister) {
+                    if (_this.lister.hasOwnProperty(key)) {
+                        var element = _this.lister[key];
+                        if (element["id"] == href) {
+                            _this.itemtitle = element["title"];
+                        }
+                    }
+                }
+            }
+            else {
+                href = _this.lister[0]["id"];
+                console.log(href, "---FALSE---");
+            }
             _this.http
                 .get("https://raw.githubusercontent.com/creativecoderone/poster/master/" +
-                _this.lister[0]["id"] +
+                href +
                 ".txt", { responseType: "text" })
                 .subscribe(function (data2) {
                 _this.loader = false;
                 _this.renderer = data2;
-            });
+            }, function (err) { });
         }, function (err) { });
+        this.loader = true;
+        this.iii = 0;
     };
     SugarComponent.prototype.getRender = function (index) {
         var _this = this;
@@ -2186,7 +2207,8 @@ var SugarComponent = /** @class */ (function () {
             styles: [__webpack_require__(/*! ./sugar.component.scss */ "./src/app/sugar/sugar.component.scss")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"],
-            src_app_services_speech__WEBPACK_IMPORTED_MODULE_3__["SpeechRecognitionService"]])
+            src_app_services_speech__WEBPACK_IMPORTED_MODULE_3__["SpeechRecognitionService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_5__["ActivatedRoute"]])
     ], SugarComponent);
     return SugarComponent;
 }());
