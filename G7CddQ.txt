@@ -1,0 +1,1142 @@
+<div class='' id=''>
+	<style>
+		<!--
+		 /* Font Definitions */
+		 @font-face
+			{font-family:Helvetica;
+			panose-1:2 11 6 4 2 2 2 2 2 4;}
+		@font-face
+			{font-family:Wingdings;
+			panose-1:5 0 0 0 0 0 0 0 0 0;}
+		@font-face
+			{font-family:Wingdings;
+			panose-1:5 0 0 0 0 0 0 0 0 0;}
+		@font-face
+			{font-family:Calibri;
+			panose-1:2 15 5 2 2 2 4 3 2 4;}
+		@font-face
+			{font-family:Consolas;
+			panose-1:2 11 6 9 2 2 4 3 2 4;}
+		@font-face
+			{font-family:"Century Gothic";
+			panose-1:2 11 5 2 2 2 2 2 2 4;}
+		 /* Style Definitions */
+		 p.MsoNormal, li.MsoNormal, div.MsoNormal
+			{margin-top:0cm;
+			margin-right:0cm;
+			margin-bottom:8.0pt;
+			margin-left:0cm;
+			line-height:107%;
+			font-size:11.0pt;
+			font-family:"Calibri",sans-serif;}
+		h2
+			{mso-style-link:"Heading 2 Char";
+			margin-right:0cm;
+			margin-left:0cm;
+			font-size:18.0pt;
+			font-family:"Times New Roman",serif;
+			font-weight:bold;}
+		h3
+			{mso-style-link:"Heading 3 Char";
+			margin-top:2.0pt;
+			margin-right:0cm;
+			margin-bottom:0cm;
+			margin-left:0cm;
+			margin-bottom:.0001pt;
+			line-height:107%;
+			page-break-after:avoid;
+			font-size:12.0pt;
+			font-family:"Calibri Light",sans-serif;
+			color:#1F4D78;
+			font-weight:normal;}
+		a:link, span.MsoHyperlink
+			{color:blue;
+			text-decoration:underline;}
+		a:visited, span.MsoHyperlinkFollowed
+			{color:#954F72;
+			text-decoration:underline;}
+		p
+			{margin-right:0cm;
+			margin-left:0cm;
+			font-size:12.0pt;
+			font-family:"Times New Roman",serif;}
+		code
+			{font-family:"Courier New";}
+		pre
+			{mso-style-link:"HTML Preformatted Char";
+			margin:0cm;
+			margin-bottom:.0001pt;
+			font-size:10.0pt;
+			font-family:"Courier New";}
+		p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+			{margin-top:0cm;
+			margin-right:0cm;
+			margin-bottom:8.0pt;
+			margin-left:36.0pt;
+			line-height:107%;
+			font-size:11.0pt;
+			font-family:"Calibri",sans-serif;}
+		p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+			{margin-top:0cm;
+			margin-right:0cm;
+			margin-bottom:0cm;
+			margin-left:36.0pt;
+			margin-bottom:.0001pt;
+			line-height:107%;
+			font-size:11.0pt;
+			font-family:"Calibri",sans-serif;}
+		p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+			{margin-top:0cm;
+			margin-right:0cm;
+			margin-bottom:0cm;
+			margin-left:36.0pt;
+			margin-bottom:.0001pt;
+			line-height:107%;
+			font-size:11.0pt;
+			font-family:"Calibri",sans-serif;}
+		p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+			{margin-top:0cm;
+			margin-right:0cm;
+			margin-bottom:8.0pt;
+			margin-left:36.0pt;
+			line-height:107%;
+			font-size:11.0pt;
+			font-family:"Calibri",sans-serif;}
+		p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
+			{mso-style-link:"Intense Quote Char";
+			margin-top:18.0pt;
+			margin-right:43.2pt;
+			margin-bottom:18.0pt;
+			margin-left:43.2pt;
+			text-align:center;
+			line-height:107%;
+			border:none;
+			padding:0cm;
+			font-size:11.0pt;
+			font-family:"Calibri",sans-serif;
+			color:#5B9BD5;
+			font-style:italic;}
+		span.IntenseQuoteChar
+			{mso-style-name:"Intense Quote Char";
+			mso-style-link:"Intense Quote";
+			color:#5B9BD5;
+			font-style:italic;}
+		span.Heading2Char
+			{mso-style-name:"Heading 2 Char";
+			mso-style-link:"Heading 2";
+			font-family:"Times New Roman",serif;
+			font-weight:bold;}
+		span.Heading3Char
+			{mso-style-name:"Heading 3 Char";
+			mso-style-link:"Heading 3";
+			font-family:"Calibri Light",sans-serif;
+			color:#1F4D78;}
+		span.HTMLPreformattedChar
+			{mso-style-name:"HTML Preformatted Char";
+			mso-style-link:"HTML Preformatted";
+			font-family:"Courier New";}
+		.MsoChpDefault
+			{font-family:"Calibri",sans-serif;}
+		.MsoPapDefault
+			{margin-bottom:8.0pt;
+			line-height:107%;}
+		@page WordSection1
+			{size:595.3pt 841.9pt;
+			margin:28.4pt 35.35pt 72.0pt 42.55pt;}
+		div.WordSection1
+			{page:WordSection1;}
+		 /* List Definitions */
+		 ol
+			{margin-bottom:0cm;}
+		ul
+			{margin-bottom:0cm;}
+		-->
+	</style>
+	<div class=WordSection1>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:18.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Chat Bot Documentation</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:normal'>
+			<spanstyle='font-size:14.0pt;font-family:"Century Gothic",sans-serif'>A</span>
+			<spanstyle='font-size:18.0pt;font-family:"Century Gothic",sans-serif'></span>
+			<spanstyle='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>Virtualconversational chat bot to solve real-time user queries. Platform IndependentFlow less chat bot. With MEAN Stack and can implemented to all web applicationsbased on requirement.</span>
+		</p>
+		<p class=MsoListParagraphCxSpFirst style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Intent</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<img width=134 height=168 src="Doc2_files/image001.png"align=left hspace=12alt="https://cdn2.iconfinder.com/data/icons/unigrid-phantom-layout-vol-3/60/021_124_chat_dialog_comments_profiles_accounts_team_resumes_layout-256.png" />
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Utterance</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Input</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Slots</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Components</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Design</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>VoiceRecognition</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>TextRecognition</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Textto voice</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Voiceto text</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Session</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Database</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<img width=132 height=166 src="Doc2_files/image002.png"align=left hspace=12 alt="chat, collaboration, consulting icon" />
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Stack</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>UserManagement</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>UserInterface</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Scale</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Hosting</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>TextProcessing</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>TextCleaning</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify;text-indent:-18.0pt'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>UIStyles</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='text-align:justify'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+		</p>
+		<p class=MsoListParagraphCxSpLast style='text-align:justify'>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Intent</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Anintent performs an action in response to natural language user input.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Utterance</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Spokedor typed phrases that invoke your intent.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Slots</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Slotsare input data required to fulfil the intent.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Fulfilment</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Finishingstate of intent.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Input</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Typedor Voice note for perform actions.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Components</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>TheUI Components which will used to interact with users.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Design</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Designcomponents are used to enhance the user experience. Which will be used to getmassive user inputs by mouse or click events.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Voicerecognition</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Advancedfeature to convert voice to text.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Textrecognition</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Understandor analyse the text which will get from input or from voice from the end user.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Textto voice</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Givingbetter user experience text to voice with voice assistants.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Voiceto text</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Gettinguser input from user using audio devices through mic and converts to text.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Session</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Managingsession timeout to prevent user data from malware activities.</span>
+			<spanstyle='font-family:"Helvetica",sans-serif;color:#444444;background:white'></span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Whena user starts a conversation with your bot, bot creates a&nbsp;
+				<i>session</i>.The information exchanged between your application and bot makes up the sessionstate for the conversation. When you make a request, the session is identifiedby a combination of the bot name and a user identifier that you specify.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Database</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Maintainingand storing data of user based on session to enhance the user experience forthe particular intent.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Stack</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Softwarestack to create and maintain application. MEAN or MERN</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>UserManagement</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Themain utility of chat bot is to maintaining the intent records based on users.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Userinterface</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Maintaininguser experience will be enhanced by user interface.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Hosting</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Hostingthe application</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Textprocessing</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Processingtext to give next utterance based on user input from input box and audiodevices.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Textcleaning</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Gettinginputs and processing text using Machine learning techniques.</span>
+		</p>
+		<p style='line-height:18.0pt;background:white'>
+			<b>
+				<span style='font-family:"Century Gothic",sans-serif'>Here are some things that you can do with thesession operations:</span>
+			</b>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:18.0pt;background:white'>
+			<spanstyle='font-size:10.0pt;font-family:Symbol'>·
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-family:"Century Gothic",sans-serif'>Have thebot start a conversation instead of waiting for the user.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:18.0pt;background:white'>
+			<spanstyle='font-size:10.0pt;font-family:Symbol'>·
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-family:"Century Gothic",sans-serif'>Switchintents during a conversation.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:18.0pt;background:white'>
+			<spanstyle='font-size:10.0pt;font-family:Symbol'>·
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-family:"Century Gothic",sans-serif'>Return to aprevious intent.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:18.0pt;background:white'>
+			<spanstyle='font-size:10.0pt;font-family:Symbol'>·
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-family:"Century Gothic",sans-serif'>Start orrestart a conversation in the middle of the interaction.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:-18.0pt;line-height:18.0pt;background:white'>
+			<span style='font-size:10.0pt;font-family:Symbol'>·
+				<spanstyle='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</span>
+			<span style='font-family:"Century Gothic",sans-serif'>Validateslot values and have the bot re-prompt for values that are not valid.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Stack</span>
+			</b>
+		</p>
+		<p class=MsoNormal>&nbsp;</p>
+		<p class=MsoNormal>
+			<img width=541 height=423 src="Doc2_files/image003.png"align=left hspace=12 />
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>User Interface</span>
+			</b>
+		</p>
+		<p class=MsoListParagraphCxSpFirst style='margin-left:72.0pt;text-align:justify;text-indent:-18.0pt'>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Courier New"'>o
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Angular</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-align:justify;text-indent:-18.0pt'>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Courier New"'>o
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>ReactJS</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-align:justify;text-indent:-18.0pt'>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Courier New"'>o
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>VueJS</span>
+		</p>
+		<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-align:justify;text-indent:-18.0pt'>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Courier New"'>o
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>AngularJS</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Interface</span>
+			</b>
+		</p>
+		<p class=MsoListParagraphCxSpFirst style='margin-left:72.0pt;text-align:justify;text-indent:-18.0pt'>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Courier New"'>o
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>NodeJs</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-align:justify;text-indent:-18.0pt'>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Courier New"'>o
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Python</span>
+		</p>
+		<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-align:justify;text-indent:-18.0pt'>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Courier New"'>o
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Flask/ Django Python</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Database</span>
+			</b>
+		</p>
+		<p class=MsoListParagraphCxSpFirst style='margin-left:72.0pt;text-align:justify;text-indent:-18.0pt'>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Courier New"'>o
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>MongoDB</span>
+		</p>
+		<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-align:justify;text-indent:-18.0pt'>
+			<span style='font-size:12.0pt;line-height:107%;font-family:"Courier New"'>o
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>MySQL</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<img width=636 height=538id="Picture 2" src="Doc2_files/image004.png" alt="Diagrams_lex_bookhotel" />
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Dependencies</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'></span>
+			</b>
+			<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>Dependency&nbsp;isa broad software engineering term used to refer when a piece of software relieson another one. Coupling (computer&nbsp;programming) In software engineering,coupling or&nbsp;dependency&nbsp;is the degree to which each&nbsp;program&nbsp;modulerelies on each one of the other modules.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>PythonDependencies</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'>
+			<b>
+				<spanstyle='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoListParagraphCxSpFirst style='margin-left:108.0pt;text-align:justify;text-indent:-18.0pt;line-height:150%'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>flask</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-align:justify;text-indent:-18.0pt;line-height:150%'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>flask_jwt_extended</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-align:justify;text-indent:-18.0pt;line-height:150%'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>pymongo</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-align:justify;text-indent:-18.0pt;line-height:150%'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>textdistance</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-align:justify;text-indent:-18.0pt;line-height:150%'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>numpy</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-align:justify;text-indent:-18.0pt;line-height:150%'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>nltk</span>
+		</p>
+		<p class=MsoListParagraphCxSpLast style='margin-left:108.0pt;text-align:justify;text-indent:-18.0pt;line-height:150%'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>flask_cors</span>
+		</p>
+		<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;line-height:normal'>
+			<b>
+				<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>NodeJS Dependencies</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;line-height:normal'>
+			<b>
+				<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoListParagraphCxSpFirst style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>ngx-toastr</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>string-similarity</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>ngx-cookie-service</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>animate.css</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;@ng-bootstrap/ng-bootstrap&quot;:&quot;^5.1.0&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;angular2-qrcode&quot;:&quot;^2.0.3&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;angularx-qrcode&quot;:&quot;^1.6.4&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;animate.css&quot;:&quot;^3.7.2&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;chalk&quot;:&quot;^2.4.2&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;core-js&quot;:&quot;^2.5.4&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;creator-greet-name-typescript&quot;:&quot;^1.0.3&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;file-saver&quot;:&quot;^2.0.2&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;jwt-simple&quot;:&quot;^0.5.6&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;ng2-search-filter&quot;:&quot;^0.5.1&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;ngx-barcode&quot;:&quot;^0.2.4&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;rxjs&quot;:&quot;~6.3.3&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;save-file&quot;:&quot;^2.3.1&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;speak-tts&quot;:&quot;^2.0.8&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&quot;string-similarity&quot;:&quot;^3.0.0&quot;,</span>
+		</p>
+		<p class=MsoListParagraphCxSpLast style='margin-left:108.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<img width=542 height=308src="Doc2_files/image005.png" align=left hspace=12 />
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Whylimit yourself to text only? The bot can reply with images, cards or buttonsthat can lead to products on your website or put things straight intocustomers’ carts. See how your bot is doing by looking up its conversationhistory. Follow the course of each conversation and make tweaks to yourStories.</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:16.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>Python</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<img width=690height=388 src="Doc2_files/image006.jpg" />
+			<br clear=ALL />
+			<b>
+				<span style='font-size:16.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>TextCleaning</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='text-align:justify;line-height:150%'>
+			<b>
+				<spanstyle='font-size:16.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='margin-top:15.0pt;margin-right:0cm;margin-bottom:15.0pt;margin-left:0cm;line-height:16.8pt;background:white'>
+			<b>
+				<spanstyle='font-size:16.0pt;font-family:"Century Gothic",sans-serif'>NaturalLanguage Processing</span>
+			</b>
+		</p>
+		<p class=MsoNormal style='margin-bottom:15.75pt;text-align:justify;text-indent:36.0pt;line-height:normal;background:white'>
+			<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>NLP is a branch of data science thatconsists of systematic processes for analysing, understanding, and derivinginformation from the text data in a smart and efficient manner. By utilizingNLP and its components, one can organize the massive chunks of text data,perform numerous automated tasks and solve a wide range of problems such as –automatic summarization, machine translation, named entity recognition,relationship extraction, sentiment analysis, speech recognition, and topicsegmentation etc.</span>
+		</p>
+		<p class=MsoNormal style='margin-bottom:15.75pt;line-height:normal;background:white'>
+			<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>Beforemoving further, I would like to explain some terms:</span>
+		</p>
+		<ul type=disc>
+			<li class=MsoNormal style='line-height:normal;background:white'>
+				<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>Tokenization – process of converting a text into tokens</span>
+			</li>
+			<li class=MsoNormal style='line-height:normal;background:white'>
+				<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>Tokens – words or entities present in the text</span>
+			</li>
+			<li class=MsoNormal style='line-height:normal;background:white'>
+				<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>Text object – a sentence or a phrase or a word or an article</span>
+			</li>
+		</ul>
+		<p class=MsoNormal style='margin-top:15.0pt;margin-right:0cm;margin-bottom:15.0pt;margin-left:0cm;line-height:16.8pt;background:white'>
+			<b>
+				<spanstyle='font-size:16.0pt;font-family:"Century Gothic",sans-serif'>TextPre-processing</span>
+			</b>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>Since,text is the most unstructured form of all the available data, various types ofnoise are present in it and the data is not readily analysable without anypre-processing. The entire process of cleaning and standardization of text,making it noise-free and ready for analysis is known as text pre-processing.</span>
+		</p>
+		<p class=MsoListParagraphCxSpFirst style='margin-left:90.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>NoiseRemoval</span>
+		</p>
+		<p class=MsoListParagraphCxSpMiddle style='margin-left:90.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>LexiconNormalization</span>
+		</p>
+		<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:90.0pt;text-indent:-18.0pt;line-height:150%;background:white'>
+			<span style='font-size:16.0pt;line-height:150%;font-family:Wingdings'>§
+				<span style='font:7.0pt "Times New Roman"'>&nbsp;</span>
+			</span>
+			<spanstyle='font-size:12.0pt;line-height:150%;font-family:"Century Gothic",sans-serif'>ObjectStandardization</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;background:white'>
+			<b>
+				<span style='font-size:16.0pt;font-family:"Century Gothic",sans-serif'>NoiseRemoval</span>
+			</b>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;background:white'>
+			<img width=128 height=125 src="Doc2_files/image007.png"alt="alarm, ambulance, noise, siren icon" />
+			<br clear=ALL />
+			<span style='font-family:"Century Gothic",sans-serif'>Any piece of text whichis not relevant to the context of the data and the end-output can be specifiedas the noise.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>Forexample – language stop words (commonly used words of a language – is, am, the,of, in etc.), URLs or links, social media entities (mentions, hashtags),punctuations and industry specific words. This step deals with removal of alltypes of noisy entities present in the text.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>Ageneral approach for noise removal is to prepare a dictionary of noisyentities, and iterate the text object by tokens (or by words), eliminatingthose tokens which are present in the noise dictionary.</span>
+		</p>
+		<h3 style='margin-top:15.0pt;margin-right:0cm;margin-bottom:15.0pt;margin-left:0cm;line-height:16.8pt;background:white'>
+			<b>
+				<span style='font-size:16.0pt;font-family:"Century Gothic",sans-serif;color:windowtext'>Lexicon Normalization</span>
+			</b>
+		</h3>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-indent:36.0pt;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>Anothertype of textual noise is about the multiple representations exhibited by singleword.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<img width=128 height=128src="Doc2_files/image008.png" alt="document, settings, text icon" />
+			<brclear=ALL />
+			<span style='font-family:"Century Gothic",sans-serif'>For example – “play”,“player”, “played”, “plays” and “playing” are the different variations of theword – “play”, Though they mean different but contextually all are similar. Thestep converts all the disparities of a word into their normalized form (alsoknown as lemma). Normalization is a pivotal step for feature engineering withtext as it converts the high dimensional features (N different features) to thelow dimensional space (1 feature), which is an ideal ask for any ML model.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>Themost common lexicon normalization practices are:</span>
+		</p>
+		<ul type=disc>
+			<li class=MsoNormal style='text-align:justify;line-height:normal;background: white'>
+				<b>
+					<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>Stemming:&nbsp;</span>
+				</b>
+				<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>&nbsp;Stemming is a rudimentary rule-based process of stripping the suffixes (“ing”, “ly”, “es”, “s” etc) from a word.</span>
+			</li>
+			<li class=MsoNormal style='text-align:justify;line-height:normal;background: white'>
+				<b>
+					<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>Lemmatization:&nbsp;</span>
+				</b>
+				<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>Lemmatization, on the other hand, is an organized &amp; step by step procedure of obtaining the root form of the word, it makes use of vocabulary (dictionary importance of words) and morphological analysis (word structure and grammar relations).</span>
+			</li>
+		</ul>
+		<h3 style='margin-top:15.0pt;margin-right:0cm;margin-bottom:15.0pt;margin-left:0cm;line-height:16.8pt;background:white'>
+			<b>
+				<span style='font-size:16.0pt;font-family:"Century Gothic",sans-serif;color:windowtext'>ObjectStandardization</span>
+			</b>
+		</h3>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>Textdata often contains words or phrases which are not present in any standardlexical dictionaries. These pieces are not recognized by search engines andmodels.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<table cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=270 height=0></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<img width=128 height=128 src="Doc2_files/image009.png" alt="arrow, expand, fullscreen icon" />
+					</td>
+				</tr>
+			</table>
+			<br clear=ALL />
+			<span style='font-family:"Century Gothic",sans-serif'>Some of the examples are– acronyms, hashtags with attached words, and colloquial slangs. With the helpof regular expressions and manually prepared data dictionaries, this type ofnoise can be fixed, the code below uses a dictionary lookup method to replacesocial media slangs from a text.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<b>
+				<span style='font-size:14.0pt;font-family:"Century Gothic",sans-serif'>Text Classification</span>
+			</b>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>Textclassification is one of the classical problem of NLP. Notorious examplesinclude – Email Spam Identification, topic classification of news, sentimentclassification and organization of web pages by search engines.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>Textclassification, in common words is defined as a technique to systematicallyclassify a text object (document or sentence) in one of the fixed category. Itis really helpful when the amount of data is too large, especially fororganizing, information filtering, and storage purposes.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<img width=554 height=264src="Doc2_files/image010.png"alt="https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/01/11182015/image-5.png" />
+			<brclear=ALL />
+			<span style='font-family:"Century Gothic",sans-serif'>A typical natural languageclassifier consists of two parts: (a) Training (b) Prediction as shown in imagebelow. Firstly the text input is processes and features are created. Themachine learning models then learn these features and is used for predictingagainst the new text.</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+		</p>
+		<div style='border:solid #CCCCCC 1.0pt;padding:7.0pt 7.0pt 7.0pt 7.0pt;background:whitesmoke'>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>from textblob.classifiers import NaiveBayesClassifieras NBC</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>from textblob import TextBlob</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>training_corpus = [</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>('I am exhausted of this work.','Class_B'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>(&quot;I can't cooperate withthis&quot;, 'Class_B'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>('He is my basest enemy!','Class_B'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>('My management is poor.','Class_B'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>('I love this burger.', 'Class_A'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>('This is an brilliant place!','Class_A'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>('I feel very good about thesedates.', 'Class_A'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>('This is my best work.','Class_A'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>(&quot;What an awesome view&quot;,'Class_A'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>('I do not like this dish','Class_B')]</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>test_corpus = [</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>(&quot;I am not feeling welltoday.&quot;, 'Class_B'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>(&quot;I feel brilliant!&quot;,'Class_A'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>('Gary is a friend of mine.','Class_A'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>(&quot;I can't believe I'm doingthis.&quot;, 'Class_B'),</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>('The date was good.', 'Class_A'), ('Ido not enjoy my job', 'Class_B')]</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>model = NBC(training_corpus)</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>print(model.classify(&quot;Their codes areamazing.&quot;))</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:normal;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>&gt;&gt;&gt; &quot;Class_A&quot;</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:24.0pt;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>print(model.classify(&quot;I don't like theircomputer.&quot;))</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:24.0pt;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>&gt;&gt;&gt; &quot;Class_B&quot;</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:24.0pt;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>print(model.accuracy(test_corpus))</span>
+			</p>
+			<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:18.0pt;margin-left:0cm;line-height:24.0pt;background:whitesmoke;word-break:break-all;border:none;padding:0cm'>
+				<span style='font-size:10.0pt;font-family:Consolas;color:#333333'>&gt;&gt;&gt; 0.83</span>
+			</p>
+		</div>
+		<ul type=disc>
+			<li class=MsoNormal style='line-height:normal;background:white'>
+				<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>Scikit-learn: Machine learning in Python</span>
+			</li>
+			<li class=MsoNormal style='line-height:normal;background:white'>
+				<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>Natural Language Toolkit (NLTK): The complete toolkit for all NLP techniques.</span>
+			</li>
+			<li class=MsoNormal style='line-height:normal;background:white'>
+				<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>TextBlob – Easy to use nl p tools API, built on top of NLTK and Pattern.</span>
+			</li>
+			<li class=MsoNormal style='line-height:normal;background:white'>
+				<span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif'>Stanford Core NLP – NLP services and packages by Stanford NLP Group.</span>
+			</li>
+		</ul>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+		</p>
+		<p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.75pt;margin-left:0cm;text-align:justify;background:white'>
+			<span style='font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+		</p>
+		<p class=MsoNormal style='text-align:justify'>
+			<b>
+				<span style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif'>&nbsp;</span>
+			</b>
+		</p>
+	</div>
+</div>
+<br />
