@@ -1,0 +1,23 @@
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://cdn-images-1.medium.com/max/2600/1*66UUaBqMObOXV5b8BiVjHg.jpeg' class='center' id='' />
+<br />
+<p class='' id=''>NgRx Store provides reactive state management for Angular apps inspired by Redux. Unify the events in your application and derive state using RxJS.</p>
+<br />
+<h5 class='' id=''>@ngrx/store</h5>
+<br />
+<p class='' id=''>Store is RxJS powered state management for Angular applications, inspired by Redux. Store is a controlled state container designed to help write performant, consistent applications on top of Angular.</p>
+<br />
+<h5 class='' id=''>Key concepts</h5>
+<br />
+<li class='list-group-item ' id=''>Actions describe unique events that are dispatched from components and services.</li>
+<li class='list-group-item ' id=''>State changes are handled by pure functions called reducers that take the current state and the latest action to compute a new state.</li>
+<li class='list-group-item ' id=''>Selectors are pure functions used to select, derive and compose pieces of state.</li>
+<li class='list-group-item ' id=''>State is accessed with the Store, an observable of state and an observer of actions.</li>
+<br />
+<p class='alert alert-primary' id=''>
+	<a href='Installation' class='center' id=''>https://ngrx.io/guide/store/install</a>
+</p>
+<br />
+<p class='alert alert-primary' id=''>The following diagram represents the overall general flow of application state in NgRx.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://ngrx.io/generated/images/guide/store/state-management-lifecycle.png' class='center' id='' />
+<br />
