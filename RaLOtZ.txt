@@ -1,0 +1,89 @@
+<p class='' id=''>Enables extensions to get and set cookies, and be notified when they change.</p>
+<br />
+<p class='' id=''>To use this API, you need to include the
+	<b>"cookies"</b>API permission in your
+	<b>manifest.json</b>file, as well as host permissions for the sites whose cookies you need to access. See cookie Permissions.</p>
+<br />
+<h5 class='' id=''>Permissions</h5>
+<br />
+<p class='' id=''>n order to use this API, an add-on must specify the "cookies" API permission in its manifest, along with host permissions for any sites for which it wishes to access cookies. The add-on may read or write any cookies which could be read or written by a URL matching the host permissions. For example:</p>
+<br />
+<b>http://*.example.com/</b>
+<br />
+<p class='' id=''>An add-on with this host permission may:</p>
+<br />
+<li class='list-group-item ' id=''>Read a non-secure cookie for www.example.com, with any path.</li>
+<li class='list-group-item ' id=''>Write a secure or non-secure cookie for www.example.com, with any path.</li>
+<br />
+<b>It may not:</b>
+<br />
+<li class='list-group-item ' id=''>Read a secure cookie for www.example.com.</li>
+<br />
+<b>http://www.example.com/</b>
+<p class='' id=''>An add-on with this host permission may:</p>
+<br />
+<li class='list-group-item ' id=''>Read a non-secure cookie for www.example.com, with any path.</li>
+<li class='list-group-item ' id=''>Read a non-secure cookie for .example.com, with any path.</li>
+<li class='list-group-item ' id=''>Write a secure or non-secure cookie for www.example.com with any path.</li>
+<li class='list-group-item ' id=''>Write a secure or non-secure cookie for .example.com with any path.</li>
+<br />
+<b>It may not:</b>
+<br />
+<li class='list-group-item ' id=''>Read or write a cookie for foo.example.com.</li>
+<li class='list-group-item ' id=''>Read or write a cookie for foo.www.example.com.</li>
+<h5 class='' id=''>First-party isolation</h5>
+<br />
+<p class='' id=''>Third-party cookies are cookies that are set by a website other than the one you are currently on. For example:</p>
+<br />
+<li class='list-group-item ' id=''>You visit bbc.com. It contains an ad from tracker.com that sets a cookie associated with the "tracker.com" domain.</li>
+<li class='list-group-item ' id=''>You visit cnn.com. It also contains an ad from tracker.com that sets a cookie associated with the "tracker.com" domain.</li>
+<li class='list-group-item ' id=''>Eventually both cookies can be sent to tracker.com. who can then figure out that the same user visited both sites.</li>
+<br />
+<p class='' id=''>When first-party isolation is on, cookies are further qualified by the domain of the original page the user visited (essentially, the domain shown to the user in the URL bar, also known as the "first party domain"). This means it's not possible for a tracker to correlate its cookie from bbc.com with its cookie from cnn.com, so the tracker can't track a single user across both sites.</p>
+<br />
+<p class='' id=''>First-party isolation can be enabled directly by the user by adjusting the browser's configuration, and can be set by extensions using the firstPartyIsolate setting in the privacy API. Note that first-party isolation is enabled by default in Tor Browser.</p>
+<br />
+<p class='' id=''>In the cookies API, the first party domain is represented using the firstPartyDomain attribute. All cookies set while first-party isolation is on will have this attribute set to the domain of the original page. In the example above, this would be "bbc.com" for one cookie and "cnn.com" for the other. All cookies set by websites while first-party isolation is off will have this property set to an empty string.</p>
+<br />
+<p class='' id=''>The cookies.get(), cookies.getAll(), cookies.set() and cookies.remove() APIs all accept a firstPartyDomain option.</p>
+<br />
+<p class='' id=''>When first-party isolation is on, you must provide this option or the API call will fail and return a rejected promise. For get(), set(), and remove() you must pass a string value. For getAll(), you may also pass null here, and this will get all cookies, whether or not they have a non-empty value for firstPartyDomain.</p>
+<br />
+<p class='' id=''>When first-party isolation is off, the firstPartyDomain parameter is optional and defaults to an empty string. A non-empty string can be used to retrieve or modify first-party isolation cookies. Likewise, passing null as firstPartyDomain to getAll() will return all cookies.</p>
+<br />
+<h5 class='' id=''>Types</h5>
+<br />
+<b>cookies.Cookie</b>
+<p class='' id=''>Represents information about an HTTP cookie.</p>
+<br />
+<b>cookies.CookieStore</b>
+<p class='' id=''>Represents a cookie store in the browser.</p>
+<br />
+<b>cookies.OnChangedCause</b>
+<p class='' id=''>Represents the reason a cookie changed.</p>
+<br />
+<b>cookies.SameSiteStatus</b>
+<p class='' id=''>Represents the same-site status of the cookie.</p>
+<br />
+<h5 class='' id=''>Methods</h5>
+<br />
+<b>cookies.get()</b>
+<p class='' id=''>Retrieves information about a single cookie.</p>
+<br />
+<b>cookies.getAll()</b>
+<p class='' id=''>Retrieves all cookies that match a given set of filters.</p>
+<br />
+<b>cookies.set()</b>
+<p class='' id=''>Sets a cookie with the given cookie data; may overwrite equivalent cookies if they exist.</p>
+<br />
+<b>cookies.remove()</b>
+<p class='' id=''>Deletes a cookie by name.</p>
+<br />
+<b>cookies.getAllCookieStores()</b>
+<p class='' id=''>Lists all existing cookie stores.</p>
+<br />
+<h5 class='' id=''>Event handlers</h5>
+<br />
+<b>cookies.onChanged</b>
+<p class='' id=''>Fired when a cookie is set or removed.</p>
+<br />
