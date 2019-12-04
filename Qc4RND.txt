@@ -19,5 +19,7 @@
 <br />
 <p class='alert alert-primary' id=''>The following diagram represents the overall general flow of application state in NgRx.</p>
 <br />
-<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://ngrx.io/generated/images/guide/store/state-management-lifecycle.png' class='center' id='' />
+<img style='width:100%;margin:auto;display:block;padding:10px;' src='https://ngrx.io/generated/images/guide/store/state-management-lifecycle.png' class='center' id='' />
+<br />
+<p class='alert alert-warning' id=''>Thanks.</p>
 <br />
