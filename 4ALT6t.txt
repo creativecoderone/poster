@@ -2,12 +2,12 @@
 <br />
 <p class='' id=''>
 	<p class='' id=''>It should be noted that data stored in either
-		<p class='badge badge-primary' id=''>localStorage</p>or
+		<p class='badge badge-primary' id=''>localStorage</p> or
 		<p class='badge badge-primary' id=''>sessionStorage</p>is specific to the protocol of the page.</p>
 	<br /></p>
-<br />
+
 <p class='' id=''>The keys and the values are always strings (note that, as with objects, integer keys will be automatically converted to strings).</p>
-<br />
+
 <b>Syntax</b>
 <p class='alert alert-dark' id=''>myStorage = window.localStorage;</p>
 <br />
