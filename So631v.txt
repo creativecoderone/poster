@@ -1,6 +1,6 @@
-<li class='list-group-item ' id=''> &nbsp;
+<li class='list-group-item ' id=''> 
 	<p class="lead">
- 		<strong>Learning Web Design</strong> &nbsp;with
+ 		<strong>Learning Web Design</strong>&nbsp;with
 		<strong>UI Development</strong>,
 		<strong>HTML</strong>,
 		<strong>CSS</strong>,
@@ -16,16 +16,16 @@
 <br />
 <li class='list-group-item ' id=''>&nbsp;
 	<p class="lead">
-		<strong>Web Designing</strong> &nbsp;is the
+		<strong>Web Designing</strong> is the
 		<strong>process of building and maintaining websites</strong>.
-		<strong>Web Designing</strong> &nbsp;includes different aspects like
+		<strong>Web Designing</strong> includes different aspects like
 		<strong>Front End coding</strong>,
 		<strong>website wireframe</strong>,
 		<strong>website layout design</strong>,
 		<strong>color combinations</strong>,
 		<strong>fonts</strong>,
 		<strong>graphic design</strong>,
-		<strong>webpage interactions</strong>etc.</p> &nbsp;&nbsp;
+		<strong>webpage interactions</strong>etc.</p> &nbsp;
 </li>
 <li class='list-group-item ' id=''>&nbsp;
 	<p class="lead">All websites on
