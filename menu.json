@@ -1,12 +1,11 @@
- [            {
-  "id": "G7CddQ",
-  "title": "Chat bot - Big Picture",
-  "word": "",
-  "blogger": "",
-  "version": "", 
-  "image": "https://cdn.dribbble.com/users/66052/screenshots/7019251/digital-marketing.png"
-}
-          , {
+ [{
+ 		"id": "G7CddQ",
+ 		"title": "Chat bot - Big Picture",
+ 		"word": "",
+ 		"blogger": "",
+ 		"version": "",
+ 		"image": "https://cdn.dribbble.com/users/66052/screenshots/7019251/digital-marketing.png"
+ 	}, {
  		"id": "JryCi7",
  		"title": "Web design Frame works",
  		"word": "",
@@ -30,29 +29,30 @@
  		"version": "",
  		"image": "https://www.loggly.com/wp-content/uploads/2019/02/5-Best-Practices-for-Proactive-Database-V2.png"
  	},
-                 {
-  "id": "So631v",
-  "title": "Web design Intro",
-  "word": "",
-  "blogger": "",
-  "version": "",
-  "image": "https://st2.depositphotos.com/1767136/6006/v/950/depositphotos_60069289-stock-illustration-flat-web-design-website-infographics.jpg"
-}       ,     {
-  "id": "1vMsXA",
-  "title": "HTML Elements - Story", 
-  "word": "",
-  "blogger": "",
-  "version": "",
-  "image": "https://kit8.net/images/thumbnails/580/386/detailed/3/Collaboration@2x.png"
-}
-          
-          ,      {
-  "id": "Za4tgd",
-  "title": "Angular vs ReactJs vs VueJs",
-  "word": "",
-  "blogger": "",
-  "version": "","image":"https://cdn.dribbble.com/users/217865/screenshots/5083655/ilustracja-dribble.gif"
-},
+ 	{
+ 		"id": "So631v",
+ 		"title": "Web design Intro",
+ 		"word": "",
+ 		"blogger": "",
+ 		"version": "",
+ 		"image": "https://st2.depositphotos.com/1767136/6006/v/950/depositphotos_60069289-stock-illustration-flat-web-design-website-infographics.jpg"
+ 	}, {
+ 		"id": "1vMsXA",
+ 		"title": "HTML Elements - Story",
+ 		"word": "",
+ 		"blogger": "",
+ 		"version": "",
+ 		"image": "https://kit8.net/images/thumbnails/580/386/detailed/3/Collaboration@2x.png"
+ 	}
+
+ 	, {
+ 		"id": "Za4tgd",
+ 		"title": "Angular vs ReactJs vs VueJs",
+ 		"word": "",
+ 		"blogger": "",
+ 		"version": "",
+ 		"image": "https://cdn.dribbble.com/users/217865/screenshots/5083655/ilustracja-dribble.gif"
+ 	},
  	{
  		"id": "LEKVrz",
  		"title": "Technologies - Web Design",
