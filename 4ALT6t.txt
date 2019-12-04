@@ -1,0 +1,160 @@
+<p class='' id=''>The read-only localStorage property allows you to access a Storage object for the Document's origin; the stored data is saved across browser sessions. localStorage is similar to sessionStorage, except that while data stored in localStorage has no expiration time, data stored in sessionStorage gets cleared when the page session ends — that is, when the page is closed.</p>
+<br />
+<p class='' id=''>
+	<p class='' id=''>It should be noted that data stored in either
+		<p class='badge badge-primary' id=''>localStorage</p>or
+		<p class='badge badge-primary' id=''>sessionStorage</p>is specific to the protocol of the page.</p>
+	<br /></p>
+<br />
+<p class='' id=''>The keys and the values are always strings (note that, as with objects, integer keys will be automatically converted to strings).</p>
+<br />
+<b>Syntax</b>
+<p class='alert alert-dark' id=''>myStorage = window.localStorage;</p>
+<br />
+<b>Value</b>
+<p class='' id=''>A Storage object which can be used to access the current origin's local storage space.</p>
+<br />
+<b>Exceptions</b>
+<p class='badge badge-warning' id=''>SecurityError</p>
+<br />
+<p class='' id=''>The request violates a policy decision, or the origin is not a valid scheme/host/port tuple (this can happen if the origin uses the file: or data: scheme, for example). For example, the user may have their browser configured to deny permission to persist data for the specified origin.</p>
+<br />
+<h5 class='' id=''>Example</h5>
+<br />
+<p class='' id=''>The following snippet accesses the current domain's local Storage object and adds a data item to it using</p>
+<br />
+<p class='alert alert-dark' id=''>localStorage.setItem('myCat', 'Tom');</p>
+<br />
+<p class='' id=''>The syntax for reading the localStorage item is as follows:</p>
+<br />
+<p class='alert alert-dark' id=''>var cat = localStorage.getItem('myCat');</p>
+<br />
+<p class='' id=''>The syntax for removing the localStorage item is as follows:</p>
+<br />
+<p class='alert alert-dark' id=''>localStorage.removeItem('myCat');</p>
+<br />
+<p class='' id=''>The syntax for removing all the localStorage items is as follows:</p>
+<br />
+<p class='alert alert-dark' id=''>localStorage.clear(); // Clear all items</p>
+<br />
+
+<div class='alert alert-dark' id=''>
+	<table class="bc-table bc-table-web">
+		<thead>
+			<tr class="bc-platforms">
+				<td></td>
+				<th class="bc-platform-desktop" colspan="6">
+					<span>Desktop</span>
+				</th>
+				<th class="bc-platform-mobile" colspan="6">
+					<span>Mobile</span>
+				</th>
+			</tr>
+			<tr class="bc-browsers">
+				<td></td>
+				<th class="bc-browser-chrome">
+					<span class="bc-head-txt-label bc-head-icon-chrome">Chrome</span>
+				</th>
+				<th class="bc-browser-edge">
+					<span class="bc-head-txt-label bc-head-icon-edge">Edge</span>
+				</th>
+				<th class="bc-browser-firefox">
+					<span class="bc-head-txt-label bc-head-icon-firefox">Firefox</span>
+				</th>
+				<th class="bc-browser-ie">
+					<span class="bc-head-txt-label bc-head-icon-ie">Internet Explorer</span>
+				</th>
+				<th class="bc-browser-opera">
+					<span class="bc-head-txt-label bc-head-icon-opera">Opera</span>
+				</th>
+				<th class="bc-browser-safari">
+					<span class="bc-head-txt-label bc-head-icon-safari">Safari</span>
+				</th>
+				<th class="bc-browser-webview_android">
+					<span class="bc-head-txt-label bc-head-icon-webview_android">Android webview</span>
+				</th>
+				<th class="bc-browser-chrome_android">
+					<span class="bc-head-txt-label bc-head-icon-chrome_android">Chrome for Android</span>
+				</th>
+				<th class="bc-browser-firefox_android">
+					<span class="bc-head-txt-label bc-head-icon-firefox_android">Firefox for Android</span>
+				</th>
+				<th class="bc-browser-opera_android">
+					<span class="bc-head-txt-label bc-head-icon-opera_android">Opera for Android</span>
+				</th>
+				<th class="bc-browser-safari_ios">
+					<span class="bc-head-txt-label bc-head-icon-safari_ios">Safari on iOS</span>
+				</th>
+				<th class="bc-browser-samsunginternet_android">
+					<span class="bc-head-txt-label bc-head-icon-samsunginternet_android">Samsung Internet</span>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row"></th>
+				<td class="bc-supports-yes bc-browser-chrome">
+					<span class="bc-browser-name">Chrome</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>4</td>
+				<td class="bc-supports-yes bc-browser-edge">
+					<span class="bc-browser-name">Edge</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>12</td>
+				<td class="bc-supports-yes bc-browser-firefox">
+					<span class="bc-browser-name">Firefox</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>3.5</td>
+				<td class="bc-supports-yes bc-browser-ie">
+					<span class="bc-browser-name">IE</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>8</td>
+				<td class="bc-supports-yes bc-browser-opera">
+					<span class="bc-browser-name">Opera</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>10.5</td>
+				<td class="bc-supports-yes bc-browser-safari">
+					<span class="bc-browser-name">Safari</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>4</td>
+				<td class="bc-supports-yes bc-browser-webview_android">
+					<span class="bc-browser-name">WebView Android</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>Yes</td>
+				<td class="bc-supports-yes bc-browser-chrome_android">
+					<span class="bc-browser-name">Chrome Android</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>Yes</td>
+				<td class="bc-supports-yes bc-browser-firefox_android">
+					<span class="bc-browser-name">Firefox Android</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>Yes</td>
+				<td class="bc-supports-yes bc-browser-opera_android">
+					<span class="bc-browser-name">Opera Android</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>11</td>
+				<td class="bc-supports-yes bc-browser-safari_ios">
+					<span class="bc-browser-name">Safari iOS</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>3.2</td>
+				<td class="bc-supports-yes bc-browser-samsunginternet_android">
+					<span class="bc-browser-name">Samsung Internet Android</span>
+					<abbr class="bc-level-yes only-icon" title="Full support">
+						<span>Full support</span>
+					</abbr>Yes</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<br />
