@@ -1,0 +1,121 @@
+<p class='' id=''>This page describes Angular's built-in protections against common web-application vulnerabilities and attacks such as cross-site scripting attacks. It doesn't cover application-level security, such as authentication (Who is this user?) and authorization (What can this user do?).</p>
+<br />
+<h5 class='' id=''>Best practices</h5>
+<br />
+<li class='list-group-item ' id=''>Keep current with the latest Angular library releases. We regularly update the Angular libraries, and these updates may fix security defects discovered in previous versions. Check the Angular change log for security-related updates.</li>
+<li class='list-group-item ' id=''>Don't modify your copy of Angular. Private, customized versions of Angular tend to fall behind the current version and may not include important security fixes and enhancements. Instead, share your Angular improvements with the community and make a pull request.</li>
+<li class='list-group-item ' id=''>Avoid Angular APIs marked in the documentation as “Security Risk.” For more information, see the Trusting safe values section of this page.</li>
+<br />
+<h5 class='' id=''>Preventing cross-site scripting (XSS)</h5>
+<br />
+<p class='' id=''>Cross-site scripting (XSS) enables attackers to inject malicious code into web pages. Such code can then, for example, steal user data (in particular, login data) or perform actions to impersonate the user. This is one of the most common attacks on the web.</p>
+<br />
+<h5 class='' id=''>Sanitization and security contexts</h5>
+<br />
+<p class='' id=''>Sanitization is the inspection of an untrusted value, turning it into a value that's safe to insert into the DOM. In many cases, sanitization doesn't change a value at all. Sanitization depends on context: a value that's harmless in CSS is potentially dangerous in a URL.</p>
+<br />
+<p class='' id=''>Angular defines the following security contexts:</p>
+<br />
+<li class='list-group-item ' id=''>HTML is used when interpreting a value as HTML, for example, when binding to innerHtml.</li>
+<li class='list-group-item ' id=''>Style is used when binding CSS into the style property.</li>
+<li class='list-group-item ' id=''>URL is used for URL properties, such as
+	<a href>.</li>
+	<li class='list-group-item ' id=''>Resource URL is a URL that will be loaded and executed as code, for example, in
+		<script src>.</li>
+		<br />
+		<p class='' id=''>Angular sanitizes untrusted values for HTML, styles, and URLs; sanitizing resource URLs isn't possible because they contain arbitrary code. In development mode, Angular prints a console warning when it has to change a value during sanitization.</p>
+		<br />
+		<h5 class='' id=''>Sanitization example</h5>
+		<br />
+		<div class='' id=''>
+			<code-example path="security/src/app/inner-html-binding.component.html" header="src/app/inner-html-binding.component.html" ng-version="8.1.0-next.1">
+				<div style="display: none">&lt;h3&gt;Binding innerHTML&lt;/h3&gt;&lt;p&gt;Bound value:&lt;/p&gt;&lt;p class="e2e-inner-html-interpolated"&gt;{{htmlSnippet}}&lt;/p&gt;&lt;p&gt;Result of binding to innerHTML:&lt;/p&gt;&lt;p class="e2e-inner-html-bound" [innerHTML]="htmlSnippet"&gt;&lt;/p&gt;</div>
+				<!---->
+				<header class="ng-star-inserted">src/app/inner-html-binding.component.html</header>
+				<aio-code class="headed-code">
+					<pre class="prettyprint lang-">
+						<code class="animated fadeIn">
+							<span class="tag">&lt;h3&gt;</span>
+							<span class="pln">Binding innerHTML</span>
+							<span class="tag">&lt;/h3&gt;</span>
+							<span class="pln"></span>
+							<span class="tag">&lt;p&gt;</span>
+							<span class="pln">Bound value:</span>
+							<span class="tag">&lt;/p&gt;</span>
+							<span class="pln"></span>
+							<span class="tag">&lt;p</span>
+							<span class="pln"></span>
+							<span class="atn">class</span>
+							<span class="pun">=</span>
+							<span class="atv">"e2e-inner-html-interpolated"</span>
+							<span class="tag">&gt;</span>
+							<span class="pln">{{htmlSnippet}}</span>
+							<span class="tag">&lt;/p&gt;</span>
+							<span class="pln"></span>
+							<span class="tag">&lt;p&gt;</span>
+							<span class="pln">Result of binding to innerHTML:</span>
+							<span class="tag">&lt;/p&gt;</span>
+							<span class="pln"></span>
+							<span class="tag">&lt;p</span>
+							<span class="pln"></span>
+							<span class="atn">class</span>
+							<span class="pun">=</span>
+							<span class="atv">"e2e-inner-html-bound"</span>
+							<span class="pln">[</span>
+							<span class="atn">innerHTML</span>
+							<span class="pln">]</span>
+							<span class="pun">=</span>
+							<span class="atv">"htmlSnippet"</span>
+							<span class="tag">&gt;&lt;/p&gt;</span>
+						</code>
+					</pre>
+				</aio-code>
+			</code-example>
+		</div>
+		<br />
+		<p class='' id=''>Interpolated content is always escaped—the HTML isn't interpreted and the browser displays angle brackets in the element's text content.</p>
+		<br />
+		<p class='' id=''>For the HTML to be interpreted, bind it to an HTML property such as innerHTML. But binding a value that an attacker might control into innerHTML normally causes an XSS vulnerability. For example, code contained in a
+			<script>tag is executed:</p>
+			<br />
+			<div class='' id=''>
+				<pre class="prettyprint lang-">
+					<code class="animated fadeIn">
+						<span class="kwd">export</span>
+						<span class="pln"></span>
+						<span class="kwd">class</span>
+						<span class="pln"></span>
+						<span class="typ">InnerHtmlBindingComponent</span>
+						<span class="pln"></span>
+						<span class="pun">{</span>
+						<span class="pln"></span>
+						<span class="com">// For example,</span>
+						<a href="api/router/RouterLinkWithHref" class="code-anchor">
+							<span class="com">a</span>
+						</a>
+						<span class="com">user/attacker-controlled value from</span>
+						<a href="api/router/RouterLinkWithHref" class="code-anchor">
+							<span class="com">a</span>
+						</a>
+						<span class="com">URL.</span>
+						<span class="pln">htmlSnippet</span>
+						<span class="pun">=</span>
+						<span class="pln"></span>
+						<span class="str">'</span>
+						<a class="code-anchor">
+							<span class="str">Template</span>
+						</a>
+						<span class="str">&lt;script&gt;alert("0wned")&lt;/script&gt; &lt;b&gt;Syntax&lt;/b&gt;'</span>
+						<span class="pun">;</span>
+						<span class="pln"></span>
+						<span class="pun">}</span>
+					</code>
+				</pre>
+			</div>
+			<br />
+			<p class='' id=''>Angular recognizes the value as unsafe and automatically sanitizes it, which removes the
+				<script>tag but keeps safe content such as the
+					<b>element.</p>
+					<br />
+					<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://angular.io/generated/images/guide/security/binding-inner-html.png' class='center' id='' />
+					<br />
