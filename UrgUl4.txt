@@ -130,7 +130,9 @@
 </div>
 <br />
 <h5 class='' id=''>Sublime Text</h5>
-<br />
+<br /><div class="">Sublime Text is an advanced text editor for code, markup, and prose. It offers a slick user interface, high performance with
+  its extraordinary features. The sublime text includes a lot of plugin functionalities contributed by the community of developers.
+  </div>
 <p class='badge badge-warning' id=''>
 	<a href='https://www.sublimetext.com/' class='center' id=''>Sublime Text</a>
 </p>
