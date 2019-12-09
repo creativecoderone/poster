@@ -1,0 +1,267 @@
+<p class='' id=''>Angular is a JavaScript framework used for software development. It was developed by Google and introduced in 2009. It attracted the developer community by featuring an interactive single-page app (SPA), which offers awesome user experience. Angular revolutionized the field of web development.</p>
+<br />
+<p class='' id=''>It allows the developers to combine JavaScript with HTML and CSS. It also offers a full-fledged MVVM with double-sided data binding, which is helpful to create a separate logical part of the application. This framework allows you to integrate with external libraries and highly notable for its expandability.</p>
+<br />
+<img style='width:50%;margin:auto;display:block;padding:10px;' src='https://cdn.dribbble.com/users/2285955/screenshots/6359095/4-.jpg' class='center' id='' />
+<br />
+<h5 class='' id=''>Best IDE Tools for Angular</h5>
+<br />
+<p class='' id=''>Without any delay, we’ll dive down to the list of IDEs for Angular, that can actually assist you in your angular developments at its best.</p>
+<br />
+<li class='list-group-item ' id=''>
+	<ol>
+		<li>
+			<span style="font-weight: 400;">Angular IDE</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">Webstorm</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">Visual Studio Code</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">Sublime Text</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">Brackets</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">Atom&nbsp;</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">Aptana Studio</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">ALM IDE</span>
+		</li>
+	</ol>
+</li>
+<h5 class='' id=''>Angular IDE</h5>
+<br />
+<p class='' id=''>Angular IDE is by Webclipse, build specifically for Angular. Angular IDE is available as a stand-alone plugin and also with Eclipse plugin. Built first for tsconfig.json management. It is simple for beginners to learn and powerful for Angular experts. It supports the advanced editing of TypeScript 3.0. Fully optimized to make the most of Angular.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.genuitec.com/products/angular-ide/' class='center' id=''>Angular IDE</a>
+</p>
+<br />
+<div class='' id=''>
+	<ul>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">TypeScript 3.0 validation and debugging</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">&nbsp;Angular CLI integration</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Advanced HTML templates with validation and autocomplete</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Supports Angular 7</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Syntax-aware source coloring and occurrence highlighting</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Block and full-file formatting</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Real-time validation and display of errors while you code.</span>
+		</li>
+	</ul>
+</div>
+<br />
+<h5 class='' id=''>Webstorm</h5>
+<br />
+<p class='' id=''>Webstorm is built on IntelliJ, which is developed by Jetbrains. It is a great choice for coding Angular apps based on typeScript. It offers a built-in for TypeScript. It allows integration with VSC and smart coding assistance. It comes with a plugin ecosystem with complete configuration, local History feature and much more.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.jetbrains.com/webstorm/' class='center' id=''>WebStorm</a>
+</p>
+<br />
+<div class='' id=''>
+	<ul>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Version control system</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Easy tool integration</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Built-in terminal</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Supports latest technologies</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Debugging, Tracing and testing</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Smart coding assistance</span>
+		</li>
+	</ul>
+</div>
+<br />
+<h5 class='' id=''>Visual Studio Code</h5>
+<br />
+<div class='' id=''>Visual Studio Code is a source code editor developed by Microsoft for Windows, OS X and Linux. Support for TypeScript including debugging, intelligent code completion based on variable types, functions and imported modules. It has snippets, and code refactoring features. Visual Studio Code supports syntax highlighting and autocomplete with IntelliSense.</div>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://code.visualstudio.com/' class='center' id=''>VS Code</a>
+</p>
+<br />
+<div class='' id=''>
+	<ul>
+		<li>
+			<span style="font-weight: 400;">Huge Language support</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">In-built Git commands&nbsp;</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">Debugging</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">Always on IntelliSense</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">Extensible and customizable</span>
+		</li>
+	</ul>
+</div>
+<br />
+<h5 class='' id=''>Sublime Text</h5>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://www.sublimetext.com/' class='center' id=''>Sublime Text</a>
+</p>
+<br />
+<div class='' id=''>
+	<ul>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Custom UI toolkit</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Command Palette</span>
+		</li>
+		<li>Goto anything</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Customizable and optimized functionalities</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Plugin API</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Instant project Switch</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Split editing</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Cross-platform editing</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Support for TypeScript code editing</span>
+		</li>
+	</ul>
+</div>
+<br />
+<h5 class='' id=''>Brackets</h5>
+<br />
+<div class='' id=''>Brackets is an open source modern text editor, lightweight yet a powerful IDE for Angular developments. Brackets is a blend of visual tools in a code editor. It supports Windows, Mac, and Linux operating systems. Angular developers consider it as better assistance to go with their creative process.</div>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='http://brackets.io/' class='center' id=''>Brackets</a>
+</p>
+<br />
+<div class='' id=''>
+	<ul>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Live preview</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Inline Editors</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Preprocessor support</span>
+		</li>
+	</ul>
+</div>
+<br />
+<h5 class='' id=''>Atom</h5>
+<br />
+<p class='' id=''>Atom is a hackable editor built by Github. It works effectively on several platforms such as Android, Mac, and Linux, etc. Atom is widely used for all major development technologies. It has a huge community with active contributors for plugins and more. The application is customizable, often updated with new packages and themes. Atom has an extensive list of packages, built-in package manager, 4 UI, 8 syntax themes by default.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='https://atom.io/' class='center' id=''>Atom</a>
+</p>
+<br />
+<div class='' id=''>
+	<ul>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Smart auto-completion</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Cross-platform editing</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Ease of browsing and Multiple panes</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">File system browser</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Built-in package manager</span>
+		</li>
+	</ul>
+</div>
+<br />
+<h5 class='' id=''>Aptana Studio</h5>
+<br />
+<p class='' id=''>Aptana Studio is an open source IDE for Angular. If you need Aptana for Angular support, you should add the Angular JS Elipse extension. Aptana studio is suitable for many other frameworks as well as libraries.</p>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='http://www.aptana.com/' class='center' id=''>Aptana Studio</a>
+</p>
+<br />
+<div class='' id=''>
+	<ul>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Testing tools</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Deployment wizard</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Fully customizable</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">In-built terminal</span>
+		</li>
+		<li style="font-weight: 400;">
+			<span style="font-weight: 400;">Code assistance for HTML, CSS, and JavaScript</span>
+		</li>
+	</ul>
+</div>
+<br />
+<h5 class='' id=''>ALM IDE</h5>
+<br />
+<div class='' id=''>ALM is a cloud-ready IDE for TypeScript. It is an extension of a language, which helps you code easily for TypeScript projects. It can be easily installed with just a single npm command.</div>
+<br />
+<p class='badge badge-warning' id=''>
+	<a href='http://alm.tools/' class='center' id=''>ALM IDE</a>
+</p>
+<br />
+<p class='' id=''>
+	<ul>
+		<li>
+			<span style="font-weight: 400;">Removes barriers of entry into TypeScript</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">Lightweight</span>
+		</li>
+		<li>
+			<span style="font-weight: 400;">Made for TypeScript</span>
+		</li>
+	</ul>
+</p>
+<br />
